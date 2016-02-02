@@ -6,7 +6,7 @@ from scrapy.exceptions import CloseSpider
 
 class SoyaSpider(scrapy.Spider):
     name = "soya"
-    from_date = datetime.date.today() - datetime.timedelta(1*365/12)
+    from_date = datetime.date.today() - datetime.timedelta(6*365/12)
     allowed_domains = ["soyacincau.com"]
     start_urls = [
         "http://www.soyacincau.com"

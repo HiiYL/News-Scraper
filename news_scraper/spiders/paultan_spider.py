@@ -6,7 +6,7 @@ from scrapy.exceptions import CloseSpider
 
 class PaulTanSpider(scrapy.Spider):
     name = "paultan"
-    from_date = datetime.date.today() - datetime.timedelta(2*365/12)
+    from_date = datetime.date.today() - datetime.timedelta(6*365/12)
     allowed_domains = ["paultan.org"]
     start_urls = [
         "http://www.paultan.org"
@@ -28,6 +28,7 @@ class PaulTanSpider(scrapy.Spider):
       item['date'] = parse(response.xpath('//*[@id="content"]/article/p/time/text()').extract()[0], fuzzy=True).date()
       if item['date'] < self.from_date:
         raise CloseSpider('sufficient_data_gathered')
+      item['url'] = response.url
       item['author'] = response.xpath('//*[@id="content"]/article/p/span[2]/a/text()').extract()[0].strip()
       item['title'] = response.xpath('//*[@id="content"]/article/h1/text()').extract()[0].strip()
       item['contents'] = ''.join(response.xpath('//*[@id="content"]/article/div[2]/p/text()').extract()).strip()
