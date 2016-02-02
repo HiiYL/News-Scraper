@@ -1,12 +1,12 @@
 import scrapy
-from news_scraper.items import NewsScraperItem
+from news_scraper.items import SoyaItem
 from dateutil.parser import parse
 import datetime
 from scrapy.exceptions import CloseSpider
 
 class SoyaSpider(scrapy.Spider):
     name = "soya"
-    from_date = datetime.date.today() - datetime.timedelta(24*365/12)
+    from_date = datetime.date.today() - datetime.timedelta(1*365/12)
     allowed_domains = ["soyacincau.com"]
     start_urls = [
         "http://www.soyacincau.com"
@@ -24,12 +24,15 @@ class SoyaSpider(scrapy.Spider):
 
 
     def parse_dir_contents(self, response):
-      item = NewsScraperItem()
+      item = SoyaItem()
       item['date'] = parse(response.xpath('//*[@id="content_wrapper"]/div[1]/div/div[1]/div[1]/div[1]/div/text()[1]').extract()[0], fuzzy=True).date()
       if item['date'] < self.from_date:
         raise CloseSpider('sufficient_data_gathered')
       item['author'] = response.xpath('//*[@id="content_wrapper"]/div[1]/div/div[1]/div[1]/div[1]/div/a[1]/text()').extract()[0].strip()
       item['title'] = response.xpath('//*[@id="content_wrapper"]/div[1]/div/div[1]/div[1]/div[1]/h2/a/text()').extract()[0].strip()
       item['contents'] = ''.join(response.xpath('//*[@id="content_wrapper"]/div[1]/div/div[1]/div[1]/p/text()').extract()).strip()
+      item['categories'] = response.xpath('//*[@id="content_wrapper"]/div[1]/div/div[1]/div[1]/div[5]/table/tr[1]/td[2]/a/text()').extract()
+      item['tags'] = response.xpath('//*[@id="content_wrapper"]/div[1]/div/div[1]/div[1]/div[5]/table/tr[2]/td[2]/span/a/text()').extract()
+      # item['comments'] = response.xpath('//*[@id="idc-cover"]/div/div/div[2]/div/text()').extract()
       yield item
 

@@ -8,12 +8,30 @@
 import scrapy
 
 
-class NewsScraperItem(scrapy.Item):
+class SoyaItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    date = scrapy.Field()
+    url = scrapy.Field()
     title = scrapy.Field()
     author = scrapy.Field()
     contents = scrapy.Field()
+    categories = scrapy.Field()
+    tags = scrapy.Field()
+    # comments = scrapy.Field()
+
+class PaulTanItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
     date = scrapy.Field()
-    # tags = scrapy.Field()
-    pass
+    url = scrapy.Field()
+    title = scrapy.Field()
+    author = scrapy.Field()
+    contents = scrapy.Field()
+    categories = scrapy.Field()
+    comments = scrapy.Field()
+    
+class CommentItem(scrapy.Item):
+	author = scrapy.Field()
+	contents = scrapy.Field()
+	date = scrapy.Field()

@@ -16,8 +16,6 @@ NEWSPIDER_MODULE = 'news_scraper.spiders'
 DOWNLOAD_HANDLERS = {
   's3': None,
 }
-
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'news_scraper (+http://www.yourdomain.com)'
 
@@ -52,9 +50,6 @@ DOWNLOAD_HANDLERS = {
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'news_scraper.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
