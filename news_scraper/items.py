@@ -15,5 +15,5 @@ class NewsScraperItem(scrapy.Item):
     author = scrapy.Field()
     contents = scrapy.Field()
     date = scrapy.Field()
-    tags = scrapy.Field()
+    # tags = scrapy.Field()
     pass
