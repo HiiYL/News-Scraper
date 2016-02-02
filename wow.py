@@ -22,16 +22,6 @@ f.seek(0) #reset reader position
 
 contents = [ row[6] for row in reader ]
 texts = list()
-# temp = list(set(contents))
-
-# raw = ''.join(temp).lower()
-# tokens = tokenizer.tokenize(raw)
-# # remove stop words from tokens
-# stopped_tokens = [i for i in tokens if not i in en_stop]
-# # stem tokens
-# stemmed_tokens = [p_stemmer.stem(i) for i in stopped_tokens]
-# # add tokens to list
-# vocab = list(set(stemmed_tokens))
 for idx,i in enumerate(contents):
   print idx
   # clean and tokenize document string
@@ -39,20 +29,8 @@ for idx,i in enumerate(contents):
   tokens = tokenizer.tokenize(raw)
   # remove stop words from tokens
   stopped_tokens = [i for i in tokens if not i in en_stop]
-  # stem tokens
-  # stemmed_tokens = [p_stemmer.stem(i) for i in stopped_tokens]
-  # add tokens to list
   texts.append(stopped_tokens)
-# X = lda.datasets.load_reuters()
 
-# f.seek(0)
-# titles = [ row[0] for row in reader ]
-# f.seek(0)
-
-# for idx,row in enumerate(reader):
-#   temp = [ contents[idx].lower().count(element) for element in vocab ]
-#   print temp
-#   X[idx] = temp
 dictionary = corpora.Dictionary(texts)
 corpus = [dictionary.doc2bow(text) for text in texts]
 
@@ -67,4 +45,3 @@ topic_word = model.topic_word_  # model.components_ also works
 for i, topic_dist in enumerate(topic_word):
   topic_words = [ dictionary[x] for x in np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1] ]
   print('Topic {}: {}'.format(i, ' '.join(topic_words)))
-  # print('Topic {}: {}'.format(i, ' '.join(topic_words)))
