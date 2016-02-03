@@ -1,0 +1,14 @@
+setup.py
+news_scraper/__init__.py
+news_scraper/items.py
+news_scraper/pipelines.py
+news_scraper/settings.py
+news_scraper/spiders/__init__.py
+news_scraper/spiders/minsider_spider.py
+news_scraper/spiders/paultan_spider.py
+news_scraper/spiders/soya_spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

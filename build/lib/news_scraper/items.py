@@ -35,12 +35,3 @@ class CommentItem(scrapy.Item):
 	author = scrapy.Field()
 	contents = scrapy.Field()
 	date = scrapy.Field()
-
-class FoxItem(scrapy.Item):
-    date = scrapy.Field()
-    url = scrapy.Field()
-    title = scrapy.Field()
-    author = scrapy.Field()
-    contents = scrapy.Field()
-    # categories = scrapy.Field()
-    # comments = scrapy.Field()
