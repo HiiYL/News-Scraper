@@ -39,8 +39,8 @@ for idx,i in enumerate(contents):
   tokens = tokenizer.tokenize(raw)
   stopped_tokens = [i for i in tokens if not i in en_stop and not contains_digits(i)]
   #stem tokens
-  # stemmed_tokens = [stemmer.stem(i) for i in stopped_tokens]
-  texts.append(stopped_tokens)
+  stemmed_tokens = [stem(i) for i in stopped_tokens]
+  texts.append(stemmed_tokens)
   # print idx
 
 
