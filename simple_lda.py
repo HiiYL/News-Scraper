@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser(description='run LDA on an input csv file.')
 parser.add_argument('-i','--input',dest="filename", help='input CSV file', required=True)
 parser.add_argument('-s','--stemmer', help='pick stemmer', default="porter2", choices=list_of_stemmer_choices)
 parser.add_argument('-ni','--num_iter', help='number of iterations', default="1000")
-
+parser.add_argument('-twc','--topwords_count', help='number of top_words', default="8")
 args = parser.parse_args()
 
 _digits = re.compile('\d')
@@ -82,7 +82,7 @@ model = lda.LDA(n_topics=20, n_iter=int(args.num_iter), random_state=1)
 model.fit(X)
 
 
-n_top_words = 8
+n_top_words = int(args.topwords_count)
 topic_word = model.topic_word_  # model.components_ also works
 for i, topic_dist in enumerate(topic_word):
   topic_words = [ dictionary[x] for x in np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1] ]
