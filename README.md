@@ -19,4 +19,4 @@ To Use:
 ##### Running LDA:
 1. Using the csv output from previous step, use:
 
-   ``` simple_lda.py -i FILENAME [-s {none,porter,porter2}] [-ni NUM_ITER] ```
+   ``` simple_lda.py -i FILENAME [-s {none,porter,porter2}] [-ni NUM_ITER] [ -twc TOPWORDS_COUNT ]```
