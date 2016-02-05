@@ -30,10 +30,10 @@ def contains_digits(d):
 def process_tokens(tokens,stemmer):
   tokens = [i for i in tokens if not i in en_stop and not contains_digits(i)]
   if stemmer == 'porter':
-    tokens = [stem(i) for i in tokens]
-  elif stemmer == 'porter2':
     stemmer = PorterStemmer()
     tokens = [stemmer.stem(i) for i in tokens]
+  elif stemmer == 'porter2':
+    tokens = [stem(i) for i in tokens]
 
   return tokens
 
