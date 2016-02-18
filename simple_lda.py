@@ -20,7 +20,7 @@ import argparse
 list_of_stemmer_choices = ["none", "porter", "porter2", "lemma"]
 parser = argparse.ArgumentParser(description='run LDA on an input csv file.')
 parser.add_argument('-i','--input',dest="filename", help='input CSV file', required=True)
-parser.add_argument('-s','--stemmer', help='pick stemmer', default="porter2", choices=list_of_stemmer_choices)
+parser.add_argument('-s','--stemmer', help='pick stemmer', default="lemma", choices=list_of_stemmer_choices)
 parser.add_argument('-ni','--num_iter', help='number of iterations', default="1000")
 parser.add_argument('-ntw','--num_top_words', help='number of top_words', default="8")
 parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
@@ -35,7 +35,7 @@ def contains_digits(d):
 import enchant
 d = enchant.Dict("en_US")
 # Or using the /usr/share/dict/british-english word list
-with open("automotive-english") as word_file:
+with open("technology-english") as word_file:
   english_words = set(word.strip().lower() for word in word_file)
   print(english_words)
   def is_english_word(word):
@@ -59,37 +59,6 @@ if args.filename == "sample":
   dictionary = lda.datasets.load_reuters_vocab()
   titles = lda.datasets.load_reuters_titles()
 else:
-  f = open(args.filename)
-  reader = unicodecsv.reader(f, encoding='utf-8')
-  # csv_length = sum(1 for row in reader)
-  # f.seek(0) #reset reader position
-  identifiers = reader.next()
-  contents_idx = identifiers.index("contents")
-  title_idx = identifiers.index("title")
-
-  contents = [ row[contents_idx] for row in reader if row[contents_idx] ]
-
-  f.seek(0)
-  reader.next()
-  titles = [ row[title_idx] for row in reader if row[contents_idx] ]
-
-
-
-  texts = list()
-  tokenizer = RegexpTokenizer(r'\w+')
-  en_stop = get_stop_words('en')
-  for idx,i in enumerate(contents):
-    if not idx % 10:
-      print "INFO: Tokenizing articles <{}> ".format(idx)
-    raw = i.lower()
-    tokens = tokenizer.tokenize(raw)
-    texts.append(process_tokens(tokens, args.stemmer))
-    # print idx
-    # add tokens to list
-
-  print "[DEBUG] Length of Texts : {}".format(len(texts))
-  dictionary = corpora.Dictionary(texts)
-  corpus = [dictionary.doc2bow(text) for text in texts]
 
   # X = np.zeros((len(contents), len(dictionary)), dtype=np.int)
   # for idx,i in enumerate(corpus):
@@ -99,14 +68,50 @@ else:
   try:
     ldamodel = models.LdaModel.load(model_filename)
   except IOError:
+
+    f = open(args.filename)
+    reader = unicodecsv.reader(f, encoding='utf-8')
+    # csv_length = sum(1 for row in reader)
+    # f.seek(0) #reset reader position
+    identifiers = reader.next()
+    contents_idx = identifiers.index("contents")
+    title_idx = identifiers.index("title")
+
+    contents = [ row[contents_idx] for row in reader if row[contents_idx] ]
+
+    f.seek(0)
+    reader.next()
+    titles = [ row[title_idx] for row in reader if row[contents_idx] ]
+
+
+
+    texts = list()
+    tokenizer = RegexpTokenizer(r'\w+')
+    en_stop = get_stop_words('en')
+    for idx,i in enumerate(contents):
+      if not idx % 10:
+        print "INFO: Tokenizing articles <{}> ".format(idx)
+      raw = i.lower()
+      tokens = tokenizer.tokenize(raw)
+      texts.append(process_tokens(tokens, args.stemmer))
+      # print idx
+      # add tokens to list
+
+    print "[DEBUG] Length of Texts : {}".format(len(texts))
+    dictionary = corpora.Dictionary(texts)
+    corpus = [dictionary.doc2bow(text) for text in texts]
     ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=5)
     ldamodel.save(model_filename)
 
 
 # model = lda.LDA(n_topics=int(args.num_topics), n_iter=int(args.num_iter), random_state=1)
 # model.fit(X)
-for topic in ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True):
-  print topic
+for topic in ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=False):
+  print "Topic #" + str(topic[0]) + " :",
+  for word in topic[1]:
+    print word[0],
+  print
+
 # print ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True)
 # n_top_words = int(args.num_top_words)
 # topic_word = ldamodel.get_topic_terms  # odel.components_ also works
