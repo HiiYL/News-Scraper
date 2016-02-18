@@ -91,24 +91,29 @@ else:
   dictionary = corpora.Dictionary(texts)
   corpus = [dictionary.doc2bow(text) for text in texts]
 
-  X = np.zeros((len(contents), len(dictionary)), dtype=np.int)
-  for idx,i in enumerate(corpus):
-    for j in i:
-      X[idx][j[0]] = j[1]
+  # X = np.zeros((len(contents), len(dictionary)), dtype=np.int)
+  # for idx,i in enumerate(corpus):
+  #   for j in i:
+  #     X[idx][j[0]] = j[1]
+  model_filename = args.filename.split('.')[0] + '.model'
+  try:
+    ldamodel = models.LdaModel.load(model_filename)
+  except IOError:
+    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=5)
+    ldamodel.save(model_filename)
 
 
-model = lda.LDA(n_topics=int(args.num_topics), n_iter=int(args.num_iter), random_state=1)
-model.fit(X)
-
-
-n_top_words = int(args.num_top_words)
-topic_word = model.topic_word_  # odel.components_ also works
-for i, topic_dist in enumerate(topic_word):
-  if args.filename == "sample":
-    topic_words = np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1]
-  else:
-    topic_words = [ dictionary[x] for x in np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1] ]
-  print u'Topic {}: {}'.format(i, ' '.join(topic_words))
-doc_topic = model.doc_topic_
-for i in range(10):
-   print u'"{} (top topic: {})"'.format(titles[i], doc_topic[i].argmax())
+# model = lda.LDA(n_topics=int(args.num_topics), n_iter=int(args.num_iter), random_state=1)
+# model.fit(X)
+print ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True)
+# n_top_words = int(args.num_top_words)
+# topic_word = ldamodel.get_topic_terms  # odel.components_ also works
+# for i, topic_dist in enumerate(topic_word):
+#   if args.filename == "sample":
+#     topic_words = np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1]
+#   else:
+#     topic_words = [ dictionary[x] for x in np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1] ]
+#   print u'Topic {}: {}'.format(i, ' '.join(topic_words))
+# doc_topic = model.doc_topic_
+# for i in range(10):
+#    print u'"{} (top topic: {})"'.format(titles[i], doc_topic[i].argmax())
