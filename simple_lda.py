@@ -6,35 +6,51 @@ import csv
 from nltk.tokenize import RegexpTokenizer
 from stop_words import get_stop_words
 from gensim import corpora, models
-import gensim
+
 from stemming.porter2 import stem
 from nltk.stem import *
 import unicodecsv
 import re
+import pyLDAvis.gensim
+import gensim
 
 import argparse
 
 
-list_of_stemmer_choices = ["none", "porter", "porter2"]
+list_of_stemmer_choices = ["none", "porter", "porter2", "lemma"]
 parser = argparse.ArgumentParser(description='run LDA on an input csv file.')
 parser.add_argument('-i','--input',dest="filename", help='input CSV file', required=True)
 parser.add_argument('-s','--stemmer', help='pick stemmer', default="porter2", choices=list_of_stemmer_choices)
 parser.add_argument('-ni','--num_iter', help='number of iterations', default="1000")
-parser.add_argument('-twc','--topwords_count', help='number of top_words', default="8")
+parser.add_argument('-ntw','--num_top_words', help='number of top_words', default="8")
+parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
 args = parser.parse_args()
 
 _digits = re.compile('\d')
 def contains_digits(d):
     return bool(_digits.search(d))
 
+# Playing around with just dictionary words
+# Using PyEnchant spell checker purpose
+import enchant
+d = enchant.Dict("en_US")
+# Or using the /usr/share/dict/british-english word list
+with open("automotive-english") as word_file:
+  english_words = set(word.strip().lower() for word in word_file)
+  print(english_words)
+  def is_english_word(word):
+    return word.lower() in english_words
+
 def process_tokens(tokens,stemmer):
-  tokens = [i for i in tokens if not i in en_stop and not contains_digits(i)]
+  tokens = [i for i in tokens if not i in en_stop and not contains_digits(i) and is_english_word(i)]
   if stemmer == 'porter':
     stemmer = PorterStemmer()
     tokens = [stemmer.stem(i) for i in tokens]
   elif stemmer == 'porter2':
     tokens = [stem(i) for i in tokens]
-
+  elif stemmer == 'lemma':
+    lemmatiser = WordNetLemmatizer()
+    tokens = [lemmatiser.lemmatize(i) for i in tokens]
   return tokens
 
 
@@ -80,12 +96,13 @@ else:
     for j in i:
       X[idx][j[0]] = j[1]
 
-model = lda.LDA(n_topics=20, n_iter=int(args.num_iter), random_state=1)
+
+model = lda.LDA(n_topics=int(args.num_topics), n_iter=int(args.num_iter), random_state=1)
 model.fit(X)
 
 
-n_top_words = int(args.topwords_count)
-topic_word = model.topic_word_  # model.components_ also works
+n_top_words = int(args.num_top_words)
+topic_word = model.topic_word_  # odel.components_ also works
 for i, topic_dist in enumerate(topic_word):
   if args.filename == "sample":
     topic_words = np.array(dictionary)[np.argsort(topic_dist)][:-(n_top_words+1):-1]
