@@ -105,7 +105,9 @@ else:
 
 # model = lda.LDA(n_topics=int(args.num_topics), n_iter=int(args.num_iter), random_state=1)
 # model.fit(X)
-print ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True)
+for topic in ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True):
+  print topic
+# print ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True)
 # n_top_words = int(args.num_top_words)
 # topic_word = ldamodel.get_topic_terms  # odel.components_ also works
 # for i, topic_dist in enumerate(topic_word):
