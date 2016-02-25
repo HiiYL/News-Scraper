@@ -35,7 +35,7 @@ def contains_digits(d):
 import enchant
 d = enchant.Dict("en_US")
 # Or using the /usr/share/dict/british-english word list
-with open("technology-english") as word_file:
+with open("automotive-english") as word_file:
   english_words = set(word.strip().lower() for word in word_file)
   print(english_words)
   def is_english_word(word):
@@ -100,7 +100,7 @@ else:
     print "[DEBUG] Length of Texts : {}".format(len(texts))
     dictionary = corpora.Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
-    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=5)
+    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
     ldamodel.save(model_filename)
 
 
