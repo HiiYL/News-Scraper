@@ -5,6 +5,5 @@ stop_words
 gensim
 stemming
 unicodecsv
-re
 pyLDAvis
 argparse
