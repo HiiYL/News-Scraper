@@ -18,12 +18,14 @@ import argparse
 
 
 list_of_stemmer_choices = ["none", "porter", "porter2", "lemma"]
+list_of_model_choices = ["lda", "dtm"]
 parser = argparse.ArgumentParser(description='run LDA on an input csv file.')
 parser.add_argument('-i','--input',dest="filename", help='input CSV file', required=True)
 parser.add_argument('-s','--stemmer', help='pick stemmer', default="lemma", choices=list_of_stemmer_choices)
 parser.add_argument('-ni','--num_iter', help='number of iterations', default="1000")
 parser.add_argument('-ntw','--num_top_words', help='number of top_words', default="8")
 parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
+parser.add_argument('-m', '--model', help='model used', default='dtm', choices=list_of_model_choices)
 args = parser.parse_args()
 
 _digits = re.compile('\d')
@@ -64,11 +66,11 @@ else:
   # for idx,i in enumerate(corpus):
   #   for j in i:
   #     X[idx][j[0]] = j[1]
-  model_filename = args.filename.split('.')[0] + '.model'
+  model_filename = args.filename.split('.')[0] + "_" + args.model + '.model'
+  print model_filename
   try:
     ldamodel = models.LdaModel.load(model_filename)
   except IOError:
-
     f = open(args.filename)
     reader = unicodecsv.reader(f, encoding='utf-8')
     # csv_length = sum(1 for row in reader)
@@ -100,19 +102,29 @@ else:
     print "[DEBUG] Length of Texts : {}".format(len(texts))
     dictionary = corpora.Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
-    my_timeslices = [220]
-    # ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
-    ldamodel = gensim.models.wrappers.DtmModel('/Users/Hii/Projects/news_scraper/dtm-darwin64', corpus, my_timeslices, num_topics=20, id2word=dictionary)
+    my_timeslices = [500,500,500,500,500,346]
+
+    if(args.model == "lda"):
+     ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
+    elif(args.model == "dtm"):
+      ldamodel = gensim.models.wrappers.DtmModel('/Users/Hii/Projects/news_scraper/dtm-darwin64', corpus, my_timeslices, num_topics=20, id2word=dictionary,initialize_lda=True)
+    else:
+      raise ValueError('Unknown Model Type')
+
     ldamodel.save(model_filename)
 
-
-# model = lda.LDA(n_topics=int(args.num_topics), n_iter=int(args.num_iter), random_state=1)
-# model.fit(X)
-for topic in ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=False):
-  print "Topic #" + str(topic[0]) + " :",
-  for word in topic[1]:
-    print word[0],
-  print
+if(args.model == "lda"):
+  for topic in ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=False):
+    print "Topic #" + str(topic[0]) + " :",
+    for word in topic[1]:
+      print word[0],
+    print
+else:
+  for idx, topic in enumerate(ldamodel.show_topics(topics=10, topn=10, log=False, formatted=False)):
+    print "Topic #" + str(idx) + " :",
+    for word in topic:
+      print word[1],
+    print
 
 # print ldamodel.show_topics(num_topics=10, num_words=10, log=False, formatted=True)
 # n_top_words = int(args.num_top_words)
