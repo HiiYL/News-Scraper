@@ -11,7 +11,7 @@ from stemming.porter2 import stem
 from nltk.stem import *
 import unicodecsv
 import re
-import pyLDAvis.gensim
+# import pyLDAvis.gensim
 import gensim
 
 import argparse
@@ -100,7 +100,9 @@ else:
     print "[DEBUG] Length of Texts : {}".format(len(texts))
     dictionary = corpora.Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
-    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
+    my_timeslices = [220]
+    # ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
+    ldamodel = gensim.models.wrappers.DtmModel('/Users/Hii/Projects/news_scraper/dtm-darwin64', corpus, my_timeslices, num_topics=20, id2word=dictionary)
     ldamodel.save(model_filename)
 
 
