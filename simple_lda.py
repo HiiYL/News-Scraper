@@ -11,6 +11,7 @@ from stemming.porter2 import stem
 from nltk.stem import *
 import unicodecsv
 import re
+import os
 # import pyLDAvis.gensim
 import gensim
 
@@ -28,6 +29,8 @@ parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
 parser.add_argument('-m', '--model', help='model used', default='dtm', choices=list_of_model_choices)
 args = parser.parse_args()
 
+dir = os.getcwd()
+
 _digits = re.compile('\d')
 def contains_digits(d):
     return bool(_digits.search(d))
@@ -37,9 +40,9 @@ def contains_digits(d):
 import enchant
 d = enchant.Dict("en_US")
 # Or using the /usr/share/dict/british-english word list
-with open("automotive-english") as word_file:
+with open("technology-english") as word_file:
   english_words = set(word.strip().lower() for word in word_file)
-  print(english_words)
+  # print(english_words)
   def is_english_word(word):
     return word.lower() in english_words
 
@@ -61,17 +64,18 @@ if args.filename == "sample":
   dictionary = lda.datasets.load_reuters_vocab()
   titles = lda.datasets.load_reuters_titles()
 else:
-
   # X = np.zeros((len(contents), len(dictionary)), dtype=np.int)
   # for idx,i in enumerate(corpus):
   #   for j in i:
   #     X[idx][j[0]] = j[1]
-  model_filename = args.filename.split('.')[0] + "_" + args.model + '.model'
+
+  model_filename = os.path.join(dir, 'models/' + args.filename.split('.')[0] + "_" + args.model + '.model')
   print model_filename
   try:
     ldamodel = models.LdaModel.load(model_filename)
   except IOError:
-    f = open(args.filename)
+    dataset_filepath = os.path.join(dir, 'datasets/' + args.filename)
+    f = open(dataset_filepath)
     reader = unicodecsv.reader(f, encoding='utf-8')
     # csv_length = sum(1 for row in reader)
     # f.seek(0) #reset reader position
@@ -102,7 +106,8 @@ else:
     print "[DEBUG] Length of Texts : {}".format(len(texts))
     dictionary = corpora.Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
-    my_timeslices = [500,500,500,500,500,346]
+    # my_timeslices = [500,500,500,500,500,346]
+    my_timeslices = [100,100,20]
 
     if(args.model == "lda"):
      ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
@@ -120,7 +125,7 @@ if(args.model == "lda"):
       print word[0],
     print
 else:
-  for idx, topic in enumerate(ldamodel.show_topics(topics=10, topn=10, log=False, formatted=False)):
+  for idx, topic in enumerate(ldamodel.show_topics(topics=10, topn=10, formatted=False)):
     print "Topic #" + str(idx) + " :",
     for word in topic:
       print word[1],
