@@ -38,6 +38,7 @@ dir = os.getcwd()
 model_dir = os.path.join(dir, 'models/')
 dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
+executable_dir = os.path.join(dir, 'executables/')
 
 
 _digits = re.compile('\d')
@@ -45,13 +46,15 @@ def contains_digits(d):
     return bool(_digits.search(d))
 
 
-def get_dict_dir():
-  return os.path.join(dictionary_dir, args.dictionary + "-english")
+def get_dict_dir(s):
+  return os.path.join(dictionary_dir, s)
 
+def get_exec_dir(s):
+  return os.path.join(executable_dir, s)
 d = enchant.Dict("en_US")
 # Or using the /usr/share/dict/british-english word list
 if args.dictionary != "none":
-  with open(get_dict_dir()) as word_file:
+  with open(get_dict_dir(args.dictionary + "-english")) as word_file:
     english_words = set(word.strip().lower() for word in word_file)
     # print(english_words)
     def is_english_word(word):
@@ -71,7 +74,8 @@ def process_tokens(tokens,stemmer):
 
 
 def get_model_with_arguments_filename():
-  return args.filename.split('.')[0] + "_" + args.stemmer + "_" + args.num_iter + "_" + args.num_top_words + "_" + args.num_topics  + "_" + args.model
+  return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + args.num_iter +
+   "_" + args.num_top_words + "_" + args.num_topics  + "_" + args.model)
 
 
 
@@ -125,7 +129,7 @@ else:
     if(args.model == "lda"):
      ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=10, id2word = dictionary, passes=20)
     elif(args.model == "dtm"):
-      ldamodel = gensim.models.wrappers.DtmModel('/Users/Hii/Projects/news_scraper/dtm-darwin64', corpus, my_timeslices, num_topics=20, id2word=dictionary,initialize_lda=True)
+      ldamodel = gensim.models.wrappers.DtmModel(get_exec_dir('dtm-darwin64'), corpus, my_timeslices, num_topics=20, id2word=dictionary,initialize_lda=True)
     else:
       raise ValueError('Unknown Model Type')
 
