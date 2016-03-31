@@ -51,9 +51,16 @@ def get_dict_dir(s):
 def get_exec_dir(s):
   return os.path.join(executable_dir, s)
 
-d = enchant.Dict("en_US")
+
 # Or using the /usr/share/dict/british-english word list
-if args.dictionary != "none":
+if args.dictionary == "none":
+  def is_english_word(word):
+    return true
+elif args.dictionary == "english":
+  d = enchant.Dict("en_US")
+  def is_english_word(word):
+    return d.check(word)
+else:
   with open(get_dict_dir(args.dictionary + "-english")) as word_file:
     english_words = set(word.strip().lower() for word in word_file)
     # print(english_words)
@@ -75,7 +82,7 @@ def process_tokens(tokens,stemmer):
 
 def get_model_with_arguments_filename():
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + args.num_iter +
-   "_" + args.num_top_words + "_" + args.num_topics  + "_" + args.model)
+   "_" + args.num_top_words + "_" + args.num_topics  + "_" + args.model + "_" + args.dictionary)
 
 
 
