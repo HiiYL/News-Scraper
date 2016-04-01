@@ -55,7 +55,7 @@ def get_exec_dir(s):
 # Or using the /usr/share/dict/british-english word list
 if args.dictionary == "none":
   def is_english_word(word):
-    return true
+    return True
 elif args.dictionary == "english":
   d = enchant.Dict("en_US")
   def is_english_word(word):
@@ -118,9 +118,8 @@ else:
     texts = list()
     tokenizer = RegexpTokenizer(r'\w+')
     en_stop = get_stop_words('en')
+    print "Tokenizing ..."
     for idx,i in enumerate(contents):
-      if not idx % 10:
-        print "INFO: Tokenizing articles <{}> ".format(idx)
       raw = i.lower()
       tokens = tokenizer.tokenize(raw)
       texts.append(process_tokens(tokens, args.stemmer))
@@ -131,6 +130,7 @@ else:
     dictionary = corpora.Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
     # my_timeslices = [500,500,500,500,500,346]
+    # my_timeslices = [300,300,300,300,300, 312]
     my_timeslices = [500,500,500,500,500, 346]
 
     if(args.model == "lda"):
