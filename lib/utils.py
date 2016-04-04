@@ -1,5 +1,23 @@
 import os
+import numpy as np
+import lda
+import csv
+from lib.utils import *
+from nltk.tokenize import RegexpTokenizer
+from gensim import corpora, models
+
+from stemming.porter2 import stem
+from nltk.stem import *
+import unicodecsv
 import re
+import os
+# import pyLDAvis.gensim
+import gensim
+import argparse
+
+# Using PyEnchant spell checker purpose
+import enchant
+from stop_words import get_stop_words
 
 
 dir = os.getcwd()
@@ -36,8 +54,10 @@ def load_from_dictionary(dictionary):
       # print(english_words)
       def is_english_word(word):
         return word.lower() in english_words
+  return is_english_word
 
-def process_tokens(tokens,stemmer):
+def process_tokens(tokens,stemmer,is_english_word):
+  en_stop = get_stop_words('en')
   tokens = [i for i in tokens if not i in en_stop and not contains_digits(i) and is_english_word(i)]
   if stemmer == 'porter':
     stemmer = PorterStemmer()
@@ -48,6 +68,20 @@ def process_tokens(tokens,stemmer):
     lemmatiser = WordNetLemmatizer()
     tokens = [lemmatiser.lemmatize(i) for i in tokens]
   return tokens
+
+def generate_model(model_type, corpus, dictionary, num_topics, num_iters):
+  # my_timeslices = [500,500,500,500,500,346]
+  # my_timeslices = [300,300,300,300,300, 312]
+  # my_timeslices = [500,500,500,500,500, 346]
+  my_timeslices = [50,50,50,50,20]
+  if(model_type == "lda"):
+   ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
+  elif(model_type == "dtm"):
+    ldamodel = gensim.models.wrappers.DtmModel(get_exec_dir('dtm-darwin64'), corpus, my_timeslices, num_topics=int(num_topics), id2word=dictionary,initialize_lda=True)
+  else:
+    raise ValueError('Unknown Model Type')
+  return ldamodel
+
 
 def show_topics(model_type, model, num_topics, num_top_words):
   if model_type == "lda" :

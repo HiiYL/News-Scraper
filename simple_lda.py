@@ -4,7 +4,6 @@ import lda
 import csv
 from lib.utils import *
 from nltk.tokenize import RegexpTokenizer
-from stop_words import get_stop_words
 from gensim import corpora, models
 
 from stemming.porter2 import stem
@@ -41,13 +40,7 @@ dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
 
 
-load_from_dictionary(args.dictionary)
-
-
-
-
-
-
+is_english_word = load_from_dictionary(args.dictionary)
 
 model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
 print model_filename
@@ -63,31 +56,18 @@ except IOError:
   contents_idx = identifiers.index("contents")
   title_idx = identifiers.index("title")
 
-  contents = [ row[contents_idx] for row in reader if row[contents_idx] ]
+  contents, titles = zip(*[(row[contents_idx], row[title_idx]) for row in reader])
 
-  f.seek(0)
-  reader.next()
-  titles = [ row[title_idx] for row in reader if row[contents_idx] ]
-  texts = list()
   tokenizer = RegexpTokenizer(r'\w+')
-  en_stop = get_stop_words('en')
   print "Tokenizing ..."
-  texts = [ process_tokens(tokenizer.tokenize(word.lower()), args.stemmer) for word in contents ]
 
+  texts = [ process_tokens(tokenizer.tokenize(word.lower()), args.stemmer,is_english_word) for word in contents ]
   print "[DEBUG] Length of Texts : {}".format(len(texts))
+
   dictionary = corpora.Dictionary(texts)
   corpus = [dictionary.doc2bow(text) for text in texts]
-  # my_timeslices = [500,500,500,500,500,346]
-  # my_timeslices = [300,300,300,300,300, 312]
-  # my_timeslices = [500,500,500,500,500, 346]
-  my_timeslices = [50,50,50,50,20]
 
-  if(args.model == "lda"):
-   ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(args.num_topics), id2word = dictionary, passes=int(args.num_iter))
-  elif(args.model == "dtm"):
-    ldamodel = gensim.models.wrappers.DtmModel(get_exec_dir('dtm-darwin64'), corpus, my_timeslices, num_topics=int(args.num_topics), id2word=dictionary,initialize_lda=True)
-  else:
-    raise ValueError('Unknown Model Type')
+  ldamodel = generate_model(args.model, corpus, dictionary, args.num_topics, args.num_iter)
 
   ldamodel.save(model_filename)
 
