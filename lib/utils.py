@@ -100,5 +100,8 @@ def show_topics(model_type, model, num_topics, num_top_words):
     print "Uh-oh unknown model detected, fix me at utils.py"
 
 def get_model_with_arguments_filename(args):
-  return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + args.num_iter +
-   "_" + args.num_top_words + "_" + args.num_topics  + "_" + args.model + "_" + args.dictionary)
+  return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
+   "_" + str(args.num_top_words) + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary)
+
+
+

@@ -1,22 +1,11 @@
 # -*- coding: utf-8 -*-
-import numpy as np
-import lda
-import csv
-from lib.utils import *
-from nltk.tokenize import RegexpTokenizer
-from gensim import corpora, models
-
-from stemming.porter2 import stem
-from nltk.stem import *
 import unicodecsv
-import re
-import os
-# import pyLDAvis.gensim
-import gensim
 import argparse
+import os
 
-# Using PyEnchant spell checker purpose
-import enchant
+from lib.utils import *
+
+
 
 
 list_of_stemmer_choices = ["none", "porter", "porter2", "lemma"]
@@ -39,10 +28,12 @@ dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
 
+model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
+
 
 is_english_word = load_from_dictionary(args.dictionary)
 
-model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
+
 print model_filename
 try:
   ldamodel = models.LdaModel.load(model_filename)
@@ -50,8 +41,7 @@ except IOError:
   dataset_filepath = os.path.join(dataset_dir, args.filename)
   f = open(dataset_filepath)
   reader = unicodecsv.reader(f, encoding='utf-8')
-  # csv_length = sum(1 for row in reader)
-  # f.seek(0) #reset reader position
+
   identifiers = reader.next()
   contents_idx = identifiers.index("contents")
   title_idx = identifiers.index("title")
@@ -68,7 +58,6 @@ except IOError:
   corpus = [dictionary.doc2bow(text) for text in texts]
 
   ldamodel = generate_model(args.model, corpus, dictionary, args.num_topics, args.num_iter)
-
   ldamodel.save(model_filename)
 
 show_topics(args.model, ldamodel, args.num_topics, args.num_top_words)
