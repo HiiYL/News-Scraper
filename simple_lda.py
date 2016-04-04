@@ -119,19 +119,15 @@ else:
     tokenizer = RegexpTokenizer(r'\w+')
     en_stop = get_stop_words('en')
     print "Tokenizing ..."
-    for idx,i in enumerate(contents):
-      raw = i.lower()
-      tokens = tokenizer.tokenize(raw)
-      texts.append(process_tokens(tokens, args.stemmer))
-      # print idx
-      # add tokens to list
+    texts = [ process_tokens(tokenizer.tokenize(word.lower()), args.stemmer) for word in contents ]
 
     print "[DEBUG] Length of Texts : {}".format(len(texts))
     dictionary = corpora.Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
     # my_timeslices = [500,500,500,500,500,346]
     # my_timeslices = [300,300,300,300,300, 312]
-    my_timeslices = [500,500,500,500,500, 346]
+    # my_timeslices = [500,500,500,500,500, 346]
+    my_timeslices = [50,50,50,50,20]
 
     if(args.model == "lda"):
      ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(args.num_topics), id2word = dictionary, passes=int(args.num_iter))
