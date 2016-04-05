@@ -3,6 +3,7 @@ import unicodecsv
 import argparse
 import os
 
+from nltk import RegexpTokenizer
 from lib.utils import *
 
 
@@ -17,7 +18,7 @@ parser.add_argument('-s','--stemmer', help='pick stemmer', default="lemma", choi
 parser.add_argument('-ni','--num_iter', help='number of iterations', default="20")
 parser.add_argument('-ntw','--num_top_words', help='number of top_words', default="8")
 parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
-parser.add_argument('-m', '--model', help='model used', default='dtm', choices=list_of_model_choices)
+parser.add_argument('-m', '--model', help='model used', default="dtm", choices=list_of_model_choices)
 parser.add_argument('-d', '--dictionary', help='dictionary used', default='english', choices=list_of_dictionary_choices)
 
 args = parser.parse_args()
@@ -53,10 +54,7 @@ except IOError:
 
   contents, titles = zip(*[(row[contents_idx], row[title_idx]) for row in reader])
 
-  print "Tokenizing ..."
-  tokenizer = RegexpTokenizer(r'\w+')
-  texts = [ process_tokens(tokenizer.tokenize(word.lower()), args.stemmer,is_english_word) for word in contents ]
-  print "[DEBUG] Length of Texts : {}".format(len(texts))
+  texts = preprocess(contents, args.stemmer, is_english_word)
 
   dictionary = corpora.Dictionary(texts)
   corpus = [dictionary.doc2bow(text) for text in texts]

@@ -38,6 +38,12 @@ def get_dict_dir(s):
 def get_exec_dir(s):
   return os.path.join(executable_dir, s)
 
+def preprocess(contents, stemmer, is_english_word):
+  print "Preprocessing ..."
+  tokenizer = RegexpTokenizer(r'\w+')
+  texts = [ process_tokens(tokenizer.tokenize(word.lower()), stemmer,is_english_word) for word in contents ]
+  return texts
+
 
 # Or using the /usr/share/dict/british-english word list
 def load_from_dictionary(dictionary):
@@ -72,8 +78,8 @@ def process_tokens(tokens,stemmer,is_english_word):
 def generate_model(model_type, corpus, dictionary, num_topics, num_iter):
   # my_timeslices = [500,500,500,500,500,346]
   # my_timeslices = [300,300,300,300,300, 312]
-  my_timeslices = [500,500,500,500,500, 346]
-  # my_timeslices = [50,50,50,50,20]
+  # my_timeslices = [500,500,500,500,500, 346]
+  my_timeslices = [50,50,50,50,20]
   if(model_type == "lda"):
    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
   elif(model_type == "dtm"):
