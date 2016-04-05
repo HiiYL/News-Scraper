@@ -63,7 +63,7 @@ def load_from_dictionary(dictionary):
   return is_english_word
 
 def process_tokens(tokens,stemmer,is_english_word):
-  en_stop = get_stop_words('en')
+  en_stop = set(get_stop_words('en'))
   tokens = [i for i in tokens if not i in en_stop and not contains_digits(i) and is_english_word(i)]
   if stemmer == 'porter':
     stemmer = PorterStemmer()
