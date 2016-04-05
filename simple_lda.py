@@ -3,8 +3,12 @@ import unicodecsv
 import argparse
 import os
 
+
+
 from nltk import RegexpTokenizer
 from lib.utils import *
+
+
 
 
 
@@ -57,10 +61,17 @@ except IOError:
   texts = preprocess(contents, args.stemmer, is_english_word)
 
   dictionary = corpora.Dictionary(texts)
-  corpus = [dictionary.doc2bow(text) for text in texts]
+  my_corpus = [dictionary.doc2bow(text) for text in texts]
 
   print "Generating model ..."
-  ldamodel = generate_model(args.model, corpus, dictionary, args.num_topics, args.num_iter)
+  ldamodel = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter)
   ldamodel.save(model_filename)
 
+# kl = arun(my_corpus,dictionary,max_topics=100)
+
+# Plot kl divergence against number of topics
+# plt.plot(kl)
+# plt.ylabel('Symmetric KL Divergence')
+# plt.xlabel('Number of Topics')
+# plt.savefig('kldiv.png', bbox_inches='tight')
 show_topics(args.model, ldamodel, args.num_topics, args.num_top_words)

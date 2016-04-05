@@ -4,7 +4,7 @@ import lda
 import csv
 from lib.utils import *
 from nltk.tokenize import RegexpTokenizer
-from gensim import corpora, models
+from gensim import corpora, models, similarities, matutils
 
 from stemming.porter2 import stem
 from nltk.stem import *
@@ -18,6 +18,13 @@ import argparse
 # Using PyEnchant spell checker purpose
 import enchant
 from stop_words import get_stop_words
+
+import scipy.stats as stats
+import matplotlib.pyplot as plt
+import logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
+    level=logging.INFO)
+import numpy as np
 
 
 dir = os.getcwd()
@@ -109,6 +116,33 @@ def show_topics(model_type, model, num_topics, num_top_words):
 def get_model_with_arguments_filename(args):
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
    "_" + str(args.num_top_words) + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary)
+
+
+
+#From http://blog.cigrainger.com/tag/python-lda-gensim.html
+# Define KL function
+def sym_kl(p,q):
+    return np.sum([stats.entropy(p,q),stats.entropy(q,p)])
+
+def arun(corpus,dictionary,max_topics,min_topics=1,step=1):
+  l = np.array([sum(cnt for _, cnt in doc) for doc in corpus])
+  kl = []
+  for i in range(min_topics,max_topics,step):
+      lda = models.ldamodel.LdaModel(corpus=corpus,
+          id2word=dictionary,num_topics=i)
+      m1 = lda.expElogbeta
+      U,cm1,V = np.linalg.svd(m1)
+      #Document-topic matrix
+      lda_topics = lda[corpus]
+      m2 = matutils.corpus2dense(lda_topics, lda.num_topics).transpose()
+      cm2 = l.dot(m2)
+      cm2 = cm2 + 0.0001
+      cm2norm = np.linalg.norm(l)
+      cm2 = cm2/cm2norm
+      kl.append(sym_kl(cm1,cm2))
+  return kl
+
+
 
 
 
