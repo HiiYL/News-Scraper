@@ -79,7 +79,8 @@ def generate_model(model_type, corpus, dictionary, num_topics, num_iter):
   # my_timeslices = [500,500,500,500,500,346]
   # my_timeslices = [300,300,300,300,300, 312]
   # my_timeslices = [500,500,500,500,500, 346]
-  my_timeslices = [50,50,50,50,20]
+  my_timeslices = [180,180,180,180,180,180,180,180,180,180,180,185]
+  # my_timeslices = [50,50,50,50,50,29]
   if(model_type == "lda"):
    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
   elif(model_type == "dtm"):
