@@ -105,13 +105,18 @@ def generate_model(model_type, corpus, dictionary, num_topics, num_iter):
   return ldamodel
 
 
-def show_topics(model_type, model, num_topics, num_top_words):
+def show_topics(model_type, model, num_topics, num_top_words,titles, corpus):
   if model_type == "lda" :
-    for topic in model.show_topics(num_topics=num_topics, num_words=int(num_top_words), log=False, formatted=False):
+    topics = model.show_topics(num_topics=num_topics, num_words=int(num_top_words), log=False, formatted=False)
+    for topic in topics:
       print "Topic #" + str(topic[0]) + " :",
       for word in topic[1]:
         print word[0],
       print
+    for i in range(10):
+      print titles[i],
+      print model.get_document_topics(corpus)[i]
+      # print  titles[i] + " : " + model.get_document_topics(corpus)[i]
   elif model_type == "dtm" :
     for idx, topic in enumerate(model.show_topics(topics=num_topics, topn=int(num_top_words),times=1, formatted=False)):
       print "Topic #" + str(idx) + " :",
