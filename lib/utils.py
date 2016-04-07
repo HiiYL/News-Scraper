@@ -33,7 +33,6 @@ dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
 
-
 _digits = re.compile('\d')
 def contains_digits(d):
     return bool(_digits.search(d))
@@ -51,6 +50,8 @@ def preprocess(contents, stemmer, is_english_word):
   texts = [ process_tokens(tokenizer.tokenize(word.lower()), stemmer,is_english_word) for word in contents ]
   return texts
 
+with open(get_dict_dir("stop_words.txt")) as word_file:
+  stop_words = set(word.strip().lower() for word in word_file)
 
 def load_model(model_path, model_type):
   if model_type == "lda":
@@ -78,7 +79,7 @@ def load_from_dictionary(dictionary):
 
 def process_tokens(tokens,stemmer,is_english_word):
   en_stop = set(get_stop_words('en'))
-  tokens = [i for i in tokens if not i in en_stop and not contains_digits(i) and is_english_word(i)]
+  tokens = [i for i in tokens if not i in stop_words and not contains_digits(i) and is_english_word(i)]
   if stemmer == 'porter':
     stemmer = PorterStemmer()
     tokens = [stemmer.stem(i) for i in tokens]

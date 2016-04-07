@@ -24,7 +24,7 @@ parser.add_argument('-ntw','--num_top_words', help='number of top_words', defaul
 parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
 parser.add_argument('-m', '--model', help='model used', default="dtm", choices=list_of_model_choices)
 parser.add_argument('-d', '--dictionary', help='dictionary used', default='english', choices=list_of_dictionary_choices)
-
+parser.add_argument('-o', '--override', action='store_true')
 args = parser.parse_args()
 
 dir = os.getcwd()
@@ -47,6 +47,8 @@ print "[INFO] Dictionary used       :", args.dictionary
 print model_filename
 try:
   model = load_model(model_filename, args.model)
+  if args.override:
+    raise IOError("Override flag set")
 except IOError:
   dataset_filepath = os.path.join(dataset_dir, args.filename)
   f = open(dataset_filepath)
