@@ -46,7 +46,7 @@ print "[INFO] Model used            :", args.model
 print "[INFO] Dictionary used       :", args.dictionary
 print model_filename
 try:
-  ldamodel = models.LdaModel.load(model_filename)
+  model = load_model(model_filename, args.model)
 except IOError:
   dataset_filepath = os.path.join(dataset_dir, args.filename)
   f = open(dataset_filepath)
@@ -61,11 +61,15 @@ except IOError:
   texts = preprocess(contents, args.stemmer, is_english_word)
 
   dictionary = corpora.Dictionary(texts)
+
+  #remove extremes (similar to the min/max df step used when creating the tf-idf matrix)
+  dictionary.filter_extremes(no_below=1, no_above=0.8)
+  
   my_corpus = [dictionary.doc2bow(text) for text in texts]
 
   print "Generating model ..."
-  ldamodel = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter)
-  ldamodel.save(model_filename)
+  model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter)
+  model.save(model_filename)
 
 # kl = arun(my_corpus,dictionary,max_topics=100)
 
@@ -74,4 +78,4 @@ except IOError:
 # plt.ylabel('Symmetric KL Divergence')
 # plt.xlabel('Number of Topics')
 # plt.savefig('kldiv.png', bbox_inches='tight')
-show_topics(args.model, ldamodel, args.num_topics, args.num_top_words)
+show_topics(args.model, model, args.num_topics, args.num_top_words)

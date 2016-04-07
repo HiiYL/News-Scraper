@@ -19,12 +19,12 @@ import argparse
 import enchant
 from stop_words import get_stop_words
 
-import scipy.stats as stats
-import matplotlib.pyplot as plt
-import logging
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
-    level=logging.INFO)
-import numpy as np
+# import scipy.stats as stats
+# import matplotlib.pyplot as plt
+# import logging
+# logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
+#     level=logging.INFO)
+# import numpy as np
 
 
 dir = os.getcwd()
@@ -51,6 +51,13 @@ def preprocess(contents, stemmer, is_english_word):
   texts = [ process_tokens(tokenizer.tokenize(word.lower()), stemmer,is_english_word) for word in contents ]
   return texts
 
+
+def load_model(model_path, model_type):
+  if model_type == "lda":
+    model = models.LdaModel.load(model_path)
+  elif model_type == "dtm":
+    model = models.wrappers.DtmModel.load(model_path)
+  return model
 
 # Or using the /usr/share/dict/british-english word list
 def load_from_dictionary(dictionary):
@@ -83,10 +90,10 @@ def process_tokens(tokens,stemmer,is_english_word):
   return tokens
 
 def generate_model(model_type, corpus, dictionary, num_topics, num_iter):
-  # my_timeslices = [500,500,500,500,500,346]
-  # my_timeslices = [300,300,300,300,300, 312]
-  # my_timeslices = [500,500,500,500,500, 346]
-  my_timeslices = [180,180,180,180,180,180,180,180,180,180,180,185]
+  # my_timeslices = [237,237,237,237,237,237,237,237,237,237,237,239] #paultan
+  # my_timeslices = [12,12,12,12,12,12,12,12,12,12,12,14] # soya_month
+  my_timeslices = [144,144,144,144,144,144,144,144,144,144,144,149] #soya_year
+  # my_timeslices = [ 450,450,450,450,450,450,450,450,450,450,450,433]
   # my_timeslices = [50,50,50,50,50,29]
   if(model_type == "lda"):
    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
