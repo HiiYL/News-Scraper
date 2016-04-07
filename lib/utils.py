@@ -14,6 +14,7 @@ import os
 # import pyLDAvis.gensim
 import gensim
 import argparse
+import numpy as np
 
 # Using PyEnchant spell checker purpose
 import enchant
@@ -113,9 +114,12 @@ def show_topics(model_type, model, num_topics, num_top_words,titles, corpus):
       for word in topic[1]:
         print word[0],
       print
+    print
     for i in range(10):
+      print str(i) + " : ",
       print titles[i],
-      print model.get_document_topics(corpus)[i]
+      print "(top topic: {})".format(str(max(model.get_document_topics(corpus)[i],key=lambda item:item[1])[0]))
+      # print model.get_document_topics(corpus)[i]
       # print  titles[i] + " : " + model.get_document_topics(corpus)[i]
   elif model_type == "dtm" :
     for idx, topic in enumerate(model.show_topics(topics=num_topics, topn=int(num_top_words),times=1, formatted=False)):
