@@ -39,13 +39,15 @@ model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args)
 
 is_english_word = load_from_dictionary(args.dictionary)
 
+print model_filename
+
 print "[INFO] Stemmer               :", args.stemmer
 print "[INFO] Number of iterations  :", args.num_iter
 print "[INFO] Number of topics      :", args.num_topics
 print "[INFO] Number of top words   :", args.num_top_words
 print "[INFO] Model used            :", args.model
 print "[INFO] Dictionary used       :", args.dictionary
-print model_filename
+
 
 dataset_filepath = os.path.join(dataset_dir, args.filename)
 f = open(dataset_filepath)
@@ -83,3 +85,14 @@ except IOError:
 # plt.xlabel('Number of Topics')
 # plt.savefig('kldiv.png', bbox_inches='tight')
 show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
+
+
+output_dataset_path = os.path.join(dataset_dir, args.num_iter + "_" + "iter_" + args.filename)
+if args.model == "lda":
+  print "Saving changes to csv ... ",
+  try:
+    print "found, skipped" 
+    f = open(output_dataset_path)
+  except IOError:
+    print "Done"
+    save(model, dataset_filepath, output_dataset_path)

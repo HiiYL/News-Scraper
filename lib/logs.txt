@@ -1,0 +1,17 @@
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : dtm
+[INFO] Dictionary used       : english
+
+Topic #0 : device ram storage front camera processor battery spec
+Topic #1 : apple device phone window people nexus experience work
+Topic #2 : i thing service simply pretty don ad text
+Topic #3 : mi rice power bank note charge cooker band
+Topic #4 : time pro speed mobile maxi watch network u
+Topic #5 : note payment launch time case recent cash retail
+Topic #6 : device edge camera flagship galaxy android speaker latest
+Topic #7 : mobile user network mean usage wireless difference consumer
+Topic #8 : broadband speed service country home update started area
+Topic #9 : plan month call offer device free maxi offering

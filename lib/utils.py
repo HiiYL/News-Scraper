@@ -46,7 +46,7 @@ def get_exec_dir(s):
   return os.path.join(executable_dir, s)
 
 def preprocess(contents, stemmer, is_english_word):
-  print "Preprocessing ..."
+  # print "Preprocessing ..."
   tokenizer = RegexpTokenizer(r'\w+')
   texts = [ process_tokens(tokenizer.tokenize(word.lower()), stemmer,is_english_word) for word in contents ]
   return texts
@@ -93,8 +93,8 @@ def process_tokens(tokens,stemmer,is_english_word):
 
 def generate_model(model_type, corpus, dictionary, num_topics, num_iter):
   # my_timeslices = [237,237,237,237,237,237,237,237,237,237,237,239] #paultan
-  # my_timeslices = [12,12,12,12,12,12,12,12,12,12,12,14] # soya_month
-  my_timeslices = [144,144,144,144,144,144,144,144,144,144,144,149] #soya_year
+  my_timeslices = [37,37,37,35] # soya_month
+  # my_timeslices = [144,144,144,144,144,144,144,144,144,144,144,149] #soya_year
   # my_timeslices = [ 450,450,450,450,450,450,450,450,450,450,450,433]
   # my_timeslices = [50,50,50,50,50,29]
   if(model_type == "lda"):
@@ -130,6 +130,18 @@ def show_topics(model_type, model, num_topics, num_top_words,titles, corpus):
   else:
     print "Uh-oh unknown model detected, fix me at utils.py"
 
+def save(model,input_dataset_path, output_dataset_path):
+  with open(dataset_filepath, 'rb') as input, open(output_dataset_path, 'wb') as output:
+    reader = unicodecsv.reader(input, encoding='utf-8')
+    writer = unicodecsv.writer(output, encoding='utf-8')
+
+    all = []
+    row = next(reader)
+    row.append('topic')
+    all.append(row)
+    for i, row in enumerate(reader):
+        all.append(row + [str(max(model.get_document_topics(my_corpus)[i],key=lambda item:item[1])[0])])
+    writer.writerows(all)
 def get_model_with_arguments_filename(args):
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
    "_" + str(args.num_top_words) + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary)
