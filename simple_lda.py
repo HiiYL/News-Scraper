@@ -9,7 +9,7 @@ from nltk import RegexpTokenizer
 from lib.utils import *
 from itertools import chain
 
-
+from datetime import datetime, timedelta
 
 
 
@@ -58,10 +58,13 @@ reader = unicodecsv.reader(f, encoding='utf-8')
 identifiers = reader.next()
 input_idx = identifiers.index(args.input_field)
 title_idx = identifiers.index("title")
+date_idx = identifiers.index("date")
 # category_idx = identifiers.index("categories")
 
-contents, titles = zip(*[(row[input_idx], row[title_idx]) for row in reader])
+# contents, titles, categories = zip(*[(row[input_idx], row[title_idx], row[category_idx]) for row in reader])
+contents, titles, dates = zip(*[(row[input_idx], row[title_idx], datetime.strptime(row[date_idx], '%Y-%m-%d')) for row in reader])
 
+print dates[0]
 texts = preprocess(contents, args.stemmer, is_english_word)
 
 dictionary = corpora.Dictionary(texts)
@@ -76,7 +79,7 @@ try:
     raise IOError("Override flag set")
 except IOError:
   print "Generating model ..."
-  model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter)
+  model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
   model.save(model_filename)
 # kl = arun(my_corpus,dictionary,max_topics=100)
 

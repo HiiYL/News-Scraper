@@ -8,3 +8,4 @@ unicodecsv
 pyLDAvis
 argparse
 pyenchant
+panda

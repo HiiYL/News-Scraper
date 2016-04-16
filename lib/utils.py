@@ -20,6 +20,9 @@ import numpy as np
 import enchant
 from stop_words import get_stop_words
 
+from dateutil import parser
+from datetime import timedelta
+
 # import scipy.stats as stats
 # import matplotlib.pyplot as plt
 # import logging
@@ -91,15 +94,17 @@ def process_tokens(tokens,stemmer,is_english_word):
     tokens = [lemmatiser.lemmatize(i) for i in tokens]
   return tokens
 
-def generate_model(model_type, corpus, dictionary, num_topics, num_iter):
+def generate_model(model_type, corpus, dictionary, num_topics, num_iter,dates="", timedelta=""):
   # my_timeslices = [237,237,237,237,237,237,237,237,237,237,237,239] #paultan
-  my_timeslices = [37,37,37,35] # soya_month
+
   # my_timeslices = [144,144,144,144,144,144,144,144,144,144,144,149] #soya_year
   # my_timeslices = [ 450,450,450,450,450,450,450,450,450,450,450,433]
   # my_timeslices = [50,50,50,50,50,29]
   if(model_type == "lda"):
    ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
   elif(model_type == "dtm"):
+    my_timeslices = generate_timeslices(dates,timedelta) # soya_month
+    print my_timeslices
     ldamodel = gensim.models.wrappers.DtmModel(get_exec_dir('dtm-darwin64'), corpus, my_timeslices, num_topics=int(num_topics), id2word=dictionary,initialize_lda=True)
   else:
     raise ValueError('Unknown Model Type')
@@ -144,11 +149,12 @@ def save(model,input_dataset_path, output_dataset_path):
     writer.writerows(all)
 def get_model_with_arguments_filename(args):
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
-   "_" + str(args.num_top_words) + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary + "_"
-   + get_input_field(args))
+   "_" + "8" + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary
+   + get_input_field(args)) ##hardcoded number_top_words to retain compatiblity with previously trained models
 
 def get_input_field(args):
   if (args.input_field == "contents"):
+    print "WTF"
     return ""
   else:
     return ("_" + args.input_field)
@@ -175,6 +181,23 @@ def arun(corpus,dictionary,max_topics,min_topics=1,step=1):
       cm2 = cm2/cm2norm
       kl.append(sym_kl(cm1,cm2))
   return kl
+
+
+def generate_timeslices(dates, time_delta):
+  initial_date = dates[0]
+  curr_bucket = 1
+  current_bucket_count = 0
+  buckets = []
+  for date in dates:
+    if date > (initial_date - curr_bucket * time_delta):
+      current_bucket_count = current_bucket_count + 1
+    else:
+      buckets.append(current_bucket_count)
+      current_bucket_count = 1
+      curr_bucket = curr_bucket + 1
+  buckets.append(current_bucket_count)
+  return buckets
+
 
 
 
