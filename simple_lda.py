@@ -23,9 +23,10 @@ parser.add_argument('-s','--stemmer', help='pick stemmer', default="lemma", choi
 parser.add_argument('-ni','--num_iter', help='number of iterations', default="50")
 parser.add_argument('-ntw','--num_top_words', help='number of top_words', default="8")
 parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
-parser.add_argument('-m', '--model', help='model used', default="dtm", choices=list_of_model_choices)
+parser.add_argument('-m', '--model', help='model used', default="lda", choices=list_of_model_choices)
 parser.add_argument('-d', '--dictionary', help='dictionary used', default='english', choices=list_of_dictionary_choices)
 parser.add_argument('-o', '--override', action='store_true')
+parser.add_argument('-ip', '--input_field', help='field_used_to_perform_lda', default='contents')
 args = parser.parse_args()
 
 dir = os.getcwd()
@@ -47,6 +48,7 @@ print "[INFO] Number of topics      :", args.num_topics
 print "[INFO] Number of top words   :", args.num_top_words
 print "[INFO] Model used            :", args.model
 print "[INFO] Dictionary used       :", args.dictionary
+print "[INFO] Input Field Used      :", args.input_field
 
 
 dataset_filepath = os.path.join(dataset_dir, args.filename)
@@ -54,10 +56,11 @@ f = open(dataset_filepath)
 reader = unicodecsv.reader(f, encoding='utf-8')
 
 identifiers = reader.next()
-contents_idx = identifiers.index("contents")
+input_idx = identifiers.index(args.input_field)
 title_idx = identifiers.index("title")
+# category_idx = identifiers.index("categories")
 
-contents, titles = zip(*[(row[contents_idx], row[title_idx]) for row in reader])
+contents, titles = zip(*[(row[input_idx], row[title_idx]) for row in reader])
 
 texts = preprocess(contents, args.stemmer, is_english_word)
 
@@ -72,8 +75,6 @@ try:
   if args.override:
     raise IOError("Override flag set")
 except IOError:
-
-
   print "Generating model ..."
   model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter)
   model.save(model_filename)

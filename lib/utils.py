@@ -144,9 +144,14 @@ def save(model,input_dataset_path, output_dataset_path):
     writer.writerows(all)
 def get_model_with_arguments_filename(args):
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
-   "_" + str(args.num_top_words) + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary)
+   "_" + str(args.num_top_words) + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary + "_"
+   + get_input_field(args))
 
-
+def get_input_field(args):
+  if (args.input_field == "contents"):
+    return ""
+  else:
+    return ("_" + args.input_field)
 
 #From http://blog.cigrainger.com/tag/python-lda-gensim.html
 # Define KL function
