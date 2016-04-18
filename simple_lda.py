@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 
 list_of_stemmer_choices = ["none", "porter", "porter2", "lemma"]
 list_of_model_choices = ["lda", "dtm"]
-list_of_dictionary_choices = ["none", "technology", "automotive", "english"]
+list_of_dictionary_choices = ["none", "technology", "automotive", "english", "extended-technology", "extended-automotive"]
 parser = argparse.ArgumentParser(description='run LDA on an input csv file.')
 parser.add_argument('-i','--input',dest="filename", help='input CSV file', required=True)
 parser.add_argument('-s','--stemmer', help='pick stemmer', default="lemma", choices=list_of_stemmer_choices)
@@ -99,4 +99,4 @@ if args.model == "lda":
     f = open(output_dataset_path)
   except IOError:
     print "Done"
-    save(model, dataset_filepath, output_dataset_path)
+    save(model, my_corpus, dataset_filepath, output_dataset_path)

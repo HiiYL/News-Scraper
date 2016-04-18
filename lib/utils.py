@@ -135,8 +135,8 @@ def show_topics(model_type, model, num_topics, num_top_words,titles, corpus):
   else:
     print "Uh-oh unknown model detected, fix me at utils.py"
 
-def save(model,input_dataset_path, output_dataset_path):
-  with open(dataset_filepath, 'rb') as input, open(output_dataset_path, 'wb') as output:
+def save(model,corpus,input_dataset_path, output_dataset_path):
+  with open(input_dataset_path, 'rb') as input, open(output_dataset_path, 'wb') as output:
     reader = unicodecsv.reader(input, encoding='utf-8')
     writer = unicodecsv.writer(output, encoding='utf-8')
 
@@ -145,7 +145,7 @@ def save(model,input_dataset_path, output_dataset_path):
     row.append('topic')
     all.append(row)
     for i, row in enumerate(reader):
-        all.append(row + [str(max(model.get_document_topics(my_corpus)[i],key=lambda item:item[1])[0])])
+        all.append(row + [str(max(model.get_document_topics(corpus)[i],key=lambda item:item[1])[0])])
     writer.writerows(all)
 def get_model_with_arguments_filename(args):
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
@@ -197,8 +197,15 @@ def generate_timeslices(dates, time_delta):
   buckets.append(current_bucket_count)
   return buckets
 
+def add_to_dict(s):
+  with open(s) as word_file:
+    for word in word_file:
+      english_words.add(word.strip().lower())
 
-
+def write_to_dict(s):
+  with open(s, 'wb') as output:
+    for word in english_words:
+        output.write(word+'\n')
 
 
 
