@@ -154,7 +154,6 @@ def get_model_with_arguments_filename(args):
 
 def get_input_field(args):
   if (args.input_field == "contents"):
-    print "WTF"
     return ""
   else:
     return ("_" + args.input_field)

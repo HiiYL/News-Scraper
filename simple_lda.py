@@ -79,7 +79,7 @@ try:
     raise IOError("Override flag set")
 except IOError:
   print "Generating model ..."
-  model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
+  model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=1))
   model.save(model_filename)
 # kl = arun(my_corpus,dictionary,max_topics=100)
 
