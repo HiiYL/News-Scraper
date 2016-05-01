@@ -22,14 +22,19 @@ from stop_words import get_stop_words
 
 from dateutil import parser
 from datetime import timedelta
+# import logging
+# logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
+#     level=logging.INFO)
 
-# import scipy.stats as stats
+import scipy.stats as stats
 # import matplotlib.pyplot as plt
 # import logging
 # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
 #     level=logging.INFO)
 # import numpy as np
 
+# import logging
+# logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 dir = os.getcwd()
 model_dir = os.path.join(dir, 'models/')
@@ -101,7 +106,7 @@ def generate_model(model_type, corpus, dictionary, num_topics, num_iter,dates=""
   # my_timeslices = [ 450,450,450,450,450,450,450,450,450,450,450,433]
   # my_timeslices = [50,50,50,50,50,29]
   if(model_type == "lda"):
-   ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
+   ldamodel = gensim.models.LdaMulticore(corpus, workers = 1, num_topics=int(num_topics), id2word = dictionary, passes=int(num_iter))
   elif(model_type == "dtm"):
     my_timeslices = generate_timeslices(dates,timedelta) # soya_month
     print my_timeslices
@@ -147,6 +152,7 @@ def save(model,corpus,input_dataset_path, output_dataset_path):
     for i, row in enumerate(reader):
         all.append(row + [str(max(model.get_document_topics(corpus)[i],key=lambda item:item[1])[0])])
     writer.writerows(all)
+
 def get_model_with_arguments_filename(args):
   return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
    "_" + "8" + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary
@@ -167,6 +173,7 @@ def arun(corpus,dictionary,max_topics,min_topics=1,step=1):
   l = np.array([sum(cnt for _, cnt in doc) for doc in corpus])
   kl = []
   for i in range(min_topics,max_topics,step):
+      print "Current Topic " + str(i)
       lda = models.ldamodel.LdaModel(corpus=corpus,
           id2word=dictionary,num_topics=i)
       m1 = lda.expElogbeta

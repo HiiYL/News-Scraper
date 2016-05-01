@@ -11,6 +11,8 @@ from itertools import chain
 
 from datetime import datetime, timedelta
 
+import matplotlib.pyplot as plt
+
 
 
 
@@ -42,6 +44,7 @@ is_english_word = load_from_dictionary(args.dictionary)
 
 print model_filename
 
+print "[INFO] Input File            :", args.filename
 print "[INFO] Stemmer               :", args.stemmer
 print "[INFO] Number of iterations  :", args.num_iter
 print "[INFO] Number of topics      :", args.num_topics
@@ -81,22 +84,45 @@ except IOError:
   print "Generating model ..."
   model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
   model.save(model_filename)
-# kl = arun(my_corpus,dictionary,max_topics=100)
 
-# Plot kl divergence against number of topics
+
+
+# kl = arun(my_corpus,dictionary,max_topics=100)
+# #Plot kl divergence against number of topics
 # plt.plot(kl)
 # plt.ylabel('Symmetric KL Divergence')
 # plt.xlabel('Number of Topics')
 # plt.savefig('kldiv.png', bbox_inches='tight')
+# plt.show()
+
+# parameter_list = [ 50,150,200,250,300,1000]
+# preplexity_list = []
+# for parameter in parameter_list:
+#   args.num_iter = parameter
+#   model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
+#   try:
+#     model = load_model(model_filename, args.model)
+#     if args.override:
+#       raise IOError("Override flag set")
+#   except IOError:
+#     print "Generating model ..."
+#     model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
+#     model.save(model_filename)
+#   print model.bound(my_corpus)
+#   preplexity_list.append(model.bound(my_corpus))
+# plt.plot(parameter_list,preplexity_list)
+# plt.show()
 show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
 
 
-output_dataset_path = os.path.join(dataset_dir, args.num_iter + "_" + "iter_" + args.filename)
+output_dataset_path = os.path.join(dataset_dir, args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + args.filename)
 if args.model == "lda":
   print "Saving changes to csv ... ",
   try:
     print "found, skipped" 
     f = open(output_dataset_path)
+    if args.override:
+      raise IOError("Override flag set")
   except IOError:
     print "Done"
     save(model, my_corpus, dataset_filepath, output_dataset_path)
