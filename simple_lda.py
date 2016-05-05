@@ -13,6 +13,8 @@ from datetime import datetime, timedelta
 
 import matplotlib.pyplot as plt
 
+import pickle
+
 
 
 
@@ -36,6 +38,7 @@ model_dir = os.path.join(dir, 'models/')
 dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
+all_words_dir = os.path.join(dir, 'allwords/')
 
 model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
 
@@ -69,6 +72,12 @@ contents, titles, dates = zip(*[(row[input_idx], row[title_idx], datetime.strpti
 
 print dates[0]
 texts = preprocess(contents, args.stemmer, is_english_word)
+
+
+text_separated = [ item for innerlist in texts for item in innerlist ]
+with open(os.path.join(all_words_dir, args.filename + "_" + args.dictionary 
+  + "_" + args.input_field + ".txt"), 'wb') as outfile:
+  outfile.write("\n".join(text_separated).encode("UTF-8"))
 
 dictionary = corpora.Dictionary(texts)
 
