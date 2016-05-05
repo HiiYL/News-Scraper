@@ -44,3 +44,10 @@ class FoxItem(scrapy.Item):
     contents = scrapy.Field()
     # categories = scrapy.Field()
     # comments = scrapy.Field()
+
+class BlogItem(scrapy.Item):
+    author = scrapy.Field()
+    title = scrapy.Field()
+    contents = scrapy.Field()
+    date = scrapy.Field()
+    url = scrapy.Field()
