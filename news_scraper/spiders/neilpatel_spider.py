@@ -18,11 +18,11 @@ class NeilpatelSpider(scrapy.Spider):
         
 
         if (url == 'http://neilpatel.com/'):
-          pass
+          raise CloseSpider('sufficient_data_gathered')
         else:
           date = parse(('-').join(url[21:-1].split('/')[:-1])).date()
           if date < self.from_date:
-            break
+            raise CloseSpider('sufficient_data_gathered')
           else:
             yield scrapy.Request(url, callback=self.parse_dir_contents)
 
