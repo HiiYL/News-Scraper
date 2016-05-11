@@ -1,0 +1,319 @@
+/Users/Hii/Projects/news_scraper/models/neospeech_lemma_50_8_10_lda_english_title
+[INFO] Input File            : neospeech.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : title
+2016-04-06 00:00:00
+Topic #0 : everyday language text release speech synthesis engine stand
+Topic #1 : top technology buddy event speech intelligence artificial home
+Topic #2 : voice medical school accommodate student disability text language
+Topic #3 : people photo twitter blind everyday language text release
+Topic #4 : synthesis supported good embedded news offer text speech
+Topic #5 : speech text voice title basic changed linguist century
+Topic #6 : speech text technology hawking forensic system open work
+Topic #7 : text speech voice audio synthesized free news commuter
+Topic #8 : alert voice quality high notification emergency everyday language
+Topic #9 : text speech feeding forward partner take translate broadcast
+
+0 :  Blind People Can Now “See” Photos On Facebook And Twitter (top topic: 3)
+1 :  Good News, Bitcode Is Now Supported In Our VoiceText iOS Embedded SDK! (top topic: 4)
+2 :  CVAA Compliance – New Technologies Using Text-To-Speech To Deliver Audio Alerts (top topic: 6)
+3 :  NeoSpeech Releases Two New Voices! (top topic: 2)
+4 :  Wikipedia To Offer Text-to-Speech Synthesis (top topic: 4)
+5 :  IVR: The Future of Customer Self-Service (top topic: 9)
+6 :  Why An Emergency Alert Notification Needs A High Quality Voice (top topic: 8)
+7 :  Meet Yafang, Our First Taiwanese Text-to-Speech Voice (top topic: 5)
+8 :  What Can You Do With A Stand-Alone Text-to-Speech Engine? (top topic: 2)
+9 :  Text-to-Speech Now Being Used By Ransomware (top topic: 6)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/neospeech_lemma_50_8_10_lda_english
+[INFO] Input File            : neospeech.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-04-06 00:00:00
+Topic #0 : accent border project side people forensic town team
+Topic #1 : alert voice system company customer time call information
+Topic #2 : language screen twitter speaker people reader feature spoken
+Topic #3 : language glove time people work disability linguistics linguist
+Topic #4 : product service video title regulation information programming disability
+Topic #5 : food forward feeding recipient organization shelter software free
+Topic #6 : voice language engine synthesis application learn quality word
+Topic #7 : people young communicate woman life story software share
+Topic #8 : customer event people voter learning registration vote opportunity
+Topic #9 : people disability learn hawking learning word voice quote
+
+0 :  Blind People Can Now “See” Photos On Facebook And Twitter (top topic: 2)
+1 :  Good News, Bitcode Is Now Supported In Our VoiceText iOS Embedded SDK! (top topic: 4)
+2 :  CVAA Compliance – New Technologies Using Text-To-Speech To Deliver Audio Alerts (top topic: 4)
+3 :  NeoSpeech Releases Two New Voices! (top topic: 6)
+4 :  Wikipedia To Offer Text-to-Speech Synthesis (top topic: 4)
+5 :  IVR: The Future of Customer Self-Service (top topic: 1)
+6 :  Why An Emergency Alert Notification Needs A High Quality Voice (top topic: 1)
+7 :  Meet Yafang, Our First Taiwanese Text-to-Speech Voice (top topic: 6)
+8 :  What Can You Do With A Stand-Alone Text-to-Speech Engine? (top topic: 6)
+9 :  Text-to-Speech Now Being Used By Ransomware (top topic: 0)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/neilpatel_lemma_50_8_10_lda_english
+[INFO] Input File            : neilpatel.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-05-07 00:00:00
+Topic #0 : make page mobile post user keywords effort search
+Topic #1 : search relevant social medium account fail carol page
+Topic #2 : page content landing keyword make keywords don search
+Topic #3 : content writer creating copy block find quality freelancer
+Topic #4 : content don marketing book piece website time email
+Topic #5 : content website show engaged audience business code special
+Topic #6 : target content find marketing ad brand headline user
+Topic #7 : engagement click ad sale expectation website clicked audience
+Topic #8 : social user medium content organic choose time brand
+Topic #9 : ad running targeting process ll copy target make
+
+0 :  Still Guessing How It’s Done? How to Build a List Using Facebook Ads and Make Money (top topic: 9)
+1 :  Ecommerce 201: Smart & Proven Ways to Eliminate Objections on Your Product Pages (top topic: 0)
+2 :  How to Integrate Long-Tail Keywords in Your Blog Posts (top topic: 0)
+3 :  5 Visual Marketing Case Studies That Will Teach You the Power of Images (top topic: 5)
+4 :  Start to Finish Guide – Using Reddit Ads to Generate Sales for Your Business (top topic: 0)
+5 :  The Mistakes That Completely Wreck Most PPC Campaigns (and How to Avoid Them) (top topic: 0)
+6 :  How to Increase PPC Ad Viewability and Lower Cost Per Click (CPC) (top topic: 0)
+7 :  How to Get Your Website Added to Google News and Drive Real Time Traffic (top topic: 8)
+8 :  How to Convert Visitors into Customers Using a Landing Page (top topic: 2)
+9 :  How to Beat Writer’s Block and Craft Persuasive Copy That Generates Sales (top topic: 3)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/neilpatel_lemma_50_8_10_lda_english_title
+[INFO] Input File            : neilpatel.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : title
+2016-05-07 00:00:00
+Topic #0 : start click optimum conversion happening number page marketing
+Topic #1 : visitor convert customer effective simple page landing increase
+Topic #2 : ad increase guessing list money build make lower
+Topic #3 : marketing link case study building perfect attracts boosting
+Topic #4 : guide sale content business drive writer beat generates
+Topic #5 : checklist point technical page marketing guide drive landing
+Topic #6 : content create tool mobile brand fake prevent affected
+Topic #7 : drive website campaign post traffic real added news
+Topic #8 : page marketing guide drive landing start campaign website
+Topic #9 : page marketing way social medium proven eliminate step
+
+0 :  Still Guessing How It’s Done? How to Build a List Using Facebook Ads and Make Money (top topic: 2)
+1 :  Ecommerce 201: Smart & Proven Ways to Eliminate Objections on Your Product Pages (top topic: 9)
+2 :  How to Integrate Long-Tail Keywords in Your Blog Posts (top topic: 7)
+3 :  5 Visual Marketing Case Studies That Will Teach You the Power of Images (top topic: 3)
+4 :  Start to Finish Guide – Using Reddit Ads to Generate Sales for Your Business (top topic: 4)
+5 :  The Mistakes That Completely Wreck Most PPC Campaigns (and How to Avoid Them) (top topic: 7)
+6 :  How to Increase PPC Ad Viewability and Lower Cost Per Click (CPC) (top topic: 2)
+7 :  How to Get Your Website Added to Google News and Drive Real Time Traffic (top topic: 7)
+8 :  How to Convert Visitors into Customers Using a Landing Page (top topic: 1)
+9 :  How to Beat Writer’s Block and Craft Persuasive Copy That Generates Sales (top topic: 4)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/hubspot_marketing_month_lemma_50_8_10_lda_english_title
+[INFO] Input File            : hubspot_marketing_month.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : title
+2016-05-04 00:00:00
+Topic #0 : unlock writer exercise public editorial mistake efficient professional
+Topic #1 : website design traffic content email existing live hangout
+Topic #2 : ad software dimension ultimate network sheet twitter social
+Topic #3 : step research market guide understanding buyer journey ll
+Topic #4 : work productivity user top flow concentration higher simple
+Topic #5 : brand inbound experience marketing usability web methodology guideline
+Topic #6 : job people way reason school company board task
+Topic #7 : loyalty video spark inspiration photo idea build psychology
+Topic #8 : job example business tip time template write letter
+Topic #9 : post reach content email make shareable report analysis
+
+0 :  10 Inspiring TED Talks That'll Boost Your Self-Confidence (top topic: 6)
+1 :  14 Questions Job Candidates Should Ask to Impress Interviewers (top topic: 2)
+2 :  Snapchat Is Growing Up (top topic: 6)
+3 :  How to Find Your Flow: A Simple Guide to Better Concentration & Higher Productivity [Infographic] (top topic: 9)
+4 :  8 Mistakes Even Professional Content Writers Make (And How to Avoid Them) (top topic: 0)
+5 :  Safety First: The Basics of Website Security for Ecommerce Retailers (top topic: 9)
+6 :  The Top 3 Ways to Use User-Generated Content in Ecommerce (top topic: 0)
+7 :  7 of the Best Pieces of Free Video Editing Software (top topic: 0)
+8 :  How to Memorize a Speech Using Visualization Techniques [Infographic] (top topic: 6)
+9 :  How to Turn Your Workspace Into a Den of Productivity (top topic: 6)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/hubspot_marketing_month_lemma_50_8_10_lda_english
+[INFO] Input File            : hubspot_marketing_month.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-05-04 00:00:00
+Topic #0 : marketing audience redesign ad time campaign native company
+Topic #1 : email writing card sleep list time brain board
+Topic #2 : work music state time productivity fact natural lot
+Topic #3 : question post time people content page ll make
+Topic #4 : video follower post photo free people image social
+Topic #5 : content ad site medium information audience time school
+Topic #6 : email transactional people make company don great order
+Topic #7 : letter cover company social shopper time customer show
+Topic #8 : information network task time firewall important data retailer
+Topic #9 : role time skill make brand people career back
+
+0 :  10 Inspiring TED Talks That'll Boost Your Self-Confidence (top topic: 1)
+1 :  14 Questions Job Candidates Should Ask to Impress Interviewers (top topic: 3)
+2 :  Snapchat Is Growing Up (top topic: 6)
+3 :  How to Find Your Flow: A Simple Guide to Better Concentration & Higher Productivity [Infographic] (top topic: 2)
+4 :  8 Mistakes Even Professional Content Writers Make (And How to Avoid Them) (top topic: 3)
+5 :  Safety First: The Basics of Website Security for Ecommerce Retailers (top topic: 8)
+6 :  The Top 3 Ways to Use User-Generated Content in Ecommerce (top topic: 7)
+7 :  7 of the Best Pieces of Free Video Editing Software (top topic: 4)
+8 :  How to Memorize a Speech Using Visualization Techniques [Infographic] (top topic: 6)
+9 :  How to Turn Your Workspace Into a Den of Productivity (top topic: 2)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/powtoon_lemma_50_8_10_lda_english
+[INFO] Input File            : powtoon.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-05-08 00:00:00
+Topic #0 : don idea made needed pitch called brilliant short
+Topic #1 : audience video simple client company love powerful software
+Topic #2 : audience business love video mind brand attention gorgeous
+Topic #3 : make watch video investor ll short made year
+Topic #4 : client company customer inspiring awesome super interview video
+Topic #5 : client company software simple message easy oracle video
+Topic #6 : graph chart dynamic minute data colleague attention create
+Topic #7 : video comment stay inspiring client super love made
+Topic #8 : customer car relationship strategy city awesome sale garden
+Topic #9 : client customer people interview company inspiring video software
+
+0 :  BRAND NEW: Dynamic GRAPHS & CHARTS (top topic: 6)
+1 :  New Library Makes PowToon Creation Even EASIER (top topic: 7)
+2 :  Brand New Style: Gorgeous “Line Icons” (top topic: 5)
+3 :  How Marc Carver is Revolutionizing Education and Growing His Business with PowToon (top topic: 2)
+4 :  How This Savvy Entrepreneur Uses Short & Concise PowToons To Land Fortune 500 Clients (like Oracle) – Get Clients with PowToon (top topic: 5)
+5 :  Breaking News: Steffanie’s PowToon Increases Her Traffic by 900% – Increase Traffic with PowToon (top topic: 7)
+6 :  Brand New Tech Props You’re Going to LOVE (top topic: 3)
+7 :  How Chevy creates RAVING FANS with PowToon (top topic: 8)
+8 :  How Andy Used a PowToon to Successfully PITCH His Fortune 500 Board of Directors (top topic: 0)
+9 :  Finally, Now You Can Download Your PowToon in PDF (top topic: 5)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/powtoon_lemma_50_8_10_lda_english_title
+[INFO] Input File            : powtoon.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : title
+2016-05-08 00:00:00
+Topic #0 : growing carver education business revolutionizing rule working effectively
+Topic #1 : soundtrack delicious slide finally download announcing fan creates
+Topic #2 : soundtrack delicious finally slide download announcing fan creates
+Topic #3 : soundtrack delicious slide finally download announcing fan creates
+Topic #4 : increase traffic breaking news director successfully pitch board
+Topic #5 : brand line icon gorgeous style love prop tech
+Topic #6 : creation make easier library soundtrack delicious finally slide
+Topic #7 : delicious soundtrack finally slide announcing download fan creates
+Topic #8 : client fortune oracle land savvy short concise raving
+Topic #9 : entrepreneur rival case study launch young graph chart
+
+0 :  BRAND NEW: Dynamic GRAPHS & CHARTS (top topic: 9)
+1 :  New Library Makes PowToon Creation Even EASIER (top topic: 6)
+2 :  Brand New Style: Gorgeous “Line Icons” (top topic: 5)
+3 :  How Marc Carver is Revolutionizing Education and Growing His Business with PowToon (top topic: 0)
+4 :  How This Savvy Entrepreneur Uses Short & Concise PowToons To Land Fortune 500 Clients (like Oracle) – Get Clients with PowToon (top topic: 8)
+5 :  Breaking News: Steffanie’s PowToon Increases Her Traffic by 900% – Increase Traffic with PowToon (top topic: 4)
+6 :  Brand New Tech Props You’re Going to LOVE (top topic: 5)
+7 :  How Chevy creates RAVING FANS with PowToon (top topic: 8)
+8 :  How Andy Used a PowToon to Successfully PITCH His Fortune 500 Board of Directors (top topic: 4)
+9 :  Finally, Now You Can Download Your PowToon in PDF (top topic: 0)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/helpscout_lemma_50_8_10_lda_english
+[INFO] Input File            : helpscout.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-04-11 00:00:00
+Generating model ...
+/Users/Hii/Projects/news_scraper/models/soya_month_lemma_50_8_10_lda_english
+[INFO] Input File            : soya_month.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-04-06 00:00:00
+Topic #0 : edge galaxy device experience end card thing ll
+Topic #1 : apple rice cooker ad feature time mi device
+Topic #2 : device window camera text flagship front back pretty
+Topic #3 : mi power bank note speaker charge band hour
+Topic #4 : device pro apple display time mobile camera job
+Topic #5 : mobile service network speed maxi time coverage user
+Topic #6 : device front support battery camera flagship display android
+Topic #7 : update device edge user flight galaxy android book
+Topic #8 : device camera ram storage front spec processor display
+Topic #9 : plan month call data postpaid maxi offering device
+
+0 :  This could be the best postpaid plan in town — RM80/month for unlimited everything (top topic: 9)
+1 :  iPhone SE and iPad Pro 9.7 official Malaysian pricing revealed (top topic: 4)
+2 :  Your WhatsApp conversations are now encrypted end to end (top topic: 1)
+3 :  TM UniFi Advance subscription now starts from RM199/month (top topic: 9)
+4 :  11street is offering the iPhone SE from RM1,899 (top topic: 5)
+5 :  Xiaomi’s new Mi Pad is more than meets the eye (top topic: 1)
+6 :  Xiaomi Redmi Note 3 review: Best smartphone on a budget? (top topic: 4)
+7 :  More info on Malaysia’s newest 4G operator (top topic: 4)
+8 :  Vivo’s V3Max is a metal-bodied smartphone that packs a punch (top topic: 6)
+9 :  Huawei Mate 8 review: Bigger is better (top topic: 2)
+Saving changes to csv ...  found, skipped
+/Users/Hii/Projects/news_scraper/models/wow_lemma_50_8_10_lda_english
+[INFO] Input File            : wow.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+/Users/Hii/Projects/news_scraper/models/helpscout_lemma_50_8_10_lda_english
+[INFO] Input File            : helpscout.csv
+[INFO] Stemmer               : lemma
+[INFO] Number of iterations  : 50
+[INFO] Number of topics      : 10
+[INFO] Number of top words   : 8
+[INFO] Model used            : lda
+[INFO] Dictionary used       : english
+[INFO] Input Field Used      : contents
+2016-04-11 00:00:00
+Generating model ...

@@ -45,6 +45,19 @@ model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args)
 
 is_english_word = load_from_dictionary(args.dictionary)
 
+import sys
+
+# class Logger(object):
+#     def __init__(self, filename="Default.log"):
+#         self.terminal = sys.stdout
+#         self.log = open(filename, "a")
+
+#     def write(self, message):
+#         self.terminal.write(message)
+#         self.log.write(message.encode("utf-8"))
+
+# sys.stdout = Logger("log.txt")
+
 print model_filename
 
 print "[INFO] Input File            :", args.filename
