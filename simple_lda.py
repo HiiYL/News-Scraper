@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 
 import pickle
 
+import pandas as pd
+
 
 
 
@@ -39,7 +41,7 @@ model_dir = os.path.join(dir, 'models/')
 dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
-all_words_dir = os.path.join(dir, 'allwords/')
+
 
 model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
 
@@ -72,31 +74,36 @@ print "[INFO] Input Field Used      :", args.input_field
 
 
 dataset_filepath = os.path.join(dataset_dir, args.filename)
-f = open(dataset_filepath)
-reader = unicodecsv.reader(f, encoding='utf-8')
 
-identifiers = reader.next()
-input_idx = identifiers.index(args.input_field)
-title_idx = identifiers.index("title")
+csv = pd.read_csv(dataset_filepath, encoding='utf-8')
 
-date_idx = identifiers.index("date")
+# f = open(dataset_filepath)
+# reader = unicodecsv.reader(f, encoding='utf-8')
 
-# category_idx = identifiers.index("categories")
+# identifiers = reader.next()
+# input_idx = identifiers.index(args.input_field)
+# title_idx = identifiers.index("title")
 
-# contents, titles, categories = zip(*[(row[input_idx], row[title_idx], row[category_idx]) for row in reader])
-contents, titles, dates = zip(*[(row[input_idx], row[title_idx], datetime.strptime(row[date_idx], '%Y-%m-%d')) for row in reader])
+# date_idx = identifiers.index("date")
+
+# # category_idx = identifiers.index("categories")
+
+# # contents, titles, categories = zip(*[(row[input_idx], row[title_idx], row[category_idx]) for row in reader])
+# contents, titles, dates = zip(*[(row[input_idx], row[title_idx], datetime.strptime(row[date_idx], '%Y-%m-%d')) for row in reader])
 # contents, titles = zip(*[(row[input_idx], row[title_idx]) for row in reader])
 
 # dates = ["wow"]
 
-print dates[0]
-texts = preprocess(contents, args.stemmer, is_english_word)
+contents = csv["contents"]
+titles = csv["title"]
+dates = csv["date"]
+
+# texts = preprocess(contents, args.stemmer, is_english_word)
+(texts, tokens) = preprocess(contents, args.stemmer, is_english_word)
 
 
-text_separated = [ item for innerlist in texts for item in innerlist ]
-with open(os.path.join(all_words_dir, args.filename + "_" + args.dictionary 
-  + "_" + args.input_field + ".txt"), 'wb') as outfile:
-  outfile.write("\n".join(text_separated).encode("UTF-8"))
+generate_allwords(texts, args)
+
 
 dictionary = corpora.Dictionary(texts)
 

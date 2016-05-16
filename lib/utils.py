@@ -2,7 +2,6 @@ import os
 import numpy as np
 import lda
 import csv
-from lib.utils import *
 from nltk.tokenize import RegexpTokenizer
 from gensim import corpora, models, similarities, matutils
 
@@ -41,10 +40,15 @@ model_dir = os.path.join(dir, 'models/')
 dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
+all_words_dir = os.path.join(dir, 'allwords/')
 
 _digits = re.compile('\d')
 def contains_digits(d):
     return bool(_digits.search(d))
+
+_contain_letters = re.compile('[a-zA-Z]')
+def contains_letters(d):
+  return bool(_contain_letters.search(d))
 
 
 def get_dict_dir(s):
@@ -53,14 +57,42 @@ def get_dict_dir(s):
 def get_exec_dir(s):
   return os.path.join(executable_dir, s)
 
-def preprocess(contents, stemmer, is_english_word):
-  # print "Preprocessing ..."
-  tokenizer = RegexpTokenizer(r'\w+')
-  texts = [ process_tokens(tokenizer.tokenize(word.lower()), stemmer,is_english_word) for word in contents ]
-  return texts
-
 with open(get_dict_dir("stop_words.txt")) as word_file:
   stop_words = set(word.strip().lower() for word in word_file)
+
+def preprocess(contents, stemmer, is_english_word):
+  print "WOW"
+  all_words_tokenized = [tokenize(text, is_english_word) for text in contents]
+  all_words_stemmed = [tokenize_and_stem(text,stemmer, is_english_word) for text in contents]
+
+  return all_words_tokenized, all_words_stemmed
+
+def tokenize_and_stem(text, stemmer="lemma", is_english_word=None):
+  if is_english_word == None:
+    is_english_word = load_from_dictionary("english")
+
+  tokenizer = RegexpTokenizer(r'\w+')
+  return stem(tokenize(text, is_english_word), stemmer)
+
+def tokenize(text, is_english_word):
+  tokenizer = RegexpTokenizer(r'\w+')
+  tokens = tokenizer.tokenize(text.lower())
+  filtered_tokens = [i for i in tokens if not i in stop_words and not contains_digits(i) and is_english_word(i)]
+  return filtered_tokens
+
+def stem(tokens, stemmer):
+  if stemmer == 'porter':
+    stemmer = PorterStemmer()
+    tokens = [stemmer.stem(i) for i in tokens]
+  elif stemmer == 'porter2':
+    tokens = [stem(i) for i in tokens]
+  elif stemmer == 'lemma':
+    lemmatiser = WordNetLemmatizer()
+    tokens = [lemmatiser.lemmatize(i) for i in tokens]
+
+  return tokens
+
+
 
 def load_model(model_path, model_type):
   if model_type == "lda":
@@ -86,18 +118,7 @@ def load_from_dictionary(dictionary):
         return word.lower() in english_words
   return is_english_word
 
-def process_tokens(tokens,stemmer,is_english_word):
-  en_stop = set(get_stop_words('en'))
-  tokens = [i for i in tokens if not i in stop_words and not contains_digits(i) and is_english_word(i)]
-  if stemmer == 'porter':
-    stemmer = PorterStemmer()
-    tokens = [stemmer.stem(i) for i in tokens]
-  elif stemmer == 'porter2':
-    tokens = [stem(i) for i in tokens]
-  elif stemmer == 'lemma':
-    lemmatiser = WordNetLemmatizer()
-    tokens = [lemmatiser.lemmatize(i) for i in tokens]
-  return tokens
+
 
 def generate_model(model_type, corpus, dictionary, num_topics, num_iter,dates="", timedelta=""):
   # my_timeslices = [237,237,237,237,237,237,237,237,237,237,237,239] #paultan
@@ -213,6 +234,12 @@ def write_to_dict(s):
   with open(s, 'wb') as output:
     for word in english_words:
         output.write(word+'\n')
+
+def generate_allwords(texts, args):
+  text_separated = [ item for innerlist in texts for item in innerlist ]
+  with open(os.path.join(all_words_dir, args.filename + "_" + args.dictionary 
+    + "_" + args.input_field + ".txt"), 'wb') as outfile:
+    outfile.write("\n".join(text_separated).encode("UTF-8"))
 
 
 
