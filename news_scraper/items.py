@@ -51,3 +51,9 @@ class BlogItem(scrapy.Item):
     contents = scrapy.Field()
     date = scrapy.Field()
     url = scrapy.Field()
+
+class KissmetricBlogItem(scrapy.Item):
+    author = scrapy.Field()
+    title = scrapy.Field()
+    contents = scrapy.Field()
+    url = scrapy.Field()

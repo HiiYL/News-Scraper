@@ -6,6 +6,7 @@ from scrapy.exceptions import CloseSpider
 
 class ComLuvSpider(SitemapSpider):
     name = 'comluv'
+    count = 0
     sitemap_urls = ['http://comluv.com/post-sitemap2.xml']
     # namespaces = [
     #     ('sm', 'http://www.sitemaps.org/schemas/sitemap/0.9'),
@@ -16,6 +17,9 @@ class ComLuvSpider(SitemapSpider):
       response.xpath(xpath)
 
     def parse(self, response):
+      if self.count > 50:
+        raise CloseSpider('sufficient_data_gathered')
+      self.count = self.count + 1
       item = BlogItem()
       # try:
       item['date'] = parse(response.xpath("//meta[@property='article:published_time']/@content").extract()[0]).date()

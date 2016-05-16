@@ -5,8 +5,8 @@ import datetime
 from scrapy.exceptions import CloseSpider
 
 class ShoutmeloadSpider(scrapy.Spider):
-    name = "shoutmeload"
-    from_date = datetime.date.today() - datetime.timedelta(6*365/12)
+    name = "shoutmeloud"
+    from_date = datetime.date.today() - datetime.timedelta(1*365/12)
     allowed_domains = ["shoutmeloud.com"]
     start_urls = [
         "http://www.shoutmeloud.com"

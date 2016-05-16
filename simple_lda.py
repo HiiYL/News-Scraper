@@ -31,6 +31,7 @@ parser.add_argument('-m', '--model', help='model used', default="lda", choices=l
 parser.add_argument('-d', '--dictionary', help='dictionary used', default='english', choices=list_of_dictionary_choices)
 parser.add_argument('-o', '--override', action='store_true')
 parser.add_argument('-ip', '--input_field', help='field_used_to_perform_lda', default='contents')
+# parser.add_argument('-sl', '--slice', help='slice of data', default=float("inf"))
 args = parser.parse_args()
 
 dir = os.getcwd()
@@ -58,7 +59,7 @@ import sys
 
 # sys.stdout = Logger("log.txt")
 
-print model_filename
+print(model_filename)
 
 print "[INFO] Input File            :", args.filename
 print "[INFO] Stemmer               :", args.stemmer
@@ -77,11 +78,16 @@ reader = unicodecsv.reader(f, encoding='utf-8')
 identifiers = reader.next()
 input_idx = identifiers.index(args.input_field)
 title_idx = identifiers.index("title")
+
 date_idx = identifiers.index("date")
+
 # category_idx = identifiers.index("categories")
 
 # contents, titles, categories = zip(*[(row[input_idx], row[title_idx], row[category_idx]) for row in reader])
 contents, titles, dates = zip(*[(row[input_idx], row[title_idx], datetime.strptime(row[date_idx], '%Y-%m-%d')) for row in reader])
+# contents, titles = zip(*[(row[input_idx], row[title_idx]) for row in reader])
+
+# dates = ["wow"]
 
 print dates[0]
 texts = preprocess(contents, args.stemmer, is_english_word)

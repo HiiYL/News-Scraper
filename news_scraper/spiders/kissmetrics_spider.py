@@ -1,5 +1,5 @@
 import scrapy
-from news_scraper.items import BlogItem
+from news_scraper.items import KissmetricBlogItem
 from dateutil.parser import parse
 import datetime
 from scrapy.exceptions import CloseSpider
@@ -29,7 +29,7 @@ class ShoutmeloadSpider(scrapy.Spider):
 
 
     def parse_dir_contents(self, response):
-        item = BlogItem()
+        item = KissmetricBlogItem()
         # item['date'] = parse(response.xpath("//meta[@property='article:published_time']/@content").extract()[0]).date()
         # if item['date'] < self.from_date:
         #   raise CloseSpider('sufficient_data_gathered')
