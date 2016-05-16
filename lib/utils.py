@@ -41,6 +41,7 @@ dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
 all_words_dir = os.path.join(dir, 'allwords/')
+tagged_dataset_dir = os.path.join(dir, 'tagged_datasets/')
 
 _digits = re.compile('\d')
 def contains_digits(d):
@@ -61,7 +62,6 @@ with open(get_dict_dir("stop_words.txt")) as word_file:
   stop_words = set(word.strip().lower() for word in word_file)
 
 def preprocess(contents, stemmer, is_english_word):
-  print "WOW"
   all_words_tokenized = [tokenize(text, is_english_word) for text in contents]
   all_words_stemmed = [tokenize_and_stem(text,stemmer, is_english_word) for text in contents]
 

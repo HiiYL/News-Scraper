@@ -34,5 +34,5 @@ class HubSpotSpider(scrapy.Spider):
         item['title'] = response.xpath('//*[@id="hs_cos_wrapper_name"]/text()').extract()[0].strip()
     	item['url'] = response.url
     	item['author'] = response.xpath('//*[@id="hubspot-author_data"]/a[1]/text()').extract()[0].strip()
-    	item['contents'] = (" ").join(response.xpath('//*[@id="hs_cos_wrapper_post_body"]/p/text()').extract()).strip()
+    	item['contents'] = (" ").join(response.xpath('//*[@id="hs_cos_wrapper_post_body"]//p//text()').extract()).strip()
     	yield item

@@ -41,6 +41,7 @@ model_dir = os.path.join(dir, 'models/')
 dataset_dir = os.path.join(dir, 'datasets/')
 dictionary_dir = os.path.join(dir, 'dictionaries/')
 executable_dir = os.path.join(dir, 'executables/')
+tagged_dataset_dir = os.path.join(dir, 'tagged_datasets/')
 
 
 model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
@@ -150,7 +151,7 @@ except IOError:
 show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
 
 
-output_dataset_path = os.path.join(dataset_dir, args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + args.filename)
+output_dataset_path = os.path.join(tagged_dataset_dir, args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + args.filename)
 if args.model == "lda":
   print "Saving changes to csv ... ",
   try:
