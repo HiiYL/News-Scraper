@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import pickle
 
 import pandas as pd
-
+import dateutil.relativedelta
 
 
 
@@ -33,6 +33,8 @@ parser.add_argument('-m', '--model', help='model used', default="lda", choices=l
 parser.add_argument('-d', '--dictionary', help='dictionary used', default='english', choices=list_of_dictionary_choices)
 parser.add_argument('-o', '--override', action='store_true')
 parser.add_argument('-ip', '--input_field', help='field_used_to_perform_lda', default='contents')
+parser.add_argument('-as', '--add_to_stopwords', help='input file to add to stopwords')
+parser.add_argument('-ad', '--add_to_dictionary', help='input file to add to dictionary')
 # parser.add_argument('-sl', '--slice', help='slice of data', default=float("inf"))
 args = parser.parse_args()
 
@@ -47,8 +49,9 @@ tagged_dataset_dir = os.path.join(dir, 'tagged_datasets/')
 model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
 
 
-is_english_word = load_from_dictionary(args.dictionary)
-
+is_english_word = load_from_dictionary(args.dictionary, args.add_to_dictionary)
+add_to_stopwords(args.add_to_stopwords)
+# print(get_dict_dir("wow"))
 import sys
 
 # class Logger(object):
@@ -72,11 +75,24 @@ print "[INFO] Number of top words   :", args.num_top_words
 print "[INFO] Model used            :", args.model
 print "[INFO] Dictionary used       :", args.dictionary
 print "[INFO] Input Field Used      :", args.input_field
+if args.add_to_stopwords:
+  print "[INFO] Added to stopwords    :", args.add_to_stopwords
+if args.add_to_dictionary:
+  print "[INFO] Added to dictionary   :", args.add_to_dictionary
 
 
 dataset_filepath = os.path.join(dataset_dir, args.filename)
 
-csv = pd.read_csv(dataset_filepath, encoding='utf-8')
+csv = pd.read_csv(dataset_filepath, encoding='utf-8',parse_dates=['date'])
+
+# date = csv['date'][0] -  dateutil.relativedelta.relativedelta(days=7)
+
+# temp_csv = csv.loc[ csv['date'] > date ]
+
+# csv = temp_csv
+print len(csv)
+print "Started training at " + str(datetime.now())
+
 
 # f = open(dataset_filepath)
 # reader = unicodecsv.reader(f, encoding='utf-8')
@@ -150,8 +166,12 @@ except IOError:
 # plt.show()
 show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
 
-
-output_dataset_path = os.path.join(tagged_dataset_dir, args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + args.filename)
+output_csv_filename = args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + args.dictionary + "_dictionary_" + args.filename
+if args.add_to_dictionary:
+  output_csv_filename = "dict-" + args.add_to_dictionary + "_" + output_csv_filename
+if args.add_to_stopwords:
+  output_csv_filename = "stopwords-" + args.add_to_stopwords + "_" + output_csv_filename
+output_dataset_path = os.path.join(tagged_dataset_dir, output_csv_filename)
 if args.model == "lda":
   print "Saving changes to csv ... ",
   try:

@@ -5,7 +5,7 @@ import csv
 from nltk.tokenize import RegexpTokenizer
 from gensim import corpora, models, similarities, matutils
 
-from stemming.porter2 import stem
+from stemming.porter2 import stem as porter_stem
 from nltk.stem import *
 import unicodecsv
 import re
@@ -17,15 +17,18 @@ import numpy as np
 
 # Using PyEnchant spell checker purpose
 import enchant
-from stop_words import get_stop_words
 
 from dateutil import parser
 from datetime import timedelta
+
+import pandas as pd
 # import logging
 # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
 #     level=logging.INFO)
 
 import scipy.stats as stats
+
+from collections import defaultdict
 # import matplotlib.pyplot as plt
 # import logging
 # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', 
@@ -60,6 +63,17 @@ def get_exec_dir(s):
 
 with open(get_dict_dir("stop_words.txt")) as word_file:
   stop_words = set(word.strip().lower() for word in word_file)
+
+def add_to_stopwords(input):
+  if input != None:
+    # print "ADDING TO STOPWORDS"
+    # print "Length of stopwords before", len(stop_words)
+    with open(get_dict_dir(input)) as word_file:
+      [ stop_words.add(word.strip().lower()) for word in word_file ]
+    # print "Length of stopwords after", len(stop_words)
+
+
+
 
 def preprocess(contents, stemmer, is_english_word):
   all_words_tokenized = [tokenize(text, is_english_word) for text in contents]
@@ -102,7 +116,7 @@ def load_model(model_path, model_type):
   return model
 
 # Or using the /usr/share/dict/british-english word list
-def load_from_dictionary(dictionary):
+def load_from_dictionary(dictionary, added_dictionary=None):
   if dictionary == "none":
     def is_english_word(word):
       return True
@@ -113,9 +127,11 @@ def load_from_dictionary(dictionary):
   else:
     with open(get_dict_dir(dictionary + "-english")) as word_file:
       english_words = set(word.strip().lower() for word in word_file)
-      # print(english_words)
-      def is_english_word(word):
-        return word.lower() in english_words
+    if added_dictionary != None:
+      with open(get_dict_dir(added_dictionary)) as word_file:
+        [ english_words.add(word.strip().lower()) for word in word_file ]
+    def is_english_word(word):
+      return word.lower() in english_words
   return is_english_word
 
 
@@ -162,6 +178,17 @@ def show_topics(model_type, model, num_topics, num_top_words,titles, corpus):
     print "Uh-oh unknown model detected, fix me at utils.py"
 
 def save(model,corpus,input_dataset_path, output_dataset_path):
+  print "Saving to " + output_dataset_path
+  # list_of_topic_id = []
+  # for topic in model.get_document_topics(corpus):
+  #   list_of_topic_id.append([str(max(topic,key=lambda item:item[1])[0])])
+
+  # df= pd.DataFrame({'topic': list_of_topic_id})
+
+  # # dataframe = dataframe.join(df)
+
+  # dataframe.to_csv(output_dataset_path, encoding='utf-8')
+
   with open(input_dataset_path, 'rb') as input, open(output_dataset_path, 'wb') as output:
     reader = unicodecsv.reader(input, encoding='utf-8')
     writer = unicodecsv.writer(output, encoding='utf-8')
@@ -242,4 +269,29 @@ def generate_allwords(texts, args):
     outfile.write("\n".join(text_separated).encode("UTF-8"))
 
 
+def remove_stems_from_file():
+  dir = os.getcwd()
+  dictionary_dir = os.path.join(dir, 'dictionaries/')
+  md = defaultdict(list)
+  with open(os.path.join(dictionary_dir, 'temp-extend-technology')) as f:
+    for word in f:
+      word = word.strip()
+      md[porter_stem(word)].append(word)
+  with open(os.path.join(dictionary_dir, 'temp-extend-technology-unique'), 'wb') as output:
+    for k,v in md.iteritems():
+      output.write(v[0] + "\n")
+      if len(v) > 1:
+        print v
 
+
+def remove_stems(text, output_file):
+  dictionary_dir = os.path.join(dir, 'dictionaries/')
+  md = defaultdict(list)
+  for word in text:
+    word = word.strip()
+    md[porter_stem(word)].append(word)
+  with open(os.path.join(dictionary_dir, output_file), 'wb') as output:
+    for k,v in md.iteritems():
+      output.write(v[0] + "\n")
+      if len(v) > 1:
+        print v
