@@ -34,6 +34,8 @@ parser.add_argument('-d', '--dictionary', help='dictionary used', nargs='+', def
 parser.add_argument('-ip', '--input_field', help='field_used_to_perform_lda', default='contents')
 parser.add_argument('-o', '--override', action='store_true')
 parser.add_argument('-as', '--add_to_stopwords', nargs='+', help='input file to add to stopwords')
+parser.add_argument('-f', '--frequency', default="1Y")
+parser.add_argument('-l', '--logging', action='store_true',default=False)
 # parser.add_argument('-ad', '--add_to_dictionary', help='input file to add to dictionary')
 # parser.add_argument('-sl', '--slice', help='slice of data', default=float("inf"))
 args = parser.parse_args()
@@ -51,19 +53,22 @@ model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args)
 
 is_english_word = load_from_dictionary(args.dictionary)
 add_to_stopwords(args.add_to_stopwords)
-# print(get_dict_dir("wow"))
 import sys
 
-# class Logger(object):
-#     def __init__(self, filename="Default.log"):
-#         self.terminal = sys.stdout
-#         self.log = open(filename, "a")
+if args.logging:
+  class Logger(object):
+      def __init__(self, filename="Default.log"):
+          self.terminal = sys.stdout
+          self.log = open(filename, "a")
 
-#     def write(self, message):
-#         self.terminal.write(message)
-#         self.log.write(message.encode("utf-8"))
+      def write(self, message):
+          self.terminal.write(message)
+          self.log.write(message.encode("utf-8"))
 
-# sys.stdout = Logger("log.txt")
+      def flush(self):
+          pass
+
+  sys.stdout = Logger("log_soya_6months.txt")
 
 print(model_filename)
 
@@ -84,101 +89,63 @@ if args.add_to_stopwords:
 dataset_filepath = os.path.join(dataset_dir, args.filename)
 
 csv = pd.read_csv(dataset_filepath, encoding='utf-8',parse_dates=['date'])
+csv = csv.set_index("date").sort_index()
 
-# date = csv['date'][0] -  dateutil.relativedelta.relativedelta(days=7)
-
-# temp_csv = csv.loc[ csv['date'] > date ]
-
-# csv = temp_csv
-print len(csv)
-print "Started training at " + str(datetime.now())
+temp = csv.groupby(pd.TimeGrouper(freq=args.frequency))
+weeksList = [temp.get_group(x) for x in temp.groups]
 
 
-# f = open(dataset_filepath)
-# reader = unicodecsv.reader(f, encoding='utf-8')
+for csv in weeksList:
+  if(len(csv) <= 1):
+    continue
 
-# identifiers = reader.next()
-# input_idx = identifiers.index(args.input_field)
-# title_idx = identifiers.index("title")
+  starting_date = str(csv.iloc[1].name.date())
+  print "Current Starting Date: " + starting_date
+  # print "Started training at " + str(datetime.now())
 
-# date_idx = identifiers.index("date")
+  contents = csv["contents"]
+  titles = csv["title"]
+  dates = csv.index
 
-# # category_idx = identifiers.index("categories")
-
-# # contents, titles, categories = zip(*[(row[input_idx], row[title_idx], row[category_idx]) for row in reader])
-# contents, titles, dates = zip(*[(row[input_idx], row[title_idx], datetime.strptime(row[date_idx], '%Y-%m-%d')) for row in reader])
-# contents, titles = zip(*[(row[input_idx], row[title_idx]) for row in reader])
-
-# dates = ["wow"]
-
-contents = csv["contents"]
-titles = csv["title"]
-dates = csv["date"]
-
-# texts = preprocess(contents, args.stemmer, is_english_word)
-(texts, tokens) = preprocess(contents, args.stemmer, is_english_word)
+  # texts = preprocess(contents, args.stemmer, is_english_word)
+  (texts, tokens) = preprocess(contents, args.stemmer, is_english_word)
 
 
-generate_allwords(texts, args)
+  generate_allwords(texts, args)
 
 
-dictionary = corpora.Dictionary(texts)
+  dictionary = corpora.Dictionary(texts)
 
-#remove extremes (similar to the min/max df step used when creating the tf-idf matrix)
-dictionary.filter_extremes(no_below=1, no_above=0.8)
+  #remove extremes (similar to the min/max df step used when creating the tf-idf matrix)
+  dictionary.filter_extremes(no_below=1, no_above=0.8)
 
-my_corpus = [dictionary.doc2bow(text) for text in texts]
-try:
-  model = load_model(model_filename, args.model)
-  if args.override:
-    raise IOError("Override flag set")
-except IOError:
-  print "Generating model ..."
-  model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
-  model.save(model_filename)
-
-
-
-# kl = arun(my_corpus,dictionary,max_topics=100)
-# #Plot kl divergence against number of topics
-# plt.plot(kl)
-# plt.ylabel('Symmetric KL Divergence')
-# plt.xlabel('Number of Topics')
-# plt.savefig('kldiv.png', bbox_inches='tight')
-# plt.show()
-
-# parameter_list = [ 50,150,200,250,300,1000]
-# preplexity_list = []
-# for parameter in parameter_list:
-#   args.num_iter = parameter
-#   model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
-#   try:
-#     model = load_model(model_filename, args.model)
-#     if args.override:
-#       raise IOError("Override flag set")
-#   except IOError:
-#     print "Generating model ..."
-#     model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
-#     model.save(model_filename)
-#   print model.bound(my_corpus)
-#   preplexity_list.append(model.bound(my_corpus))
-# plt.plot(parameter_list,preplexity_list)
-# plt.show()
-show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
-
-output_csv_filename = args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + (',').join(args.dictionary)+ "_dictionary_" + args.filename
-# if args.add_to_dictionary:
-#   output_csv_filename = "dict-" + args.add_to_dictionary + "_" + output_csv_filename
-if args.add_to_stopwords:
-  output_csv_filename = "stopwords-" + (',').join(args.add_to_stopwords) + "_" + output_csv_filename
-output_dataset_path = os.path.join(tagged_dataset_dir, output_csv_filename)
-if args.model == "lda":
-  print "Saving changes to csv ... ",
+  my_corpus = [dictionary.doc2bow(text) for text in texts]
   try:
-    print "found, skipped" 
-    f = open(output_dataset_path)
+    model = load_model(model_filename, args.model)
     if args.override:
       raise IOError("Override flag set")
   except IOError:
-    print "Done"
-    save(model, my_corpus, dataset_filepath, output_dataset_path)
+    print "Generating model ..."
+    model = generate_model(args.model, my_corpus, dictionary, args.num_topics, args.num_iter,dates, timedelta(days=7))
+    model.save(model_filename)
+
+  show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
+
+  output_csv_filename = args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + (',').join(args.dictionary)+ "_dictionary_" + args.filename
+  if args.add_to_stopwords:
+    output_csv_filename = "stopwords-" + (',').join(args.add_to_stopwords) + "_" + output_csv_filename
+  if args.frequency != '1Y':
+    output_csv_filename = starting_date + "_" + args.frequency + "_" + output_csv_filename
+
+  ##IMPLEMENT PROPER SAVE FUNCTION
+  output_dataset_path = os.path.join(tagged_dataset_dir, output_csv_filename)
+  if args.model == "lda":
+    print "Saving changes to csv ... ",
+    try:
+      print "found, skipped" 
+      f = open(output_dataset_path)
+      if args.override:
+        raise IOError("Override flag set")
+    except IOError:
+      print "Done"
+      save(model, my_corpus, csv, output_dataset_path)

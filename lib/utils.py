@@ -182,29 +182,14 @@ def show_topics(model_type, model, num_topics, num_top_words,titles, corpus):
   else:
     print "Uh-oh unknown model detected, fix me at utils.py"
 
-def save(model,corpus,input_dataset_path, output_dataset_path):
+def save(model,corpus,dataframe, output_dataset_path):
   print "Saving to " + output_dataset_path
-  # list_of_topic_id = []
-  # for topic in model.get_document_topics(corpus):
-  #   list_of_topic_id.append([str(max(topic,key=lambda item:item[1])[0])])
-
-  # df= pd.DataFrame({'topic': list_of_topic_id})
-
-  # # dataframe = dataframe.join(df)
-
-  # dataframe.to_csv(output_dataset_path, encoding='utf-8')
-
-  with open(input_dataset_path, 'rb') as input, open(output_dataset_path, 'wb') as output:
-    reader = unicodecsv.reader(input, encoding='utf-8')
-    writer = unicodecsv.writer(output, encoding='utf-8')
-
-    all = []
-    row = next(reader)
-    row.append('topic')
-    all.append(row)
-    for i, row in enumerate(reader):
-        all.append(row + [str(max(model.get_document_topics(corpus)[i],key=lambda item:item[1])[0])])
-    writer.writerows(all)
+  list_of_topic_id = []
+  for topic in model.get_document_topics(corpus):
+    list_of_topic_id.append([str(max(topic,key=lambda item:item[1])[0])])
+  topics=pd.Series(list_of_topic_id)
+  dataframe.assign(topic=topics.values)
+  dataframe.to_csv(output_dataset_path, encoding='utf-8')
 
 def get_model_with_arguments_filename(args):
   filename = (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
