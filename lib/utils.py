@@ -2,7 +2,7 @@ import os
 import numpy as np
 import lda
 import csv
-from nltk.tokenize import RegexpTokenizer
+import nltk
 from gensim import corpora, models, similarities, matutils
 
 from stemming.porter2 import stem as porter_stem
@@ -64,12 +64,13 @@ def get_exec_dir(s):
 with open(get_dict_dir("stop_words.txt")) as word_file:
   stop_words = set(word.strip().lower() for word in word_file)
 
-def add_to_stopwords(input):
-  if input != None:
+def add_to_stopwords(stopwords_list):
+  if stopwords_list != None:
     # print "ADDING TO STOPWORDS"
     # print "Length of stopwords before", len(stop_words)
-    with open(get_dict_dir(input)) as word_file:
-      [ stop_words.add(word.strip().lower()) for word in word_file ]
+    for file in stopwords_list:
+      with open(get_dict_dir(file)) as word_file:
+        [ stop_words.add(word.strip().lower()) for word in word_file ]
     # print "Length of stopwords after", len(stop_words)
 
 
@@ -85,14 +86,16 @@ def tokenize_and_stem(text, stemmer="lemma", is_english_word=None):
   if is_english_word == None:
     is_english_word = load_from_dictionary("english")
 
-  tokenizer = RegexpTokenizer(r'\w+')
+  tokenizer = nltk.RegexpTokenizer(r'\w+')
   return stem(tokenize(text, is_english_word), stemmer)
 
-def tokenize(text, is_english_word):
-  tokenizer = RegexpTokenizer(r'\w+')
+def tokenize(text, is_english_word, filter_verbs=False):
+  tokenizer = nltk.RegexpTokenizer(r'\w+')
   tokens = tokenizer.tokenize(text.lower())
   filtered_tokens = [i for i in tokens if not i in stop_words and not contains_digits(i) and is_english_word(i)]
-  return filtered_tokens
+  tagged = nltk.pos_tag(filtered_tokens)
+  filtered_tokens_no_verb = [ token[0] for token in tagged if token[-1] not in ["JJ","JJR", "JJS","RB", "RBR", "RBS","VB", "VBD", "VBG", "VBN", "VBP", "VBZ"] ]
+  return filtered_tokens_no_verb
 
 def stem(tokens, stemmer):
   if stemmer == 'porter':
@@ -116,20 +119,22 @@ def load_model(model_path, model_type):
   return model
 
 # Or using the /usr/share/dict/british-english word list
-def load_from_dictionary(dictionary, added_dictionary=None):
-  if dictionary == "none":
+def load_from_dictionary(dictionary_list):
+  if dictionary_list == "none":
     def is_english_word(word):
       return True
-  elif dictionary == "english":
+  elif dictionary_list == "english":
     d = enchant.Dict("en_US")
     def is_english_word(word):
       return d.check(word)
   else:
-    with open(get_dict_dir(dictionary + "-english")) as word_file:
-      english_words = set(word.strip().lower() for word in word_file)
-    if added_dictionary != None:
-      with open(get_dict_dir(added_dictionary)) as word_file:
+    english_words = set()
+    for dictionary in dictionary_list:
+      with open(get_dict_dir(dictionary)) as word_file:
         [ english_words.add(word.strip().lower()) for word in word_file ]
+    # if added_dictionary != None:
+    #   with open(get_dict_dir(added_dictionary)) as word_file:
+    #     [ english_words.add(word.strip().lower()) for word in word_file ]
     def is_english_word(word):
       return word.lower() in english_words
   return is_english_word
@@ -202,9 +207,12 @@ def save(model,corpus,input_dataset_path, output_dataset_path):
     writer.writerows(all)
 
 def get_model_with_arguments_filename(args):
-  return (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
-   "_" + "8" + "_" + str(args.num_topics)  + "_" + args.model + "_" + args.dictionary
+  filename = (args.filename.split('.')[0] + "_" + args.stemmer + "_" + str(args.num_iter) +
+   "_" + "8" + "_" + str(args.num_topics)  + "_" + args.model + "_" + (',').join(args.dictionary)
    + get_input_field(args)) ##hardcoded number_top_words to retain compatiblity with previously trained models
+  if args.add_to_stopwords:
+    filename += "_added_stopwords" + (",").join(args.add_to_stopwords)
+  return filename
 
 def get_input_field(args):
   if (args.input_field == "contents"):
@@ -264,7 +272,7 @@ def write_to_dict(s):
 
 def generate_allwords(texts, args):
   text_separated = [ item for innerlist in texts for item in innerlist ]
-  with open(os.path.join(all_words_dir, args.filename + "_" + args.dictionary 
+  with open(os.path.join(all_words_dir, args.filename + "_" + (',').join(args.dictionary)
     + "_" + args.input_field + ".txt"), 'wb') as outfile:
     outfile.write("\n".join(text_separated).encode("UTF-8"))
 

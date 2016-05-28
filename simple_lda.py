@@ -22,7 +22,7 @@ import dateutil.relativedelta
 
 list_of_stemmer_choices = ["none", "porter", "porter2", "lemma"]
 list_of_model_choices = ["lda", "dtm"]
-list_of_dictionary_choices = ["none", "technology", "automotive", "english", "extended-technology", "extended-automotive"]
+# list_of_dictionary_choices = ["none", "technology", "automotive", "english", "extended-technology", "extended-automotive"]
 parser = argparse.ArgumentParser(description='run LDA on an input csv file.')
 parser.add_argument('-i','--input',dest="filename", help='input CSV file', required=True)
 parser.add_argument('-s','--stemmer', help='pick stemmer', default="lemma", choices=list_of_stemmer_choices)
@@ -30,11 +30,11 @@ parser.add_argument('-ni','--num_iter', help='number of iterations', default="50
 parser.add_argument('-ntw','--num_top_words', help='number of top_words', default="8")
 parser.add_argument('-nt','--num_topics', help='number of topics', default="10")
 parser.add_argument('-m', '--model', help='model used', default="lda", choices=list_of_model_choices)
-parser.add_argument('-d', '--dictionary', help='dictionary used', default='english', choices=list_of_dictionary_choices)
-parser.add_argument('-o', '--override', action='store_true')
+parser.add_argument('-d', '--dictionary', help='dictionary used', nargs='+', default='english')
 parser.add_argument('-ip', '--input_field', help='field_used_to_perform_lda', default='contents')
-parser.add_argument('-as', '--add_to_stopwords', help='input file to add to stopwords')
-parser.add_argument('-ad', '--add_to_dictionary', help='input file to add to dictionary')
+parser.add_argument('-o', '--override', action='store_true')
+parser.add_argument('-as', '--add_to_stopwords', nargs='+', help='input file to add to stopwords')
+# parser.add_argument('-ad', '--add_to_dictionary', help='input file to add to dictionary')
 # parser.add_argument('-sl', '--slice', help='slice of data', default=float("inf"))
 args = parser.parse_args()
 
@@ -49,7 +49,7 @@ tagged_dataset_dir = os.path.join(dir, 'tagged_datasets/')
 model_filename = os.path.join(model_dir, get_model_with_arguments_filename(args))
 
 
-is_english_word = load_from_dictionary(args.dictionary, args.add_to_dictionary)
+is_english_word = load_from_dictionary(args.dictionary)
 add_to_stopwords(args.add_to_stopwords)
 # print(get_dict_dir("wow"))
 import sys
@@ -73,12 +73,12 @@ print "[INFO] Number of iterations  :", args.num_iter
 print "[INFO] Number of topics      :", args.num_topics
 print "[INFO] Number of top words   :", args.num_top_words
 print "[INFO] Model used            :", args.model
-print "[INFO] Dictionary used       :", args.dictionary
+print "[INFO] Dictionary used       :", (',').join(args.dictionary)
 print "[INFO] Input Field Used      :", args.input_field
 if args.add_to_stopwords:
-  print "[INFO] Added to stopwords    :", args.add_to_stopwords
-if args.add_to_dictionary:
-  print "[INFO] Added to dictionary   :", args.add_to_dictionary
+  print "[INFO] Added to stopwords    :", (',').join(args.add_to_stopwords)
+# if args.add_to_dictionary:
+#   print "[INFO] Added to dictionary   :", args.add_to_dictionary
 
 
 dataset_filepath = os.path.join(dataset_dir, args.filename)
@@ -166,11 +166,11 @@ except IOError:
 # plt.show()
 show_topics(args.model, model, args.num_topics, args.num_top_words, titles, my_corpus)
 
-output_csv_filename = args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + args.dictionary + "_dictionary_" + args.filename
-if args.add_to_dictionary:
-  output_csv_filename = "dict-" + args.add_to_dictionary + "_" + output_csv_filename
+output_csv_filename = args.num_iter + "_" + "iter_" + args.num_topics + "_topics_" + (',').join(args.dictionary)+ "_dictionary_" + args.filename
+# if args.add_to_dictionary:
+#   output_csv_filename = "dict-" + args.add_to_dictionary + "_" + output_csv_filename
 if args.add_to_stopwords:
-  output_csv_filename = "stopwords-" + args.add_to_stopwords + "_" + output_csv_filename
+  output_csv_filename = "stopwords-" + (',').join(args.add_to_stopwords) + "_" + output_csv_filename
 output_dataset_path = os.path.join(tagged_dataset_dir, output_csv_filename)
 if args.model == "lda":
   print "Saving changes to csv ... ",
