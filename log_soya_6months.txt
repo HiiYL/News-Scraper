@@ -1,696 +1,529 @@
-/Users/Hii/Projects/news_scraper/models/soya_6_months_lemma_50_8_10_lda_extended-technology,soya_month_tf_idf_contents_words
+/Users/Hii/Projects/news_scraper/models/soya_6_months_lemma_50_8_4_lda_extended-technology,soya_month_tf_idf_contents_words
 [INFO] Input File            : soya_6_months.csv
 [INFO] Stemmer               : lemma
 [INFO] Number of iterations  : 50
-[INFO] Number of topics      : 10
+[INFO] Number of topics      : 4
 [INFO] Number of top words   : 8
 [INFO] Model used            : lda
 [INFO] Dictionary used       : extended-technology,soya_month_tf_idf_contents_words
 [INFO] Input Field Used      : contents
 Current Starting Date: 2016-03-28
 Generating model ...
-/Users/Hii/Projects/news_scraper/models/soya_6_months_lemma_50_8_10_lda_extended-technology,soya_month_tf_idf_contents_words
-[INFO] Input File            : soya_6_months.csv
-[INFO] Stemmer               : lemma
-[INFO] Number of iterations  : 50
-[INFO] Number of topics      : 10
-[INFO] Number of top words   : 8
-[INFO] Model used            : lda
-[INFO] Dictionary used       : extended-technology,soya_month_tf_idf_contents_words
-[INFO] Input Field Used      : contents
-Current Starting Date: 2016-03-28
-Generating model ...
-Topic #0 : tip idea wave start scanner source experience ll
-Topic #1 : order windows tip ll market performance camera thing
-Topic #2 : broadband time internet speed customer source information network
-Topic #3 : display thing people number life question camera image
-Topic #4 : design brand product source image end world information
-Topic #5 : experience broadband tip hardware product router site wireless
-Topic #6 : version end access data mobile don network experience
-Topic #7 : camera storage processor display source resolution world screen
-Topic #8 : note storage sale delivery version source time option
-Topic #9 : display scanner source camera question thing market year
+Topic #0 : broadband time speed internet customer access experience end
+Topic #1 : delivery information page data product brand day app
+Topic #2 : note camera display storage source time online processor
+Topic #3 : storage source note camera processor display information world
 
-0 :  6 reasons why this is the most talked about postpaid plan (top topic: 6)
-1 :  OPPO Malaysia CEO teases F1 Plus — looks exactly like the R9 (top topic: 9)
-2 :  HTC 10 to have a Snapdragon 652 variant (top topic: 7)
-3 :  Compared: Fibre broadband services in Malaysia — TM vs TIME vs Maxis vs Celcom (top topic: 2)
-4 :  Xiaomi Redmi Note 3 Malaysian price revealed (top topic: 8)
-5 :  New MaxisOne Home Fibre Broadband aims to deliver the best experience all the time (top topic: 5)
-6 :  5 things that you may not know were designed by Malaysians (top topic: 4)
-7 :  Samsung’s Galaxy J5 and J7 receive the upgrades they deserve (top topic: 7)
-8 :  Xiaomi Redmi Note 3 goes on sale in Malaysia on 6 April from RM749 (top topic: 8)
-9 :  Xiaomi’s Redmi 3 Pro packs more power and a fingerprint scanner (top topic: 7)
+0 :  6 reasons why this is the most talked about postpaid plan (top topic: 1)
+1 :  OPPO Malaysia CEO teases F1 Plus — looks exactly like the R9 (top topic: 3)
+2 :  HTC 10 to have a Snapdragon 652 variant (top topic: 3)
+3 :  Compared: Fibre broadband services in Malaysia — TM vs TIME vs Maxis vs Celcom (top topic: 0)
+4 :  Xiaomi Redmi Note 3 Malaysian price revealed (top topic: 2)
+5 :  New MaxisOne Home Fibre Broadband aims to deliver the best experience all the time (top topic: 0)
+6 :  5 things that you may not know were designed by Malaysians (top topic: 3)
+7 :  Samsung’s Galaxy J5 and J7 receive the upgrades they deserve (top topic: 3)
+8 :  Xiaomi Redmi Note 3 goes on sale in Malaysia on 6 April from RM749 (top topic: 3)
+9 :  Xiaomi’s Redmi 3 Pro packs more power and a fingerprint scanner (top topic: 3)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-28_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-28_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2015-12-07
 Generating model ...
-Topic #0 : camera storage image ll display keyboard pixel shell
-Topic #1 : storage keyboard display camera terms image flash shell
-Topic #2 : pixel keyboard experience camera market screen information resolution
-Topic #3 : network year mobile experience download data ll access
-Topic #4 : movie store internet connectivity storage end data mind
-Topic #5 : don store market quality online offer source experience
-Topic #6 : experience pixel screen year terms resolution storage version
-Topic #7 : eye experience find order processor information link page
-Topic #8 : ll source time year note point check people
-Topic #9 : note day source software time pixel screen sale
+Topic #0 : source time storage image company check display offer
+Topic #1 : experience year network market camera time pixel terms
+Topic #2 : note pixel keyboard source storage screen day support
+Topic #3 : ll movie internet software store data don online
 
-0 :  Win yourself a Star Wars BB-8 Droid from Maxis (top topic: 5)
-1 :  Celcom rewards its FIRST postpaid and Xpax subscribers with loads of free movie tickets (top topic: 4)
-2 :  Xiaomi kicks off its 2 day Christmas sale this week with new arrivals (top topic: 9)
-3 :  Who says you can’t teach an old Note new tricks? (top topic: 9)
-4 :  The Huawei Watch has finally arrived (top topic: 7)
-5 :  6 reasons to buy the Nexus 6P (top topic: 5)
-6 :  Camera shootout: The Nexus 6P meets the competition (top topic: 0)
+0 :  Win yourself a Star Wars BB-8 Droid from Maxis (top topic: 3)
+1 :  Celcom rewards its FIRST postpaid and Xpax subscribers with loads of free movie tickets (top topic: 3)
+2 :  Xiaomi kicks off its 2 day Christmas sale this week with new arrivals (top topic: 2)
+3 :  Who says you can’t teach an old Note new tricks? (top topic: 2)
+4 :  The Huawei Watch has finally arrived (top topic: 2)
+5 :  6 reasons to buy the Nexus 6P (top topic: 2)
+6 :  Camera shootout: The Nexus 6P meets the competition (top topic: 3)
 7 :  BlackBerry launches the much anticipated PRIV in Malaysia (top topic: 0)
-8 :  The Nexus 6P with its pure Android experience has arrived in Malaysia (top topic: 2)
-9 :  The Nexus 6P: the cleanest, most functional Android experience to date (top topic: 5)
+8 :  The Nexus 6P with its pure Android experience has arrived in Malaysia (top topic: 1)
+9 :  The Nexus 6P: the cleanest, most functional Android experience to date (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-07_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-07_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-03-14
 Generating model ...
-Topic #0 : camera brand thing time storage company cookie back
-Topic #1 : camera storage processor source screen information design version
-Topic #2 : experience thing camera note market display performance quality
-Topic #3 : time world day internet order wireless connectivity router
-Topic #4 : world performance time check camera source review video
-Topic #5 : network source work time experience data mobile option
-Topic #6 : data internet mobile page tip format surf lot
-Topic #7 : year offer information start top sale ll page
-Topic #8 : camera experience thing note end version line people
-Topic #9 : windows experience customer support source review software app
+Topic #0 : windows network experience people customer work source support
+Topic #1 : camera storage processor source world thing video information
+Topic #2 : world experience internet day wireless information design ll
+Topic #3 : data time mobile internet option source network experience
 
-0 :  This black box will help you stay connected during floods (top topic: 5)
-1 :  U Mobile’s Hero Postpaid now offers 15GB of data at RM70/month (top topic: 6)
+0 :  This black box will help you stay connected during floods (top topic: 0)
+1 :  U Mobile’s Hero Postpaid now offers 15GB of data at RM70/month (top topic: 3)
 2 :  OPPO R9 Plus to be powered by a Snapdragon 652 processor (top topic: 1)
-3 :  Sony’s Concept N headphones are the Google Glass for your ears (top topic: 8)
-4 :  Samsung rolls out Android Marshmallow for the Galaxy S6 edge+ in Malaysia (top topic: 4)
+3 :  Sony’s Concept N headphones are the Google Glass for your ears (top topic: 2)
+4 :  Samsung rolls out Android Marshmallow for the Galaxy S6 edge+ in Malaysia (top topic: 3)
 5 :  Is Samsung planning to kill the iPhone SE with the Galaxy S7 mini? (top topic: 1)
-6 :  Samsung Galaxy S7 edge review: The best smartphone money can buy (top topic: 8)
+6 :  Samsung Galaxy S7 edge review: The best smartphone money can buy (top topic: 1)
 7 :  The Huawei Mate 8 is now available from Maxis (top topic: 1)
-8 :  Digi currently ranks #1 in coverage by OpenSignal but… (top topic: 5)
-9 :  Celcom and Xpax offer 2 months free iflix to all customers (top topic: 7)
+8 :  Digi currently ranks #1 in coverage by OpenSignal but… (top topic: 3)
+9 :  Celcom and Xpax offer 2 months free iflix to all customers (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-14_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-14_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-05-23
 Generating model ...
-Topic #0 : flash note performance storage experience processor screen point
-Topic #1 : storage camera display projector video source check processor
-Topic #2 : trust information access password week brand source thing
-Topic #3 : camera source display version market storage order keyboard
-Topic #4 : time video resolution camera scanner source year host
-Topic #5 : people account quality number access mobile call connectivity
-Topic #6 : call connection number work mobile connectivity display download
-Topic #7 : time activity terms ll life day comment back
-Topic #8 : camera source display version storage market order flash
-Topic #9 : order brand twitter source idea electronics browser don
+Topic #0 : display storage projector camera people ll video processor
+Topic #1 : flash storage camera note point processor display performance
+Topic #2 : time brand trust order video source check activity
+Topic #3 : call time connection number work mobile note camera
 
 0 :  Lenovo brings out another attractive budget device in the Vibe K5 (top topic: 1)
-1 :  Lenovo Pocket Projector review: For most, it’s a want not a need (top topic: 1)
-2 :  Here’s how to activate WiFi calling on your iPhone (top topic: 6)
-3 :  Is Moto bringing back their iconic Razr flip phone? (top topic: 1)
-4 :  Samsung Galaxy Note 4 gets Android Marshmallow in Malaysia (top topic: 0)
+1 :  Lenovo Pocket Projector review: For most, it’s a want not a need (top topic: 0)
+2 :  Here’s how to activate WiFi calling on your iPhone (top topic: 3)
+3 :  Is Moto bringing back their iconic Razr flip phone? (top topic: 2)
+4 :  Samsung Galaxy Note 4 gets Android Marshmallow in Malaysia (top topic: 3)
 5 :  OPPO is putting their original Selfie Expert F1 on sale (top topic: 1)
-6 :  Samsung slashes RM2,000 off their TVs but the retail price will shock you (top topic: 2)
-7 :  Oppo F1 Plus Barcelona Edition emerges, will be available in red and grey (top topic: 1)
+6 :  Samsung slashes RM2,000 off their TVs but the retail price will shock you (top topic: 1)
+7 :  Oppo F1 Plus Barcelona Edition emerges, will be available in red and grey (top topic: 0)
 8 :  Google wants to nix password logins for Android Apps (top topic: 2)
-9 :  Xiaomi teases their upcoming drone in new video (top topic: 1)
+9 :  Xiaomi teases their upcoming drone in new video (top topic: 2)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-23_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-23_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-02-22
 Generating model ...
-Topic #0 : time people display world year source post screen
-Topic #1 : windows interface mobile year internet store keyboard check
-Topic #2 : display performance camera processor storage market brand support
-Topic #3 : people computer day ll camera memory company privacy
-Topic #4 : number ll option source check call mobile record
-Topic #5 : storage camera processor support world flash display life
-Topic #6 : camera market image world photography simple people research
-Topic #7 : ipad data line world information mind day network
-Topic #8 : screen storage time display work video processor pixel
-Topic #9 : resolution display work camera windows terms time software
+Topic #0 : world data camera image privacy information year encryption
+Topic #1 : windows life ll number internet time app mobile
+Topic #2 : market people ipad video world line post source
+Topic #3 : camera storage display processor time performance support screen
 
-0 :  HTC’s speckly new Desires are pretty basic phones (top topic: 0)
-1 :  Acer’s new flagship borrows the power of the cloud to keep it clutter-free (top topic: 5)
-2 :  Samsung Galaxy S7 and S7 edge may arrive in Malaysia next month (top topic: 2)
-3 :  Test footage from Samsung’s new Gear 360 is pretty impressive (top topic: 8)
-4 :  What’s so different about Marshmallow on the LG G5? (top topic: 3)
-5 :  CONFIRMED: Samsung Galaxy S7 Malaysian launch happening on 18th March (top topic: 9)
-6 :  Sony updates its smartphone lineup for 2016 with the Xperia X series (top topic: 2)
-7 :  Sony’s smart product concepts are mighty intelligent (top topic: 3)
-8 :  Lenovo’s TAB3 series are tablets on the cheap (top topic: 8)
-9 :  Exploring the modular and peripheral world with LG Friends (top topic: 5)
+0 :  HTC’s speckly new Desires are pretty basic phones (top topic: 3)
+1 :  Acer’s new flagship borrows the power of the cloud to keep it clutter-free (top topic: 3)
+2 :  Samsung Galaxy S7 and S7 edge may arrive in Malaysia next month (top topic: 3)
+3 :  Test footage from Samsung’s new Gear 360 is pretty impressive (top topic: 2)
+4 :  What’s so different about Marshmallow on the LG G5? (top topic: 2)
+5 :  CONFIRMED: Samsung Galaxy S7 Malaysian launch happening on 18th March (top topic: 3)
+6 :  Sony updates its smartphone lineup for 2016 with the Xperia X series (top topic: 3)
+7 :  Sony’s smart product concepts are mighty intelligent (top topic: 1)
+8 :  Lenovo’s TAB3 series are tablets on the cheap (top topic: 3)
+9 :  Exploring the modular and peripheral world with LG Friends (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-22_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-22_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-01-04
 Generating model ...
-Topic #0 : camera year source company time design sale cam
-Topic #1 : camera processor storage sense source information screen video
-Topic #2 : source people processor media version year action support
-Topic #3 : ll year link wireless don store source version
-Topic #4 : zoom display lot monitor screen resolution video camera
-Topic #5 : app ll quality person terms time source world
-Topic #6 : note time mobile day broadband don support experience
-Topic #7 : note version work source day option support don
-Topic #8 : camera video time image data life company lot
-Topic #9 : ll source keyboard year people mouse time line
+Topic #0 : camera time source note ll zoom display processor
+Topic #1 : people source year media work ll time don
+Topic #2 : data link resolution screen ll day life mobile
+Topic #3 : camera video source time image keyboard year company
 
-0 :  Is Samsung mad enough? (top topic: 8)
-1 :  Why is your baby crying? There’s an app for that (top topic: 5)
-2 :  Soon, you could swat flies with a TV screen (top topic: 4)
-3 :  You can still enjoy Free Internet Roaming on U Mobile (top topic: 6)
-4 :  Top 5 drone developments to watch out for this year (top topic: 2)
-5 :  Mysterious devices teased ahead of Huawei’s CES announcement (top topic: 9)
-6 :  U Mobile continues to give 1GB extra for all Prepaid UMI users (top topic: 6)
-7 :  Paying too much attention to your phone could cost you your life (top topic: 2)
-8 :  OPPO to launch its all new F series smartphone this month (top topic: 0)
-9 :  Acer introduces World’s First USB Type-C Monitors (top topic: 4)
+0 :  Is Samsung mad enough? (top topic: 0)
+1 :  Why is your baby crying? There’s an app for that (top topic: 0)
+2 :  Soon, you could swat flies with a TV screen (top topic: 2)
+3 :  You can still enjoy Free Internet Roaming on U Mobile (top topic: 2)
+4 :  Top 5 drone developments to watch out for this year (top topic: 0)
+5 :  Mysterious devices teased ahead of Huawei’s CES announcement (top topic: 3)
+6 :  U Mobile continues to give 1GB extra for all Prepaid UMI users (top topic: 2)
+7 :  Paying too much attention to your phone could cost you your life (top topic: 1)
+8 :  OPPO to launch its all new F series smartphone this month (top topic: 3)
+9 :  Acer introduces World’s First USB Type-C Monitors (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-04_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-04_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-05-03
 Generating model ...
-Topic #0 : data video line mobile quality option note approach
-Topic #1 : display processor graphics keyboard storage projector time windows
-Topic #2 : camera company year storage site search source store
-Topic #3 : camera action storage source note display company sale
-Topic #4 : time people hacker app day world media option
-Topic #5 : time make lot store performance number support order
-Topic #6 : app router connection source time modem don online
-Topic #7 : display graphics windows projector video processor memory keyboard
-Topic #8 : keyboard thing year option app mind cursor check
-Topic #9 : internet data line source version time top offer
+Topic #0 : data line video internet action camera hacker day
+Topic #1 : camera display processor storage lot app source screen
+Topic #2 : display time storage camera video projector processor security
+Topic #3 : time keyboard source app sale thing life company
 
 0 :  Compared: Best postpaid plans with unlimited calls and lots of data for you and your family (top topic: 0)
-1 :  Google Keyboard’s new update brings awesome new features (top topic: 8)
-2 :  Xiaomi now has a smartwatch for the kids (top topic: 9)
+1 :  Google Keyboard’s new update brings awesome new features (top topic: 3)
+2 :  Xiaomi now has a smartwatch for the kids (top topic: 3)
 3 :  If you’re in the market for a portable workhorse, Acer’s got two strong choices (top topic: 1)
-4 :  Track your steps with the help of a familiar Italian plumber (top topic: 4)
+4 :  Track your steps with the help of a familiar Italian plumber (top topic: 3)
 5 :  Apple’s iPhone SE will officially go on sale in Malaysia on 13 May (top topic: 3)
-6 :  The OnePlus 3 to have two RAM variants, will be slightly cheaper than the OnePlus 2 (top topic: 9)
-7 :  5 Things you can do with the honor 5X’s fingerprint sensor (top topic: 5)
+6 :  The OnePlus 3 to have two RAM variants, will be slightly cheaper than the OnePlus 2 (top topic: 3)
+7 :  5 Things you can do with the honor 5X’s fingerprint sensor (top topic: 2)
 8 :  The Samsung Galaxy Note 6 rumoured to have USB Type-C connector (top topic: 3)
-9 :  U Mobile offers the iPhone SE from RM705 with easy payment options available (top topic: 0)
+9 :  U Mobile offers the iPhone SE from RM705 with easy payment options available (top topic: 3)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-03_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-03_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-04-04
 Generating model ...
-Topic #0 : ipad check record terms video year store app
-Topic #1 : encryption mobile network broadband end source ll support
-Topic #2 : video design mind source week offer site lot
-Topic #3 : camera source broadband network performance end don word
-Topic #4 : data day offer page time mobile word video
-Topic #5 : camera note order market time processor day build
-Topic #6 : data week time internet offer page customer network
-Topic #7 : source people image order page mind design line
-Topic #8 : source don support product store time goal windows
-Topic #9 : camera storage brand year display photography information company
+Topic #0 : encryption camera broadband source network end don mobile
+Topic #1 : camera storage display ipad order store terms processor
+Topic #2 : note year line terms time market offer minute
+Topic #3 : data day offer time internet page network week
 
 0 :  Maxis responds to accusation of giving special offers to those that port out (top topic: 3)
-1 :  Leica branded Huawei P9 spotted in the wild (top topic: 3)
-2 :  TM promises an exciting mobile offering is coming (top topic: 1)
-3 :  The OPPO F1 Plus is up for pre-orders now (top topic: 5)
+1 :  Leica branded Huawei P9 spotted in the wild (top topic: 0)
+2 :  TM promises an exciting mobile offering is coming (top topic: 0)
+3 :  The OPPO F1 Plus is up for pre-orders now (top topic: 1)
 4 :  HTC 10 will have the best boom sound yet (top topic: 1)
-5 :  TM UniFi Advance subscription now starts from RM199/month (top topic: 0)
-6 :  Xiaomi Redmi Note 3 review: Best smartphone on a budget? (top topic: 5)
-7 :  Huawei Mate 8 review: Bigger is better (top topic: 3)
-8 :  Xiaomi’s new Mi Pad is more than meets the eye (top topic: 8)
-9 :  iPhone SE and iPad Pro 9.7 official Malaysian pricing revealed (top topic: 0)
+5 :  TM UniFi Advance subscription now starts from RM199/month (top topic: 2)
+6 :  Xiaomi Redmi Note 3 review: Best smartphone on a budget? (top topic: 2)
+7 :  Huawei Mate 8 review: Bigger is better (top topic: 0)
+8 :  Xiaomi’s new Mi Pad is more than meets the eye (top topic: 0)
+9 :  iPhone SE and iPad Pro 9.7 official Malaysian pricing revealed (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-04_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-04_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2015-12-21
 Generating model ...
-Topic #0 : internet data ipad year program version access network
-Topic #1 : image people time source software thing problem laser
-Topic #2 : camera application experience people line processor display storage
-Topic #3 : people company lot product delivery terms don mind
-Topic #4 : camera software time source program field page storage
-Topic #5 : ipad user source time brand check store keyboard
-Topic #6 : internet data movie end mind escape network mobile
-Topic #7 : time source software storage experience year mind version
-Topic #8 : time source software storage experience year mind version
-Topic #9 : time life performance world camera point join option
+Topic #0 : internet data people ipad source movie user network
+Topic #1 : camera time ipad application display processor storage line
+Topic #2 : program time software source version year end interface
+Topic #3 : position brand camera field market version hardware source
 
-0 :  Time to add some toppings to your vanilla Android experience (top topic: 2)
-1 :  So this is what happens when a Nexus device has a meltdown (top topic: 5)
-2 :  Here’s how you can get Android Marshmallow on your honor 7 (top topic: 4)
-3 :  Weekends will never be the same again with Celcom’s new FIRST Plans (top topic: 6)
-4 :  Get an iPhone 6s with no upfront payment with Maxis Zerolution (top topic: 0)
-5 :  Lenovo’s smartphone with dual selfie cam is finally here (top topic: 4)
-6 :  Soon all Chinese smartphones might look the same (top topic: 0)
+0 :  Time to add some toppings to your vanilla Android experience (top topic: 0)
+1 :  So this is what happens when a Nexus device has a meltdown (top topic: 0)
+2 :  Here’s how you can get Android Marshmallow on your honor 7 (top topic: 2)
+3 :  Weekends will never be the same again with Celcom’s new FIRST Plans (top topic: 0)
+4 :  Get an iPhone 6s with no upfront payment with Maxis Zerolution (top topic: 2)
+5 :  Lenovo’s smartphone with dual selfie cam is finally here (top topic: 1)
+6 :  Soon all Chinese smartphones might look the same (top topic: 2)
 7 :  Malaysia’s broadband still lags behind (top topic: 0)
-8 :  Christmas comes early for Tune Talk employees (top topic: 5)
-9 :  Make your Mate S blush a little this holiday season (top topic: 9)
+8 :  Christmas comes early for Tune Talk employees (top topic: 1)
+9 :  Make your Mate S blush a little this holiday season (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-21_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-21_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-01-26
 Generating model ...
-Topic #0 : ll time source wireless year people search video
-Topic #1 : network display version app user time access option
-Topic #2 : data app time line year information performance mobile
-Topic #3 : domain year line book idea source point brand
-Topic #4 : word problem don record keyboard source people version
-Topic #5 : storage processor camera display screen design brand terms
-Topic #6 : browser software search bug application problem security crash
-Topic #7 : camera screen display source lot scanner end sale
-Topic #8 : note market windows post life information don people
-Topic #9 : source version processor display camera lot tip click
+Topic #0 : screen word keyboard source problem resolution people research
+Topic #1 : ll time year source wireless information people option
+Topic #2 : storage display camera processor screen source market line
+Topic #3 : browser network data year app record source software
 
-0 :  Android Marshmallow update timeline for Samsung devices leaked (top topic: 8)
-1 :  Xiaomi Mi 5 to be launched on 24th February (top topic: 5)
-2 :  Acer Predator 8 Review: Made for fun (top topic: 5)
-3 :  The honor 5X and honor 7 Enhanced have hit Malaysian shores (top topic: 5)
-4 :  Microsoft’s iOS keyboard may have the most brilliant one-handed typing solution yet (top topic: 4)
-5 :  Can Uber replace your car? (top topic: 0)
-6 :  Everything the 4-inch iPhone 5se could be and more (top topic: 7)
-7 :  honor 5X hands-on and first impressions (top topic: 7)
-8 :  More free iflix, this time it’s for Digi subscribers (top topic: 2)
-9 :  A smartphone case that’s perfect for a whistleblower (top topic: 4)
+0 :  Android Marshmallow update timeline for Samsung devices leaked (top topic: 1)
+1 :  Xiaomi Mi 5 to be launched on 24th February (top topic: 2)
+2 :  Acer Predator 8 Review: Made for fun (top topic: 0)
+3 :  The honor 5X and honor 7 Enhanced have hit Malaysian shores (top topic: 2)
+4 :  Microsoft’s iOS keyboard may have the most brilliant one-handed typing solution yet (top topic: 0)
+5 :  Can Uber replace your car? (top topic: 1)
+6 :  Everything the 4-inch iPhone 5se could be and more (top topic: 2)
+7 :  honor 5X hands-on and first impressions (top topic: 2)
+8 :  More free iflix, this time it’s for Digi subscribers (top topic: 3)
+9 :  A smartphone case that’s perfect for a whistleblower (top topic: 3)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-26_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-26_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-01-18
 Generating model ...
-Topic #0 : line camera storage display year design processor end
-Topic #1 : ll source store people don time projector app
-Topic #2 : note year ll source version number day lot
-Topic #3 : internet source data time version lot speed minute
-Topic #4 : benefit cam save source research action application lead
-Topic #5 : time people house end program default zip database
-Topic #6 : display storage screen camera thing processor flash video
-Topic #7 : world lot people line windows keyboard capture desktop
-Topic #8 : app camera application access source performance screen life
-Topic #9 : processor post source product point time ll information
+Topic #0 : camera processor storage display screen source time line
+Topic #1 : app internet source application access ll version projector
+Topic #2 : ll store source year note option time don
+Topic #3 : time video source people information keyboard program software
 
-0 :  You might have to wait a little longer for the Apple Watch 2.0 (top topic: 9)
-1 :  Sony’s Xperia Z5 & Z5 Compact won’t come with fingerprint sensors in the US: We think we know why (top topic: 1)
-2 :  The Lumia 650 could be the last Lumia device of 2016, but that may not be such a bad thing (top topic: 2)
-3 :  ASUS ZenWatch 2 to go on sale in Malaysia for less than RM900 (top topic: 6)
-4 :  Sometimes it’s all about the feel: What’s the best phone you’ve held? (top topic: 2)
-5 :  Samsung’s Galaxy S7 duo gets listed by Indonesia’s FCC. Malaysia likely to get same models (top topic: 2)
-6 :  WhatsApp changes business model. Now free for all (top topic: 3)
+0 :  You might have to wait a little longer for the Apple Watch 2.0 (top topic: 0)
+1 :  Sony’s Xperia Z5 & Z5 Compact won’t come with fingerprint sensors in the US: We think we know why (top topic: 2)
+2 :  The Lumia 650 could be the last Lumia device of 2016, but that may not be such a bad thing (top topic: 0)
+3 :  ASUS ZenWatch 2 to go on sale in Malaysia for less than RM900 (top topic: 0)
+4 :  Sometimes it’s all about the feel: What’s the best phone you’ve held? (top topic: 3)
+5 :  Samsung’s Galaxy S7 duo gets listed by Indonesia’s FCC. Malaysia likely to get same models (top topic: 0)
+6 :  WhatsApp changes business model. Now free for all (top topic: 1)
 7 :  Maxis is offering the Galaxy Note5 in pink, just in time for CNY (top topic: 2)
-8 :  Microsoft’s Word Flow keyboard is coming to your iPhone (top topic: 1)
-9 :  UberX now up to 50% cheaper in Malaysia (top topic: 3)
+8 :  Microsoft’s Word Flow keyboard is coming to your iPhone (top topic: 3)
+9 :  UberX now up to 50% cheaper in Malaysia (top topic: 2)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-18_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-18_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2015-11-30
 Generating model ...
-Topic #0 : processor storage display support end screen source capacity
-Topic #1 : year number point company sale ll source market
-Topic #2 : page product idea check source video time people
-Topic #3 : keyboard screen internet display time week qwerty brand
-Topic #4 : world laser application camera app terms version source
-Topic #5 : camera zoom don photography people thing quality video
-Topic #6 : data broadband network mobile note year day offer
-Topic #7 : version connection account content day experience video access
-Topic #8 : number information market start opportunity enter ll hardware
-Topic #9 : camera time malware people storage source support processor
+Topic #0 : data page malware time source store product check
+Topic #1 : internet information source application speed app don user
+Topic #2 : year number source ll people broadband mobile point
+Topic #3 : camera keyboard display processor storage screen support time
 
-0 :  Experience Xiaomi’s new In-Ear Headphones Pro in Malaysia (top topic: 4)
-1 :  TEDxYouth@KL 2015 is back. Get your tickets now at RM20 off. (top topic: 4)
-2 :  Your next 15 minute car ride might get you a fully sponsored MBA (top topic: 9)
-3 :  Acer officially launches its new Liquid Z smartphones in Malaysia (top topic: 9)
-4 :  Nexus 6P to launch in Malaysia on the 8th of December (top topic: 4)
-5 :  Add some 24K gold to your BlackBerry Priv for RM 1,491 (top topic: 5)
-6 :  USB Type-C gets upgraded; now capable of 40Gbps transfer speeds (top topic: 9)
-7 :  U Mobile gives you free additional 1GB data for this month only (top topic: 6)
-8 :  Vivo releases metal duos with huge RAM: The X6 and X6 Plus (top topic: 0)
-9 :  TM Unifi opens pre-order for the Limited Edition Star Wars Battlefront PlayStation 4 Bundle (top topic: 8)
+0 :  Experience Xiaomi’s new In-Ear Headphones Pro in Malaysia (top topic: 3)
+1 :  TEDxYouth@KL 2015 is back. Get your tickets now at RM20 off. (top topic: 2)
+2 :  Your next 15 minute car ride might get you a fully sponsored MBA (top topic: 2)
+3 :  Acer officially launches its new Liquid Z smartphones in Malaysia (top topic: 3)
+4 :  Nexus 6P to launch in Malaysia on the 8th of December (top topic: 3)
+5 :  Add some 24K gold to your BlackBerry Priv for RM 1,491 (top topic: 1)
+6 :  USB Type-C gets upgraded; now capable of 40Gbps transfer speeds (top topic: 1)
+7 :  U Mobile gives you free additional 1GB data for this month only (top topic: 0)
+8 :  Vivo releases metal duos with huge RAM: The X6 and X6 Plus (top topic: 3)
+9 :  TM Unifi opens pre-order for the Limited Edition Star Wars Battlefront PlayStation 4 Bundle (top topic: 2)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-11-30_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-11-30_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-03-07
 Generating model ...
-Topic #0 : order page source program computer offer data check
-Topic #1 : camera year information time copy eye point ll
-Topic #2 : source brand time interface storage processor store market
-Topic #3 : experience screen store version camera pixel video source
-Topic #4 : screen don camera scanner resolution page pixel information
-Topic #5 : terms image processor storage option connectivity flash product
-Topic #6 : video display repair version frame program source back
-Topic #7 : storage time display note scanner day job terms
-Topic #8 : camera version source world performance life line end
-Topic #9 : data performance page mobile book internet offer number
+Topic #0 : time day job brand computer online note option
+Topic #1 : order data storage terms page processor source note
+Topic #2 : camera screen display source storage version scanner store
+Topic #3 : performance don camera information screen page video number
 
-0 :  The next One is going to be called the HTC 10 (top topic: 5)
+0 :  The next One is going to be called the HTC 10 (top topic: 1)
 1 :  Xiaomi now has a 10,000mAh USB Type-C Power bank (top topic: 2)
-2 :  Samsung Malaysia to start another round of Galaxy S7 edge pre-order (top topic: 0)
-3 :  Man orders unlocked iPhone 6s online gets a shocking surprise instead (top topic: 2)
-4 :  Maxis opens Samsung Galaxy S7 edge pre-order with Zerolution (top topic: 0)
-5 :  honor 5X: What makes this the best smartphone under RM1,000 (top topic: 4)
-6 :  SenQ opens up Galaxy S7 edge pre-order with additional goodies (top topic: 0)
-7 :  Book a Galaxy S7 edge from Celcom and you might get it for free (top topic: 9)
-8 :  OPPO F1 review: Average, but that’s all there is to it (top topic: 9)
-9 :  The Xiaomi Mi 4S is now available in Malaysia (top topic: 7)
+2 :  Samsung Malaysia to start another round of Galaxy S7 edge pre-order (top topic: 1)
+3 :  Man orders unlocked iPhone 6s online gets a shocking surprise instead (top topic: 0)
+4 :  Maxis opens Samsung Galaxy S7 edge pre-order with Zerolution (top topic: 1)
+5 :  honor 5X: What makes this the best smartphone under RM1,000 (top topic: 3)
+6 :  SenQ opens up Galaxy S7 edge pre-order with additional goodies (top topic: 1)
+7 :  Book a Galaxy S7 edge from Celcom and you might get it for free (top topic: 1)
+8 :  OPPO F1 review: Average, but that’s all there is to it (top topic: 3)
+9 :  The Xiaomi Mi 4S is now available in Malaysia (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-07_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-07_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-03-21
 Generating model ...
-Topic #0 : year time internet people world point source life
-Topic #1 : keyboard link experience day check performance note application
-Topic #2 : camera number storage hardware flash screen display online
-Topic #3 : camera processor display terms performance idea source year
-Topic #4 : network data speed time program mobile check top
-Topic #5 : number message source internet reference camera hardware storage
-Topic #6 : option app book bus source check point information
-Topic #7 : storage camera processor line brand display link time
-Topic #8 : display ipad data option lot hack year camera
-Topic #9 : work book lot search page end ll don
+Topic #0 : network speed time check link data source mobile
+Topic #1 : year ipad display lot keyboard world work people
+Topic #2 : data internet option time program year page broadband
+Topic #3 : camera processor storage display source terms performance hardware
 
 0 :  Samsung Galaxy J7 (2016) press renders emerge (top topic: 3)
-1 :  Huawei president spotted with a dual-camera phone that looks like the Huawei P9 (top topic: 7)
-2 :  Battle of the Sixes: The Nexus 6P versus the Apple iPhone 6s Plus versus the Samsung Galaxy S6 edge+ (top topic: 1)
-3 :  Trade in your old phones for a new honor 5X with honor’s new trade in program (top topic: 4)
-4 :  Here’s how you can use two SIMs and a microSD card on your Galaxy S7 edge (top topic: 8)
-5 :  HTC’s power of 10 is looking better by the minute (top topic: 8)
-6 :  Compared: Samsung Galaxy S7 edge telco plans in Malaysia (top topic: 8)
-7 :  Apple Watch has prices starting from RM1,299 and comes with new bands (top topic: 1)
-8 :  Fulfill your lifelong dream of living in a gigantic purple shoe with Google Maps (top topic: 0)
-9 :  Apple wants you to ditch your dinosaur PC for an iPad Pro 9.7 (top topic: 8)
+1 :  Huawei president spotted with a dual-camera phone that looks like the Huawei P9 (top topic: 3)
+2 :  Battle of the Sixes: The Nexus 6P versus the Apple iPhone 6s Plus versus the Samsung Galaxy S6 edge+ (top topic: 2)
+3 :  Trade in your old phones for a new honor 5X with honor’s new trade in program (top topic: 2)
+4 :  Here’s how you can use two SIMs and a microSD card on your Galaxy S7 edge (top topic: 3)
+5 :  HTC’s power of 10 is looking better by the minute (top topic: 1)
+6 :  Compared: Samsung Galaxy S7 edge telco plans in Malaysia (top topic: 2)
+7 :  Apple Watch has prices starting from RM1,299 and comes with new bands (top topic: 0)
+8 :  Fulfill your lifelong dream of living in a gigantic purple shoe with Google Maps (top topic: 1)
+9 :  Apple wants you to ditch your dinosaur PC for an iPad Pro 9.7 (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-21_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-03-21_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-02-29
 Generating model ...
-Topic #0 : time processor camera source display storage version app
-Topic #1 : time customer company store twitter display support order
-Topic #2 : internet camera line data time option end design
-Topic #3 : experience note year world processor support camera storage
-Topic #4 : storage access source content connection people sense week
-Topic #5 : day source image brand display number processor hardware
-Topic #6 : house source world ll comment remote zoom people
-Topic #7 : year windows source application support video time sense
-Topic #8 : performance support source year storage note back page
-Topic #9 : note option time storage support order camera send
+Topic #0 : option support windows application year time source video
+Topic #1 : storage camera note time processor line display source
+Topic #2 : time order year customer house company store source
+Topic #3 : internet data source option world access ll network
 
-0 :  Samsung Galaxy Tab A and Tab E tablets for 2016 leaked (top topic: 0)
-1 :  Netflix has dropped the VPN ban hammer but it may have just backfired (top topic: 4)
-2 :  OPPO teases a new smartphone, but it’s not the one you’re expecting (top topic: 2)
-3 :  WhatsApp is cutting support down to three operating systems (top topic: 7)
-4 :  Here’s your chance to be the first to try the Redmi Note 3 Pro: You might even get one for free (top topic: 9)
-5 :  Here’s the list of ASUS smartphones getting Android Marshmallow (top topic: 6)
-6 :  OPPO R9 teased with March 17 launch (top topic: 5)
-7 :  TM customers suffer slow connectivity to international sites (top topic: 4)
-8 :  McDonald’s is giving you a VR experience with their Happy Meal (top topic: 7)
-9 :  Digi revamps its Postpaid offering with more data and internet rollover (top topic: 2)
+0 :  Samsung Galaxy Tab A and Tab E tablets for 2016 leaked (top topic: 1)
+1 :  Netflix has dropped the VPN ban hammer but it may have just backfired (top topic: 3)
+2 :  OPPO teases a new smartphone, but it’s not the one you’re expecting (top topic: 1)
+3 :  WhatsApp is cutting support down to three operating systems (top topic: 0)
+4 :  Here’s your chance to be the first to try the Redmi Note 3 Pro: You might even get one for free (top topic: 1)
+5 :  Here’s the list of ASUS smartphones getting Android Marshmallow (top topic: 3)
+6 :  OPPO R9 teased with March 17 launch (top topic: 1)
+7 :  TM customers suffer slow connectivity to international sites (top topic: 2)
+8 :  McDonald’s is giving you a VR experience with their Happy Meal (top topic: 2)
+9 :  Digi revamps its Postpaid offering with more data and internet rollover (top topic: 3)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-29_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-29_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-04-11
 Generating model ...
-Topic #0 : company time layout world sense icon opportunity grid
-Topic #1 : day keyboard internet week data speed source surf
-Topic #2 : ipad delivery store app brand post movie sale
-Topic #3 : data access year time customer information internet don
-Topic #4 : store app display time search ll problem source
-Topic #5 : camera source display film mobile video flash world
-Topic #6 : delivery storage check option day source end offer
-Topic #7 : video camera day source content internet software work
-Topic #8 : support app source access end performance strategy field
-Topic #9 : camera time performance check experience world information version
+Topic #0 : camera ipad display film source support sale brand
+Topic #1 : video camera source storage store keyboard option ll
+Topic #2 : time camera source experience world note end company
+Topic #3 : data day delivery internet mobile access app year
 
-0 :  The HTC 10 leaks again, this time in black (top topic: 6)
-1 :  This ridiculous 18-rotor chopper just got its first manned test flight (top topic: 1)
-2 :  HTC 10 official promo video leaks ahead of event (top topic: 7)
-3 :  Meizu teases fast charging for the Meizu Pro 6 (top topic: 5)
-4 :  11street offers 10% off on Xpax reloads for a whole year (top topic: 8)
+0 :  The HTC 10 leaks again, this time in black (top topic: 0)
+1 :  This ridiculous 18-rotor chopper just got its first manned test flight (top topic: 3)
+2 :  HTC 10 official promo video leaks ahead of event (top topic: 1)
+3 :  Meizu teases fast charging for the Meizu Pro 6 (top topic: 0)
+4 :  11street offers 10% off on Xpax reloads for a whole year (top topic: 3)
 5 :  TuneTalk Madness Top Up promo gives up to 4GB of data free when you top up (top topic: 3)
-6 :  New iPhone 7 rumours point to skinnier body, dual cam setup and bigger battery (top topic: 5)
-7 :  Samsung Galaxy S7/S7 edge update brings improved palm rejection (top topic: 4)
-8 :  ezyCourier makes its Malaysian debut, wants you to post things from your couch (top topic: 2)
-9 :  Next Apple Watch expected to be 40% thinner, to debut in WWDC (top topic: 5)
+6 :  New iPhone 7 rumours point to skinnier body, dual cam setup and bigger battery (top topic: 0)
+7 :  Samsung Galaxy S7/S7 edge update brings improved palm rejection (top topic: 0)
+8 :  ezyCourier makes its Malaysian debut, wants you to post things from your couch (top topic: 3)
+9 :  Next Apple Watch expected to be 40% thinner, to debut in WWDC (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-11_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-11_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-05-16
 Generating model ...
-Topic #0 : brand source web note build life end site
-Topic #1 : processor keyboard week mobile terms ll connection time
-Topic #2 : camera storage video action source life display don
-Topic #3 : broadband connectivity wireless backup source call time note
-Topic #4 : network time router search support connectivity day data
-Topic #5 : storage flash source display camera mind support note
-Topic #6 : camera display order processor word storage source check
-Topic #7 : video time design iteration end internet source market
-Topic #8 : time thing year lot work line process copy
-Topic #9 : app support year design end data experience work
+Topic #0 : camera source year action video display time note
+Topic #1 : storage processor camera display flash time source week
+Topic #2 : connectivity network option life source router wireless connection
+Topic #3 : support video search work experience end data app
 
-0 :  Sony to nix other Xperia series, focuses on the X instead (top topic: 0)
+0 :  Sony to nix other Xperia series, focuses on the X instead (top topic: 2)
 1 :  Acer’s answer to the Surface Pro 4 lands in Malaysia (top topic: 1)
-2 :  Winnergear MicFlip reversible MicroUSB cable review: The cable you never knew you needed (top topic: 8)
-3 :  Motorola Moto G4 press render leaks just before launch (top topic: 3)
-4 :  Xiaomi has a brand new Yi Action Camera, wants you to shoot in 4K (top topic: 2)
+2 :  Winnergear MicFlip reversible MicroUSB cable review: The cable you never knew you needed (top topic: 0)
+3 :  Motorola Moto G4 press render leaks just before launch (top topic: 0)
+4 :  Xiaomi has a brand new Yi Action Camera, wants you to shoot in 4K (top topic: 0)
 5 :  Grab RM200 off your Samsung Galaxy A5/A7 (2016) if you are a Galaxy Life user (top topic: 2)
-6 :  The Moto G4 phones are here and they’re under the Lenovo Moto banner (top topic: 2)
-7 :  The Huawei P9 is headed to stores at the end of May (top topic: 2)
-8 :  The Flash Plus 2 is now official, will hit Malaysian stores next week (top topic: 5)
-9 :  Samsung’s foldable Galaxy X said to launch next year (top topic: 5)
+6 :  The Moto G4 phones are here and they’re under the Lenovo Moto banner (top topic: 1)
+7 :  The Huawei P9 is headed to stores at the end of May (top topic: 1)
+8 :  The Flash Plus 2 is now official, will hit Malaysian stores next week (top topic: 1)
+9 :  Samsung’s foldable Galaxy X said to launch next year (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-16_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-16_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-05-09
 Generating model ...
-Topic #0 : data storage online store capacity flash mobile sale
-Topic #1 : time day video source data camera note person
-Topic #2 : learn network note source week market time brand
-Topic #3 : processor storage display camera option market lot screen
-Topic #4 : experience camera world content software end don performance
-Topic #5 : camera flash day pixel end image terms thing
-Topic #6 : app desktop client source web access window minute
-Topic #7 : windows company time end source mind don offer
-Topic #8 : people product page post support don problem thing
-Topic #9 : search storage app source display terms access support
+Topic #0 : storage display processor company camera end lot time
+Topic #1 : camera flash day option time storage video pixel
+Topic #2 : data search time app source page work terms
+Topic #3 : app experience world source market camera access desktop
 
-0 :  honor V8 leaks in live images, looks pretty slick (top topic: 1)
-1 :  Windows 10 free upgrade to end July 29th, grab it while you can (top topic: 7)
-2 :  Digi mimics Hotlink by offering free 8GB/month data for life (top topic: 0)
-3 :  Celcom offers the iPhone SE with FIRST Postpaid plans (top topic: 1)
-4 :  VRidge lets you play Oculus and Vive games on your Google Cardboard (top topic: 4)
-5 :  HTC One A9 review: My torrid love affair with a smartphone (top topic: 5)
-6 :  Motorola Moto X4 renders emerge, may launch August 24 (top topic: 3)
-7 :  Proton: 10 Top Technological Milestones (top topic: 9)
-8 :  Want to try Webe? They are giving away 1-year free mobile data plans (top topic: 0)
-9 :  Moto 360 Sport review: Run Forrest, run (top topic: 5)
+0 :  honor V8 leaks in live images, looks pretty slick (top topic: 0)
+1 :  Windows 10 free upgrade to end July 29th, grab it while you can (top topic: 0)
+2 :  Digi mimics Hotlink by offering free 8GB/month data for life (top topic: 2)
+3 :  Celcom offers the iPhone SE with FIRST Postpaid plans (top topic: 2)
+4 :  VRidge lets you play Oculus and Vive games on your Google Cardboard (top topic: 3)
+5 :  HTC One A9 review: My torrid love affair with a smartphone (top topic: 0)
+6 :  Motorola Moto X4 renders emerge, may launch August 24 (top topic: 0)
+7 :  Proton: 10 Top Technological Milestones (top topic: 3)
+8 :  Want to try Webe? They are giving away 1-year free mobile data plans (top topic: 2)
+9 :  Moto 360 Sport review: Run Forrest, run (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-09_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-05-09_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2015-12-14
 Generating model ...
-Topic #0 : source ll time brand don video website page
-Topic #1 : data year version ll company customer mobile internet
-Topic #2 : experience computer browser escape thing source page order
-Topic #3 : time keyboard support app firmware version book activity
-Topic #4 : company resolution note page source laser check processor
-Topic #5 : time year source product customer processor problem site
-Topic #6 : year source thing market store order enter online
-Topic #7 : display storage camera processor source end terms windows
-Topic #8 : network internet application people day work information option
-Topic #9 : display screen camera windows connectivity storage support resolution
+Topic #0 : time support data version display screen app camera
+Topic #1 : keyboard source processor experience year display ll storage
+Topic #2 : version year source page brand information number store
+Topic #3 : network application internet people work day information option
 
-0 :  The Samsung Galaxy A series gets a whole lot bigger with the A9 (top topic: 7)
-1 :  Acer launches its Predator 8 Gaming Tablet in Malaysia (top topic: 9)
-2 :  A compact 4.6″ OnePlus 2 “mini” is in the works (top topic: 4)
-3 :  Microsoft Lumia 950/950 XL now official in Malaysia (top topic: 7)
-4 :  Report reaffirms Samsung Galaxy S7’s new features (top topic: 7)
-5 :  Digi offers the Microsoft Lumia 950 for free (top topic: 1)
-6 :  HTC’s One X9 has one interesting camera “visor” (top topic: 7)
-7 :  Microsoft says “sorry” to Surface Pro 4 and Surface Book users (top topic: 5)
-8 :  Google Maps offline navigation now on iOS (top topic: 8)
-9 :  Celcom offers the Samsung Gear S2 at RM400 off (top topic: 4)
+0 :  The Samsung Galaxy A series gets a whole lot bigger with the A9 (top topic: 1)
+1 :  Acer launches its Predator 8 Gaming Tablet in Malaysia (top topic: 0)
+2 :  A compact 4.6″ OnePlus 2 “mini” is in the works (top topic: 1)
+3 :  Microsoft Lumia 950/950 XL now official in Malaysia (top topic: 1)
+4 :  Report reaffirms Samsung Galaxy S7’s new features (top topic: 0)
+5 :  Digi offers the Microsoft Lumia 950 for free (top topic: 0)
+6 :  HTC’s One X9 has one interesting camera “visor” (top topic: 1)
+7 :  Microsoft says “sorry” to Surface Pro 4 and Surface Book users (top topic: 1)
+8 :  Google Maps offline navigation now on iOS (top topic: 3)
+9 :  Celcom offers the Samsung Gear S2 at RM400 off (top topic: 2)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-14_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-14_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-01-11
 Generating model ...
-Topic #0 : camera week year end source frame design brand
-Topic #1 : people display source information camera check guide product
-Topic #2 : ll keyboard ipad windows people terms experience time
-Topic #3 : source version company screen decision image ll comment
-Topic #4 : note software capacity download day source sale hardware
-Topic #5 : note processor support display windows source security software
-Topic #6 : zoom camera time image end don storage design
-Topic #7 : design display note camera processor storage resolution source
-Topic #8 : access company brand market year content site don
-Topic #9 : app ll time work source version day crash
+Topic #0 : time work ll source windows app people day
+Topic #1 : camera zoom display processor note design storage time
+Topic #2 : source ll software company note windows year support
+Topic #3 : access ll version app source crash time sense
 
-0 :  Xiaomi officially reveals the all-metal Redmi 3 (top topic: 7)
-1 :  Fan-made Windows 10 Mobile concept blows the original out of the water (top topic: 2)
-2 :  Get RM30 of petrol with RM30 Xpax prepaid top up (top topic: 9)
-3 :  Anyone can crash your WhatsApp with the power of emojis (top topic: 9)
-4 :  This floor mat alarm clock will never fail to get you out of bed (top topic: 2)
-5 :  The honor band is coming to Malaysia (top topic: 7)
-6 :  Huff and puff with Jupiter: the first and only vape phone (top topic: 2)
-7 :  The iPhone is now 9 years old, and it has proven naysayers wrong (top topic: 6)
-8 :  The next iPhone won’t have a headphone jack and here’s why that sucks (top topic: 6)
-9 :  Leaked images of the Xiaomi Mi 5 reveal a possible physical home button (top topic: 7)
+0 :  Xiaomi officially reveals the all-metal Redmi 3 (top topic: 1)
+1 :  Fan-made Windows 10 Mobile concept blows the original out of the water (top topic: 0)
+2 :  Get RM30 of petrol with RM30 Xpax prepaid top up (top topic: 2)
+3 :  Anyone can crash your WhatsApp with the power of emojis (top topic: 3)
+4 :  This floor mat alarm clock will never fail to get you out of bed (top topic: 0)
+5 :  The honor band is coming to Malaysia (top topic: 0)
+6 :  Huff and puff with Jupiter: the first and only vape phone (top topic: 3)
+7 :  The iPhone is now 9 years old, and it has proven naysayers wrong (top topic: 0)
+8 :  The next iPhone won’t have a headphone jack and here’s why that sucks (top topic: 2)
+9 :  Leaked images of the Xiaomi Mi 5 reveal a possible physical home button (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-11_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-01-11_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-02-01
 Generating model ...
-Topic #0 : windows day ll time display lot experience thing
-Topic #1 : video life source check software processor work year
-Topic #2 : internet search thing world source windows people program
-Topic #3 : download time source page note ll company market
-Topic #4 : processor ll source storage display word note year
-Topic #5 : work don find week idea terms store source
-Topic #6 : people time browser internet company don store page
-Topic #7 : camera time market version year lot design screen
-Topic #8 : information message account link time email company source
-Topic #9 : data internet mobile speed day mind information customer
+Topic #0 : camera source information time display message screen processor
+Topic #1 : time word source software life year company check
+Topic #2 : ll time windows year lot source people processor
+Topic #3 : data internet mobile program search speed mind world
 
-0 :  Redmi Note 3 passes Malaysian SIRIM certification (top topic: 4)
+0 :  Redmi Note 3 passes Malaysian SIRIM certification (top topic: 0)
 1 :  Samsung Galaxy Unpacked 2016 set — one day before MWC2016 (top topic: 0)
-2 :  Samsung Galaxy S6 and S6 edge starts receiving Marshmallow update (top topic: 3)
-3 :  Samsung shows off the Gear S2 Classic 18K Rose Gold and Platinum editions in Malaysia (top topic: 7)
-4 :  Samsung Galaxy TabPro S hands-on and first impressions (top topic: 0)
-5 :  Samsung’s answer to the 2-in-1 convertible, the Galaxy TabPro S is here in Malaysia (top topic: 0)
-6 :  Samsung Pay is coming to Southeast Asia this year (top topic: 7)
-7 :  Samsung’s Galaxy S7 purported to have a ridiculous battery life (top topic: 1)
-8 :  Would you use Samsung’s baked-in browser if it had an ad block plugin? (top topic: 6)
-9 :  UberX now available in Ipoh for this month only (top topic: 5)
+2 :  Samsung Galaxy S6 and S6 edge starts receiving Marshmallow update (top topic: 1)
+3 :  Samsung shows off the Gear S2 Classic 18K Rose Gold and Platinum editions in Malaysia (top topic: 2)
+4 :  Samsung Galaxy TabPro S hands-on and first impressions (top topic: 2)
+5 :  Samsung’s answer to the 2-in-1 convertible, the Galaxy TabPro S is here in Malaysia (top topic: 2)
+6 :  Samsung Pay is coming to Southeast Asia this year (top topic: 0)
+7 :  Samsung’s Galaxy S7 purported to have a ridiculous battery life (top topic: 2)
+8 :  Would you use Samsung’s baked-in browser if it had an ad block plugin? (top topic: 0)
+9 :  UberX now available in Ipoh for this month only (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-01_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-01_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2015-12-28
 Generating model ...
-Topic #0 : display ll camera access app processor storage screen
-Topic #1 : windows camera world mobile software time quality point
-Topic #2 : ipad year app ll experience week don day
-Topic #3 : data video software work camera internet information mobile
-Topic #4 : performance people security day product year company information
-Topic #5 : windows time screen camera company video ll experience
-Topic #6 : life time software day version don information week
-Topic #7 : quality design problem information lot work product top
-Topic #8 : year day time number point option book person
-Topic #9 : year time camera thing information don idea display
+Topic #0 : data time year ll work day mobile app
+Topic #1 : windows time camera year information people screen day
+Topic #2 : life display camera time software ll version storage
+Topic #3 : video software camera resolution hardware day photography content
 
-0 :  Get extra prepaid bonuses if you reload before 2016 (top topic: 9)
+0 :  Get extra prepaid bonuses if you reload before 2016 (top topic: 0)
 1 :  Free iflix now finally available for TM UniFi customers (top topic: 0)
-2 :  HTC’s One X9 is definitely no flagship, but maybe that’s not such a bad thing (top topic: 9)
-3 :  Here’s all you need to know about Prepaid and GST for 2016 (top topic: 8)
-4 :  You can do more on the Galaxy S6 edge screen with Marshmallow update (top topic: 5)
-5 :  The Galaxy S7 edge is not just an S7 with a curved screen (top topic: 9)
-6 :  This phone might restore your faith in Windows 10 Mobile (top topic: 5)
-7 :  Is this Xiaomi’s new budget smartphone? (top topic: 9)
+2 :  HTC’s One X9 is definitely no flagship, but maybe that’s not such a bad thing (top topic: 1)
+3 :  Here’s all you need to know about Prepaid and GST for 2016 (top topic: 1)
+4 :  You can do more on the Galaxy S6 edge screen with Marshmallow update (top topic: 3)
+5 :  The Galaxy S7 edge is not just an S7 with a curved screen (top topic: 1)
+6 :  This phone might restore your faith in Windows 10 Mobile (top topic: 1)
+7 :  Is this Xiaomi’s new budget smartphone? (top topic: 2)
 8 :  The four-way 4K video battle (top topic: 3)
-9 :  This online store will recycle your old phone and give you money for it (top topic: 9)
+9 :  This online store will recycle your old phone and give you money for it (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-28_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2015-12-28_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-04-18
 Generating model ...
-Topic #0 : display version brand check life source camera program
-Topic #1 : data network mobile source page note line internet
-Topic #2 : year network source world performance innovation order store
-Topic #3 : time option don make number note people section
-Topic #4 : data terms year source day line revenue video
-Topic #5 : camera year source people quality terms scanner ll
-Topic #6 : storage work terms processor display performance life graphics
-Topic #7 : data time customer access broadband page market connectivity
-Topic #8 : display source camera year support performance time ll
-Topic #9 : storage work processor keyboard life display performance terms
+Topic #0 : display source camera year terms storage version note
+Topic #1 : work performance display source terms network storage processor
+Topic #2 : time year data day customer scanner life camera
+Topic #3 : data source network mobile year line speed time
 
-0 :  Digi has a new RM38 postpaid plan for students (top topic: 6)
-1 :  Uber is now accepting cash in Kuala Lumpur (top topic: 3)
-2 :  Intel’s Apollo Lake processors will let you have slimmer PCs that pack a bigger punch (top topic: 8)
-3 :  Android N to have a dedicated VR Mode? (top topic: 8)
-4 :  Samsung Galaxy C5 might launch in May with metal body (top topic: 6)
-5 :  Ultra-thin LEDS will let you have a display on your skin (top topic: 0)
-6 :  red ONE launches new Data8 postpaid plan for only RM8/month (top topic: 1)
-7 :  Tune Talk: Bisa Pak is the plan for Indonesians living in Malaysia (top topic: 8)
-8 :  Still using QuickTime? Uninstall it now! (top topic: 8)
-9 :  4th Gen Moto G images leak, has a fingerprint scanner (top topic: 5)
+0 :  Digi has a new RM38 postpaid plan for students (top topic: 0)
+1 :  Uber is now accepting cash in Kuala Lumpur (top topic: 0)
+2 :  Intel’s Apollo Lake processors will let you have slimmer PCs that pack a bigger punch (top topic: 0)
+3 :  Android N to have a dedicated VR Mode? (top topic: 0)
+4 :  Samsung Galaxy C5 might launch in May with metal body (top topic: 0)
+5 :  Ultra-thin LEDS will let you have a display on your skin (top topic: 1)
+6 :  red ONE launches new Data8 postpaid plan for only RM8/month (top topic: 3)
+7 :  Tune Talk: Bisa Pak is the plan for Indonesians living in Malaysia (top topic: 3)
+8 :  Still using QuickTime? Uninstall it now! (top topic: 1)
+9 :  4th Gen Moto G images leak, has a fingerprint scanner (top topic: 2)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-18_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-18_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-04-25
 Generating model ...
-Topic #0 : people display market pixel network source year brand
-Topic #1 : tip check software information approach graphics world storage
-Topic #2 : camera video source company format image work memory
-Topic #3 : version source year sense mobile security camera day
-Topic #4 : windows store support world process thing source site
-Topic #5 : brand source performance support wireless terms post house
-Topic #6 : data internet line network day graphics lot week
-Topic #7 : video app mobile content data access photography page
-Topic #8 : screen ll year time source storage market camera
-Topic #9 : revenue storage display year terms processor camera source
+Topic #0 : display data pixel store network screen processor camera
+Topic #1 : video app information check mobile process content world
+Topic #2 : windows revenue source support performance year company post
+Topic #3 : camera source market data year screen internet video
 
 0 :  Bay of Bengal cable system has gone live, provides alternate route to Europe (top topic: 0)
-1 :  Honor V8 spotted on TENAA, has three variants (top topic: 9)
-2 :  Huawei’s next smartphone will have a QHD display (top topic: 0)
-3 :  The Xiaomi Mi Max launches May 10 (top topic: 4)
-4 :  MTV Bugging Out brings tech powered pranks to TV (top topic: 0)
-5 :  Xiaomi CEO shows off next gen Mi Band (top topic: 5)
-6 :  Huawei P9 South Pacific launch is happening next week (top topic: 7)
-7 :  Digi now has the most number of subscribers in Malaysia (top topic: 9)
-8 :  iPhone 7 might be waterproof and have a touch sensitive home button (top topic: 5)
-9 :  Facebook’s developing a stand-alone camera app (top topic: 7)
+1 :  Honor V8 spotted on TENAA, has three variants (top topic: 3)
+2 :  Huawei’s next smartphone will have a QHD display (top topic: 2)
+3 :  The Xiaomi Mi Max launches May 10 (top topic: 3)
+4 :  MTV Bugging Out brings tech powered pranks to TV (top topic: 3)
+5 :  Xiaomi CEO shows off next gen Mi Band (top topic: 3)
+6 :  Huawei P9 South Pacific launch is happening next week (top topic: 1)
+7 :  Digi now has the most number of subscribers in Malaysia (top topic: 2)
+8 :  iPhone 7 might be waterproof and have a touch sensitive home button (top topic: 3)
+9 :  Facebook’s developing a stand-alone camera app (top topic: 1)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-25_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-04-25_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-02-15
 Generating model ...
-Topic #0 : camera keyboard mouse image source wireless world screen
-Topic #1 : time design source display camera storage people lot
-Topic #2 : account video access twitter world point online security
-Topic #3 : time thing source people brand day number company
-Topic #4 : week world screen note source thing year point
-Topic #5 : lot brand processor market storage people option quality
-Topic #6 : camera source ll scanner page video information people
-Topic #7 : image year source don program option page data
-Topic #8 : lot camera day processor storage ll option note
-Topic #9 : display version sale check guide point connectivity work
+Topic #0 : source lot image page processor time storage app
+Topic #1 : time display camera design people storage ll source
+Topic #2 : source camera image video ll don year number
+Topic #3 : keyboard mouse wireless day script internet connection product
 
 0 :  This is a hands-free kit for your hands (top topic: 1)
-1 :  Celcom and Xpax are giving away free makan and minum worth millions of ringgit (top topic: 8)
-2 :  Bad news, the iPhone may not be the best phone to time travel with (top topic: 3)
-3 :  Pick up Logitech’s new spill-resistant wireless keyboard and mouse combo for under RM100 (top topic: 0)
-4 :  Hugo Barra shows off a couple of photos taken with the Xiaomi Mi 5 (top topic: 0)
-5 :  honor 5X vs Xiaomi Redmi Note 3: Which to get? (top topic: 1)
-6 :  Here’s what to expect from the Samsung Galaxy S7 (top topic: 8)
-7 :  Microsoft Lumia 650 now official. A budget phone that could be better built than its flagship (top topic: 7)
-8 :  Apple begins USB Type-C cable recall on MacBooks with Malaysia also on the list (top topic: 6)
-9 :  Huawei’s Matebook convertible laptop slated to make its way to MWC 2016 (top topic: 3)
+1 :  Celcom and Xpax are giving away free makan and minum worth millions of ringgit (top topic: 3)
+2 :  Bad news, the iPhone may not be the best phone to time travel with (top topic: 1)
+3 :  Pick up Logitech’s new spill-resistant wireless keyboard and mouse combo for under RM100 (top topic: 3)
+4 :  Hugo Barra shows off a couple of photos taken with the Xiaomi Mi 5 (top topic: 1)
+5 :  honor 5X vs Xiaomi Redmi Note 3: Which to get? (top topic: 0)
+6 :  Here’s what to expect from the Samsung Galaxy S7 (top topic: 1)
+7 :  Microsoft Lumia 650 now official. A budget phone that could be better built than its flagship (top topic: 0)
+8 :  Apple begins USB Type-C cable recall on MacBooks with Malaysia also on the list (top topic: 2)
+9 :  Huawei’s Matebook convertible laptop slated to make its way to MWC 2016 (top topic: 2)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-15_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-15_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
 Current Starting Date: 2016-02-09
 Generating model ...
-Topic #0 : storage display processor camera check security terms source
-Topic #1 : display time day end screen source sense year
-Topic #2 : modem support download year resolution end life data
-Topic #3 : year source support terms time scanner display performance
-Topic #4 : year source support terms time scanner display performance
-Topic #5 : processor source camera storage display year terms image
-Topic #6 : version camera storage scanner warranty capacity terms sale
-Topic #7 : video download broadband check source note resolution mobile
-Topic #8 : processor life connectivity video display process note storage
-Topic #9 : time problem display back order action number page
+Topic #0 : processor camera storage display source terms scanner version
+Topic #1 : time display source broadband day screen download back
+Topic #2 : modem version problem year support download sale warranty
+Topic #3 : video check storage account security download ll time
 
-0 :  YouTube offline viewing now available in Malaysia (top topic: 7)
+0 :  YouTube offline viewing now available in Malaysia (top topic: 3)
 1 :  Purported Galaxy S7 and S7 edge appear in live images (top topic: 0)
-2 :  HTC One A9 is now on sale in Malaysia with a premium price (top topic: 5)
-3 :  TMgo now offers Unlimited 4G LTE Broadband on postpaid? (top topic: 7)
+2 :  HTC One A9 is now on sale in Malaysia with a premium price (top topic: 0)
+3 :  TMgo now offers Unlimited 4G LTE Broadband on postpaid? (top topic: 1)
 4 :  LG G5 teased with an always on display (top topic: 1)
-5 :  Get extra 2GB of Google Drive storage with a simple checkup (top topic: 0)
+5 :  Get extra 2GB of Google Drive storage with a simple checkup (top topic: 3)
 6 :  Honor 5X available for pre-orders next week. Price starts from RM899 (top topic: 0)
 7 :  This smartphone’s box doubles up as a VR headset (top topic: 0)
-8 :  Get two Pebble Time Round for this Valentine’s Day at 28% off (top topic: 9)
-9 :  Honor 7 enhanced version will be available in Malaysia next week (top topic: 6)
+8 :  Get two Pebble Time Round for this Valentine’s Day at 28% off (top topic: 1)
+9 :  Honor 7 enhanced version will be available in Malaysia next week (top topic: 0)
 Saving changes to csv ...  found, skipped
 Done
-Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-09_1W_50_iter_10_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
+Saving to /Users/Hii/Projects/news_scraper/tagged_datasets/2016-02-09_1W_50_iter_4_topics_extended-technology,soya_month_tf_idf_contents_words_dictionary_soya_6_months.csv
