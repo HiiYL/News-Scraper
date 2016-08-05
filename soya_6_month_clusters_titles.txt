@@ -1,0 +1,3223 @@
+CPU times: user 22.8 ms, sys: 1.16 ms, total: 24 ms
+Wall time: 24.6 ms
+CPU times: user 42.9 ms, sys: 1.83 ms, total: 44.8 ms
+Wall time: 49.9 ms
+Current Starting Date: 2016-03-28
+Top terms per cluster:
+
+Cluster 0 words: mi , note , nan , delivery , display , operator ,
+
+Cluster 0 titles:
+ 6 reasons why this is the most talked about postpaid plan,
+ OPPO Malaysia CEO teases F1 Plus — looks exactly like the R9,
+ HTC 10 to have a Snapdragon 652 variant,
+ Xiaomi Redmi Note 3 Malaysian price revealed,
+ 5 things that you may not know were designed by Malaysians,
+ Xiaomi Redmi Note 3 goes on sale in Malaysia on 6 April from RM749,
+ Xiaomi’s Redmi 3 Pro packs more power and a fingerprint scanner,
+ NeonRunner is like Uber for deliveries,
+ Xiaomi’s smart rice cooker will cook your rice perfectly every single time,
+ Waze will let you know if you’re driving above the speed limit,
+ HTC 10 claims to be the fastest and smoothest Android yet,
+ TP-Link’s Neffos C5 and C5L are affordable dual-SIM devices that start at RM359,
+ The OPPO F1 Plus comes to Malaysia on 7 April,
+ This could be Malaysia’s latest 4G LTE operator,
+ Microsoft Lumia 650 up for pre-orders in Malaysia,
+ Xiaomi’s 20,000mAh power bank and new Mi Band are coming to Malaysia,
+ DOOGEE unveils an entire lineup of smart devices including a Helio X20-powered flagship,
+ TM introduces its new 100Mbps UniFi Pro plan,
+ You can now buy the iPhone SE in Malaysia from RM2,049,
+ Google Cardboard Plastic: Introducing the world’s first headset for Actual Reality,
+ The iPhone SE has the same display as the 5s according to iFixit’s teardown,
+ TIME and TM are engaging in social media warfare and it’s awesome,
+ Mi 20,000mAh Powerbank and Mi Band Pulse are available on 6 April,
+
+
+Cluster 1 words: nan , broadband , home , home , time , broadband ,
+
+Cluster 1 titles:
+ Compared: Fibre broadband services in Malaysia — TM vs TIME vs Maxis vs Celcom,
+ New MaxisOne Home Fibre Broadband aims to deliver the best experience all the time,
+ Celcom outs Home Fibre broadband plan — 10Mbps for RM145/month,
+ Enjoy iflix and Viu for free on Maxis and Hotlink,
+
+
+Cluster 2 words: galaxy , version , upgrade , galaxy , bikers , galaxy ,
+
+Cluster 2 titles:
+ Samsung’s Galaxy J5 and J7 receive the upgrades they deserve,
+ The Samsung Galaxy A9 gets an upgraded Pro version,
+ The Galaxy S6 finally gets Marshmallow update in Malaysia,
+ Samsung Galaxy J3 for 2016 comes with a special mode for bikers,
+
+
+Cluster 3 words: offer , offer , formatting , offer , quota , limit ,
+
+Cluster 3 titles:
+ WhatsApp now offers text formatting on their iPhone app,
+ Digi offers Malaysia’s first 4G LTE-A broadband with 100GB of quota,
+
+
+{0: 'mi , note , nan , delivery , display , operator', 1: 'nan , broadband , home , home , time , broadband', 2: 'galaxy , version , upgrade , galaxy , bikers , galaxy', 3: 'offer , offer , formatting , offer , quota , limit'}
+
+
+CPU times: user 18.3 ms, sys: 613 us, total: 18.9 ms
+Wall time: 18.9 ms
+CPU times: user 32.3 ms, sys: 131 us, total: 32.4 ms
+Wall time: 32.5 ms
+Current Starting Date: 2015-12-07
+Top terms per cluster:
+
+Cluster 0 words: watch , mi , blackberry , sale , blackberry , launch ,
+
+Cluster 0 titles:
+ Win yourself a Star Wars BB-8 Droid from Maxis,
+ Celcom rewards its FIRST postpaid and Xpax subscribers with loads of free movie tickets,
+ Xiaomi kicks off its 2 day Christmas sale this week with new arrivals,
+ The Huawei Watch has finally arrived,
+ 6 reasons to buy the Nexus 6P,
+ Camera shootout: The Nexus 6P meets the competition,
+ BlackBerry launches the much anticipated PRIV in Malaysia,
+ Apple planning to announce an iPhone 6c and an Apple Watch too?,
+ Is this the Xiaomi Mi 5?,
+ Pixel C is now on sale, but you can’t have it yet,
+ Maxis is now selling the iPad Pro on their online store,
+ Enjoy 3 months of ad-free Spotify Premium for only RM2,
+ This is the UMNO Phone. But the RM2.6 billion question is would you buy it?,
+ The BlackBerry PRIV still costs a bomb even on contract,
+ Android 6.0.1 Marshmallow brings useful tweaks,
+
+
+Cluster 1 words: roll , apple , appleCPU times: user 22.8 ms, sys: 1.16 ms, total: 24 ms
+Wall time: 24.6 ms
+CPU times: user 42.9 ms, sys: 1.83 ms, total: 44.8 ms
+Wall time: 49.9 ms
+Current Starting Date: 2016-03-28
+Top terms per cluster:
+
+Cluster 0 words: mi , note , nan , delivery , display , operator ,
+
+Cluster 0 titles:
+ 6 reasons why this is the most talked about postpaid plan,
+ OPPO Malaysia CEO teases F1 Plus — looks exactly like the R9,
+ HTC 10 to have a Snapdragon 652 variant,
+ Xiaomi Redmi Note 3 Malaysian price revealed,
+ 5 things that you may not know were designed by Malaysians,
+ Xiaomi Redmi Note 3 goes on sale in Malaysia on 6 April from RM749,
+ Xiaomi’s Redmi 3 Pro packs more power and a fingerprint scanner,
+ NeonRunner is like Uber for deliveries,
+ Xiaomi’s smart rice cooker will cook your rice perfectly every single time,
+ Waze will let you know if you’re driving above the speed limit,
+ HTC 10 claims to be the fastest and smoothest Android yet,
+ TP-Link’s Neffos C5 and C5L are affordable dual-SIM devices that start at RM359,
+ The OPPO F1 Plus comes to Malaysia on 7 April,
+ This could be Malaysia’s latest 4G LTE operator,
+ Microsoft Lumia 650 up for pre-orders in Malaysia,
+ Xiaomi’s 20,000mAh power bank and new Mi Band are coming to Malaysia,
+ DOOGEE unveils an entire lineup of smart devices including a Helio X20-powered flagship,
+ TM introduces its new 100Mbps UniFi Pro plan,
+ You can now buy the iPhone SE in Malaysia from RM2,049,
+ Google Cardboard Plastic: Introducing the world’s first headset for Actual Reality,
+ The iPhone SE has the same display as the 5s according to iFixit’s teardown,
+ TIME and TM are engaging in social media warfare and it’s awesome,
+ Mi 20,000mAh Powerbank and Mi Band Pulse are available on 6 April,
+
+
+Cluster 1 words: nan , broadband , home , home , time , broadband ,
+
+Cluster 1 titles:
+ Compared: Fibre broadband services in Malaysia — TM vs TIME vs Maxis vs Celcom,
+ New MaxisOne Home Fibre Broadband aims to deliver the best experience all the time,
+ Celcom outs Home Fibre broadband plan — 10Mbps for RM145/month,
+ Enjoy iflix and Viu for free on Maxis and Hotlink,
+
+
+Cluster 2 words: galaxy , version , upgrade , galaxy , bikers , galaxy ,
+
+Cluster 2 titles:
+ Samsung’s Galaxy J5 and J7 receive the upgrades they deserve,
+ The Samsung Galaxy A9 gets an upgraded Pro version,
+ The Galaxy S6 finally gets Marshmallow update in Malaysia,
+ Samsung Galaxy J3 for 2016 comes with a special mode for bikers,
+
+
+Cluster 3 words: offer , offer , formatting , offer , quota , limit ,
+
+Cluster 3 titles:
+ WhatsApp now offers text formatting on their iPhone app,
+ Digi offers Malaysia’s first 4G LTE-A broadband with 100GB of quota,
+
+
+{0: 'mi , note , nan , delivery , display , operator', 1: 'nan , broadband , home , home , time , broadband', 2: 'galaxy , version , upgrade , galaxy , bikers , galaxy', 3: 'offer , offer , formatting , offer , quota , limit'}
+
+
+CPU times: user 18.3 ms, sys: 613 us, total: 18.9 ms
+Wall time: 18.9 ms
+CPU times: user 32.3 ms, sys: 131 us, total: 32.4 ms
+Wall time: 32.5 ms
+Current Starting Date: 2015-12-07
+Top terms per cluster:
+
+Cluster 0 words: watch , mi , blackberry , sale , blackberry , launch ,
+
+Cluster 0 titles:
+ Win yourself a Star Wars BB-8 Droid from Maxis,
+ Celcom rewards its FIRST postpaid and Xpax subscribers with loads of free movie tickets,
+ Xiaomi kicks off its 2 day Christmas sale this week with new arrivals,
+ The Huawei Watch has finally arrived,
+ 6 reasons to buy the Nexus 6P,
+ Camera shootout: The Nexus 6P meets the competition,
+ BlackBerry launches the much anticipated PRIV in Malaysia,
+ Apple planning to announce an iPhone 6c and an Apple Watch too?,
+ Is this the Xiaomi Mi 5?,
+ Pixel C is now on sale, but you can’t have it yet,
+ Maxis is now selling the iPad Pro on their online store,
+ Enjoy 3 months of ad-free Spotify Premium for only RM2,
+ This is the UMNO Phone. But the RM2.6 billion question is would you buy it?,
+ The BlackBerry PRIV still costs a bomb even on contract,
+ Android 6.0.1 Marshmallow brings useful tweaks,
+
+
+Cluster 1 words: roll , apple , apple , nan , nan , battery ,
+
+Cluster 1 titles:
+ Apple’s first ever battery pack is ugly and expensive,
+ Apple rolls out iOS 9.2 and watchOS 2.1 update,
+ Guess who else is about to roll out 4G LTE in Malaysia?,
+
+
+Cluster 2 words: android , experience , android , android , pure , pure ,
+
+Cluster 2 titles:
+ The Nexus 6P with its pure Android experience has arrived in Malaysia,
+ The Nexus 6P: the cleanest, most functional Android experience to date,
+ 7 reasons why vanilla isn’t the Android flavour for you,
+ Here’s what to expect from Android after Marshmallow,
+
+
+Cluster 3 words: note , nan , note , nan , nan , nan ,
+
+Cluster 3 titles:
+ Who says you can’t teach an old Note new tricks?,
+ To Mate or Note to Mate,
+ Fancy a metal-clad Redmi Note 3? You can get it now for under RM1,000,
+
+
+{0: 'watch , mi , blackberry , sale , blackberry , launch', 1: 'roll , apple , apple , nan , nan , battery', 2: 'android , experience , android , android , pure , pure', 3: 'note , nan , note , nan , nan , nan'}
+
+
+CPU times: user 21.5 ms, sys: 673 us, total: 22.2 ms
+Wall time: 22.2 ms
+CPU times: user 32.5 ms, sys: 120 us, total: 32.6 ms
+Wall time: 32.7 ms
+Current Starting Date: 2016-03-14
+Top terms per cluster:
+
+Cluster 0 words: device , nan , nan , nan , nan , nan ,
+
+Cluster 0 titles:
+ Windows 10 Mobile rolls out to old devices, but is it too late?,
+
+
+Cluster 1 words: offer , month , offer , offer , month , offer ,
+
+Cluster 1 titles:
+ U Mobile’s Hero Postpaid now offers 15GB of data at RM70/month,
+ Celcom and Xpax offer 2 months free iflix to all customers,
+ Maxis doubles up its worry-free Pay-Per-Use threshold to RM100/month,
+ U Mobile offers the Galaxy S7 edge from RM1,799,
+ Yes now offers 16GB of internet for only RM88/month,
+
+
+Cluster 2 words: galaxy , edge , galaxy , galaxy , edge , snapdragon ,
+
+Cluster 2 titles:
+ Samsung rolls out Android Marshmallow for the Galaxy S6 edge+ in Malaysia,
+ Samsung Galaxy S7 edge review: The best smartphone money can buy,
+ The Galaxy S7 edge is also available from U Mobile,
+ The Exynos-powered Galaxy S7 edge is faster than the Snapdragon 820 variant,
+ The Samsung Galaxy S7 edge arrives in Malaysia,
+ Battle of the edges — S6 edge vs S7 edge vs S6 edge+,
+ Digi offers discounted Gear VR when you get the Galaxy S7 edge,
+ Maxis offers RM200 rebate if you pick up the Galaxy S7 edge via Zerolution,
+
+
+Cluster 3 words: data , feed , pay , expert , nan , camera ,
+
+Cluster 3 titles:
+ This black box will help you stay connected during floods,
+ OPPO R9 Plus to be powered by a Snapdragon 652 processor,
+ Sony’s Concept N headphones are the Google Glass for your ears,
+ Is Samsung planning to kill the iPhone SE with the Galaxy S7 mini?,
+ The Huawei Mate 8 is now available from Maxis,
+ Digi currently ranks #1 in coverage by OpenSignal but…,
+ Instagram will optimise its feed to what matters to you,
+ HTC 10 to feature “World Class” cameras for both front and back,
+ Samsung Pay and Gear 360 coming in 2016,
+ Samsung Gear S2 by de Grisogono has some serious bling,
+ Cookie Monster is the unlikely star in Apple’s latest ad for the iPhone 6s,
+ Digi counters Maxis with their own East Malaysian plan,
+ Unlimited Internet connectivity when travelling internationally from RM15 a day,
+ OPPO R9 and R9 Plus — the real selfie expert,
+ Digi lets you enjoy 8GB of data for only RM10,
+ DxOMark ranks Samsung Galaxy S7 edge the best camera on a smartphone,
+ Uber starts accepting cash payments in Johor Bahru,
+
+
+{0: 'device , nan , nan , nan , nan , nan', 1: 'offer , month , offer , offer , month , offer', 2: 'galaxy , edge , galaxy , galaxy , edge , snapdragon', 3: 'data , feed , pay , expert , nan , camera'}
+
+
+CPU times: user 24.3 ms, sys: 1.12 ms, total: 25.4 ms
+Wall time: 26.1 ms
+CPU times: user 36.5 ms, sys: 459 us, total: 37 ms
+Wall time: 37.8 ms
+Current Starting Date: 2016-05-23
+Top terms per cluster:
+
+Cluster 0 words: video , nan , nan , drone , drone , heart ,
+
+Cluster 0 titles:
+ Xiaomi teases their upcoming drone in new video,
+ The Xiaomi Mi Drone is official, 4K video recording for below RM2,000,
+ Full specs, launch da , nan , nan , battery ,
+
+Cluster 1 titles:
+ Apple’s first ever battery pack is ugly and expensive,
+ Apple rolls out iOS 9.2 and watchOS 2.1 update,
+ Guess who else is about to roll out 4G LTE in Malaysia?,
+
+
+Cluster 2 words: android , experience , android , android , pure , pure ,
+
+Cluster 2 titles:
+ The Nexus 6P with its pure Android experience has arrived in Malaysia,
+ The Nexus 6P: the cleanest, most functional Android experience to date,
+ 7 reasons why vanilla isn’t the Android flavour for you,
+ Here’s what to expect from Android after Marshmallow,
+
+
+Cluster 3 words: note , nan , note , nan , nan , nan ,
+
+Cluster 3 titles:
+ Who says you can’t teach an old Note new tricks?,
+ To Mate or Note to Mate,
+ Fancy a metal-clad Redmi Note 3? You can get it now for under RM1,000,
+
+
+{0: 'watch , mi , blackberry , sale , blackberry , launch', 1: 'roll , apple , apple , nan , nan , battery', 2: 'android , experience , android , android , pure , pure', 3: 'note , nan , note , nan , nan , nan'}
+
+
+CPU times: user 21.5 ms, sys: 673 us, total: 22.2 ms
+Wall time: 22.2 ms
+CPU times: user 32.5 ms, sys: 120 us, total: 32.6 ms
+Wall time: 32.7 ms
+Current Starting Date: 2016-03-14
+Top terms per cluster:
+
+Cluster 0 words: device , nan , nan , nan , nan , nan ,
+
+Cluster 0 titles:
+ Windows 10 Mobile rolls out to old devices, but is it too late?,
+
+
+Cluster 1 words: offer , month , offer , offer , month , offer ,
+
+Cluster 1 titles:
+ U Mobile’s Hero Postpaid now offers 15GB of data at RM70/month,
+ Celcom and Xpax offer 2 months free iflix to all customers,
+ Maxis doubles up its worry-free Pay-Per-Use threshold to RM100/month,
+ U Mobile offers the Galaxy S7 edge from RM1,799,
+ Yes now offers 16GB of internet for only RM88/month,
+
+
+Cluster 2 words: galaxy , edge , galaxy , galaxy , edge , snapdragon ,
+
+Cluster 2 titles:
+ Samsung rolls out Android Marshmallow for the Galaxy S6 edge+ in Malaysia,
+ Samsung Galaxy S7 edge review: The best smartphone money can buy,
+ The Galaxy S7 edge is also available from U Mobile,
+ The Exynos-powered Galaxy S7 edge is faster than the Snapdragon 820 variant,
+ The Samsung Galaxy S7 edge arrives in Malaysia,
+ Battle of the edges — S6 edge vs S7 edge vs S6 edge+,
+ Digi offers discounted Gear VR when you get the Galaxy S7 edge,
+ Maxis offers RM200 rebate if you pick up the Galaxy S7 edge via Zerolution,
+
+
+Cluster 3 words: data , feed , pay , expert , nan , camera ,
+
+Cluster 3 titles:
+ This black box will help you stay connected during floods,
+ OPPO R9 Plus to be powered by a Snapdragon 652 processor,
+ Sony’s Concept N headphones are the Google Glass for your ears,
+ Is Samsung planning to kill the iPhone SE with the Galaxy S7 mini?,
+ The Huawei Mate 8 is now available from Maxis,
+ Digi currently ranks #1 in coverage by OpenSignal but…,
+ Instagram will optimise its feed to what matters to you,
+ HTC 10 to feature “World Class” cameras for both front and back,
+ Samsung Pay and Gear 360 coming in 2016,
+ Samsung Gear S2 by de Grisogono has some serious bling,
+ Cookie Monster is the unlikely star in Apple’s latest ad for the iPhone 6s,
+ Digi counters Maxis with their own East Malaysian plan,
+ Unlimited Internet connectivity when travelling internationally from RM15 a day,
+ OPPO R9 and R9 Plus — the real selfie expert,
+ Digi lets you enjoy 8GB of data for only RM10,
+ DxOMark ranks Samsung Galaxy S7 edge the best camera on a smartphone,
+ Uber starts accepting cash payments in Johor Bahru,
+
+
+{0: 'device , nan , nan , nan , nan , nan', 1: 'offer , month , offer , offer , month , offer', 2: 'galaxy , edge , galaxy , galaxy , edge , snapdragon', 3: 'data , feed , pay , expert , nan , camera'}
+
+
+CPU times: user 24.3 ms, sys: 1.12 ms, total: 25.4 ms
+Wall time: 26.1 ms
+CPU times: user 36.5 ms, sys: 459 us, total: 37 ms
+Wall time: 37.8 ms
+Current Starting Date: 2016-05-23
+Top terms per cluster:
+
+Cluster 0 words: video , nan , nan , drone , drone , heart ,
+
+Cluster 0 titles:
+ Xiaomi teases their upcoming drone in new video,
+ The Xiaomi Mi Drone is official, 4K video recording for below RM2,000,
+ Full specs, launch date and a camera sample drops for the OnePlus 3,
+ Meet Pebble’s latest smartwatches with 24/7 heart rate monitoring,
+ The Hello Kitty Grace 10 Light is a tablet that’s pretty in pink,
+
+
+Cluster 1 words: review , vibe , pocket , projector , pocket , pocket ,
+
+Cluster 1 titles:
+ Lenovo brings out another attractive budget device in the Vibe K5,
+ Lenovo Pocket Projector review: For most, it’s a want not a need,
+ Lenovo Vibe X3 review: A one trick pony?,
+
+
+Cluster 2 words: galaxy , edge , galaxy , batman , batman , batman ,
+
+Cluster 2 titles:
+ The Samsung Galaxy S7 Active full specs revealed,
+ Buy a Samsung TV and get a free Galaxy S7 edge!,
+ Samsung teases Batman themed Galaxy S7 edge,
+ Samsung Galaxy S7 edge in Pink Gold is now available in Malaysia,
+ Batman inspired Samsung Galaxy S7 edge Injustice Edition is now official,
+
+
+Cluster 3 words: week , sale , controller , nan , password , activate ,
+
+Cluster 3 titles:
+ Here’s how to activate WiFi calling on your iPhone,
+ Is Moto bringing back their iconic Razr flip phone?,
+ Samsung Galaxy Note 4 gets Android Marshmallow in Malaysia,
+ OPPO is putting their original Selfie Expert F1 on sale,
+ Samsung slashes RM2,000 off their TVs but the retail price will shock you,
+ Oppo F1 Plus Barcelona Edition emerges, will be available in red and grey,
+ Google wants to nix password logins for Android Apps,
+ Flash Plus 2 — Have we found the Redmi Note 3 killer?,
+ Spotify’s Family Plan is now more affordable than ever,
+ Meet HP’s ultimate gaming laptop for the gamer on the go,
+ This week, on SoyaCincau Live,
+ Just how fast can you unlock the OPPO F1 Plus?,
+ U Mobile’s WiFi Calling is official and it’s pretty awesome,
+ The Asus Strix GL502 is now available in Malaysia,
+ Samsung is apparently working on a Gear VR controller,
+ 5 reasons why the Wiko Robby is an attractive buy under RM500,
+ Samsung pulls the covers off their new Galaxy C line,
+ Can you save this honor 5X from an unfortunate event?,
+
+
+{0: 'video , nan , nan , drone , drone , heart', 1: 'review , vibe , pocket , projector , pocket , pocket', 2: 'galaxy , edge , galaxy , batman , batman , batman', 3: 'week , sale , controller , nan , password , activate'}
+
+
+CPU times: user 28.5 ms, sys: 973 us, total: 29.4 ms
+Wall time: 29.6 ms
+CPU times: user 34.7 ms, sys: 310 us, total: 35 ms
+Wall time: 35.4 ms
+Current Starting Date: 2016-02-22
+Top terms per cluster:
+
+Cluster 0 words: mi , lg , flagship , apple , world , nan ,
+
+Cluster 0 titles:
+ Acer’s new flagship borrows the power of the cloud to keep it clutter-free,
+ What’s so different about Marshmallow on the LG G5?,
+ CONFIRMED: Samsung Galaxy S7 Malaysian launch happening on 18th March,
+ Exploring the modular and peripheral world with LG Friends,
+ Lenovo hits the low-end market with good vibes,
+ This high-spec smartphone is the dark horse of stock Android,
+ It turns out Bill Gates isn’t exactly #TeamFBI in the Apple vs FBI security debacle after all,
+ 7 things you need to know about the Xiaomi Mi 5,
+ Xiaomi’s latest flagship smartphone is a stunning piece of kit,
+ Xiaomi’s Mi 4S may be the perfect appetiser to the Mi 5’s main course,
+ Do you want to sit next to Maxis CEO Morten Lundal every single day?,
+ Maxis offers unlimited calls and SMS when roaming with MaxisONE World,
+ Is Apple replacing the iPad Air 3 with an iPad Pro mini?,
+ Streaming app Popcorn Time mounts a comeback with Hail Hydra update,
+
+
+Cluster 1 words: reason , tablet , nan , end , footage , photography ,
+
+Cluster 1 titles:
+ Test footage from Samsung’s new Gear 360 is pretty impressive,
+ Sony updates its smartphone lineup for 2016 with the Xperia X series,
+ Sony’s smart product concepts are mighty intelligent,
+ Lenovo’s TAB3 series are tablets on the cheap,
+ Samsung’s new Gear 360 is a sweet looking 360-degree camera and I want one,
+ 7 reasons to get the Samsung Galaxy S7,
+ LG G5’s dual camera photo samples: Wide-angle goodness,
+ I’m sorry, this smartphone has how much RAM?,
+ The Huawei MateBook will be competitively priced when it comes to Malaysia,
+ OPPO just fully charged a smarte and a camera sample drops for the OnePlus 3,
+ Meet Pebble’s latest smartwatches with 24/7 heart rate monitoring,
+ The Hello Kitty Grace 10 Light is a tablet that’s pretty in pink,
+
+
+Cluster 1 words: review , vibe , pocket , projector , pocket , pocket ,
+
+Cluster 1 titles:
+ Lenovo brings out another attractive budget device in the Vibe K5,
+ Lenovo Pocket Projector review: For most, it’s a want not a need,
+ Lenovo Vibe X3 review: A one trick pony?,
+
+
+Cluster 2 words: galaxy , edge , galaxy , batman , batman , batman ,
+
+Cluster 2 titles:
+ The Samsung Galaxy S7 Active full specs revealed,
+ Buy a Samsung TV and get a free Galaxy S7 edge!,
+ Samsung teases Batman themed Galaxy S7 edge,
+ Samsung Galaxy S7 edge in Pink Gold is now available in Malaysia,
+ Batman inspired Samsung Galaxy S7 edge Injustice Edition is now official,
+
+
+Cluster 3 words: week , sale , controller , nan , password , activate ,
+
+Cluster 3 titles:
+ Here’s how to activate WiFi calling on your iPhone,
+ Is Moto bringing back their iconic Razr flip phone?,
+ Samsung Galaxy Note 4 gets Android Marshmallow in Malaysia,
+ OPPO is putting their original Selfie Expert F1 on sale,
+ Samsung slashes RM2,000 off their TVs but the retail price will shock you,
+ Oppo F1 Plus Barcelona Edition emerges, will be available in red and grey,
+ Google wants to nix password logins for Android Apps,
+ Flash Plus 2 — Have we found the Redmi Note 3 killer?,
+ Spotify’s Family Plan is now more affordable than ever,
+ Meet HP’s ultimate gaming laptop for the gamer on the go,
+ This week, on SoyaCincau Live,
+ Just how fast can you unlock the OPPO F1 Plus?,
+ U Mobile’s WiFi Calling is official and it’s pretty awesome,
+ The Asus Strix GL502 is now available in Malaysia,
+ Samsung is apparently working on a Gear VR controller,
+ 5 reasons why the Wiko Robby is an attractive buy under RM500,
+ Samsung pulls the covers off their new Galaxy C line,
+ Can you save this honor 5X from an unfortunate event?,
+
+
+{0: 'video , nan , nan , drone , drone , heart', 1: 'review , vibe , pocket , projector , pocket , pocket', 2: 'galaxy , edge , galaxy , batman , batman , batman', 3: 'week , sale , controller , nan , password , activate'}
+
+
+CPU times: user 28.5 ms, sys: 973 us, total: 29.4 ms
+Wall time: 29.6 ms
+CPU times: user 34.7 ms, sys: 310 us, total: 35 ms
+Wall time: 35.4 ms
+Current Starting Date: 2016-02-22
+Top terms per cluster:
+
+Cluster 0 words: mi , lg , flagship , apple , world , nan ,
+
+Cluster 0 titles:
+ Acer’s new flagship borrows the power of the cloud to keep it clutter-free,
+ What’s so different about Marshmallow on the LG G5?,
+ CONFIRMED: Samsung Galaxy S7 Malaysian launch happening on 18th March,
+ Exploring the modular and peripheral world with LG Friends,
+ Lenovo hits the low-end market with good vibes,
+ This high-spec smartphone is the dark horse of stock Android,
+ It turns out Bill Gates isn’t exactly #TeamFBI in the Apple vs FBI security debacle after all,
+ 7 things you need to know about the Xiaomi Mi 5,
+ Xiaomi’s latest flagship smartphone is a stunning piece of kit,
+ Xiaomi’s Mi 4S may be the perfect appetiser to the Mi 5’s main course,
+ Do you want to sit next to Maxis CEO Morten Lundal every single day?,
+ Maxis offers unlimited calls and SMS when roaming with MaxisONE World,
+ Is Apple replacing the iPad Air 3 with an iPad Pro mini?,
+ Streaming app Popcorn Time mounts a comeback with Hail Hydra update,
+
+
+Cluster 1 words: reason , tablet , nan , end , footage , photography ,
+
+Cluster 1 titles:
+ Test footage from Samsung’s new Gear 360 is pretty impressive,
+ Sony updates its smartphone lineup for 2016 with the Xperia X series,
+ Sony’s smart product concepts are mighty intelligent,
+ Lenovo’s TAB3 series are tablets on the cheap,
+ Samsung’s new Gear 360 is a sweet looking 360-degree camera and I want one,
+ 7 reasons to get the Samsung Galaxy S7,
+ LG G5’s dual camera photo samples: Wide-angle goodness,
+ I’m sorry, this smartphone has how much RAM?,
+ The Huawei MateBook will be competitively priced when it comes to Malaysia,
+ OPPO just fully charged a smartphone in 15 minutes,
+ Does X mark the end for the Xperia Z series?,
+ OPPO SmartSensor provides three-axis stabilisation in the smallest package on Earth,
+ And people wonder why the machines eventually rise up against them,
+ Facebook now lets you do more than just Like posts – no, you still can’t “dislike”,
+ Digi’s Best prepaid just got better,
+ Siri set to hit Macs in June with next major OS X release,
+ Ever wondered what happens when you block a number on an iPhone?,
+ Microsoft kills project to port Android apps over to Windows – goes for a shortcut instead,
+ TuneTalk claims to have 8G. Is this a load of hogwash?,
+ Leica teams up with Huawei to ‘reinvent’ smartphone photography,
+
+
+Cluster 2 words: phone , phone , chuck , chuck , desire , desire ,
+
+Cluster 2 titles:
+ HTC’s speckly new Desires are pretty basic phones,
+ The HP Elite x3 is a Win 10 phone built for biz,
+ If Chuck Norris were a phone, this would be it,
+
+
+Cluster 3 words: galaxy , edge , galaxy , deal , deal , edge ,
+
+Cluster 3 titles:
+ Samsung Galaxy S7 and S7 edge may arrive in Malaysia next month,
+ Samsung Galaxy S7 and S7 edge: The perfect smartphone,
+ Why I think the LG G5 is a bigger deal than the Samsung Galaxy S7,
+ Is Samsung bringing only the Galaxy S7 edge to Malaysia?,
+
+
+{0: 'mi , lg , flagship , apple , world , nan', 1: 'reason , tablet , nan , end , footage , photography', 2: 'phone , phone , chuck , chuck , desire , desire', 3: 'galaxy , edge , galaxy , deal , deal , edge'}
+
+
+CPU times: user 38.1 ms, sys: 1.51 ms, total: 39.6 ms
+Wall time: 40 ms
+CPU times: user 34.7 ms, sys: 195 us, total: 34.9 ms
+Wall time: 35.2 ms
+Current Starting Date: 2016-01-04
+Top terms per cluster:
+
+Cluster 0 words: mobile , pro , device , end , payment , nan ,
+
+Cluster 0 titles:
+ Is Samsung mad enough?,
+ Why is your baby crying? There’s an app for that,
+ Soon, you could swat flies with a TV screen,
+ You can still enjoy Free Internet Roaming on U Mobile,
+ Mysterious devices teased ahead of Huawei’s CES announcement,
+ U Mobile continues to give 1GB extra for all Prepaid UMI users,
+ Paying too much attention to your phone could cost you your life,
+ OPPO to launch its all new F series smartphone this month,
+ Acer introduces World’s First USB Type-C Monitors,
+ Is Samsung working on a tablet to compete with the iPad Pro?,
+ DJI teams up with Ford and the United Nations to save lives with drones,
+ Parrot’s new drone doesn’t fly like a bird, it flies like a plane,
+ Now anyone can design their own Samsung Gear S2 Watchface,
+ This wearable lets you control the BB-8 like a Jedi,
+ Facebook has been messing with you on purpose,
+ You can add “MagSafe” to your MacBook and USB Type-C Laptops,
+ Logitech Proteus Core gaming mouse gets a nice upgrade,
+ Xiaomi rolls out MIUI 7.1 update to all global Mi devices,
+ HTC and Under Armour team up to make you healthier with the UA HealthBox,
+ ASUS Zenfone Zoom to be launched in Malaysia next week,
+ Huawei’s Mate 8 goes global and it’s coming to Malaysia very soon,
+ You will have to pay for your printed TM bill come July 2016. It’s time to go green,
+ Samsung Gear S2 Classic now in Rose Gold and Platinum colours,
+ The Samsung Galaxy TabPro S is official. This could take on the Surface Pro 4,
+ Samsung will make the Gear S2 work with your iPhone,
+ LeTV Le Max Pro: The First smartphone with Snapdragon 820 processor and Sense ID,
+ This is what the OPPO F1 smartphone looks like,
+ 5 Things you need to know about Netflix in Malaysia,
+ Metal-clad Xiaomi Redmi 3 to be launched next week,
+ SoyaCincau’s Smartwatch Buyer’s Guide,
+ Razer releases the Nabu Watch. Looks like a G-Shock, runs like a Fitbit,
+ This wireless charger lets you charge your phone in mid-air,
+ HTC & Valve introduces the Vive Pre VR Headset; a good excuse for the delay,
+ This is a 16-lens DSLR killer that can fit in your pocket,
+ Maybank and Visa lets you make payments from your wrist,
+ A dozen Xperia Z5 Compacts shooting 4K in unison is nothing short of amazing,
+ Nope, this isn’t the end of Moto smartphones,
+ Maxis 100Mbps Home Fibre – Now you catphone in 15 minutes,
+ Does X mark the end for the Xperia Z series?,
+ OPPO SmartSensor provides three-axis stabilisation in the smallest package on Earth,
+ And people wonder why the machines eventually rise up against them,
+ Facebook now lets you do more than just Like posts – no, you still can’t “dislike”,
+ Digi’s Best prepaid just got better,
+ Siri set to hit Macs in June with next major OS X release,
+ Ever wondered what happens when you block a number on an iPhone?,
+ Microsoft kills project to port Android apps over to Windows – goes for a shortcut instead,
+ TuneTalk claims to have 8G. Is this a load of hogwash?,
+ Leica teams up with Huawei to ‘reinvent’ smartphone photography,
+
+
+Cluster 2 words: phone , phone , chuck , chuck , desire , desire ,
+
+Cluster 2 titles:
+ HTC’s speckly new Desires are pretty basic phones,
+ The HP Elite x3 is a Win 10 phone built for biz,
+ If Chuck Norris were a phone, this would be it,
+
+
+Cluster 3 words: galaxy , edge , galaxy , deal , deal , edge ,
+
+Cluster 3 titles:
+ Samsung Galaxy S7 and S7 edge may arrive in Malaysia next month,
+ Samsung Galaxy S7 and S7 edge: The perfect smartphone,
+ Why I think the LG G5 is a bigger deal than the Samsung Galaxy S7,
+ Is Samsung bringing only the Galaxy S7 edge to Malaysia?,
+
+
+{0: 'mi , lg , flagship , apple , world , nan', 1: 'reason , tablet , nan , end , footage , photography', 2: 'phone , phone , chuck , chuck , desire , desire', 3: 'galaxy , edge , galaxy , deal , deal , edge'}
+
+
+CPU times: user 38.1 ms, sys: 1.51 ms, total: 39.6 ms
+Wall time: 40 ms
+CPU times: user 34.7 ms, sys: 195 us, total: 34.9 ms
+Wall time: 35.2 ms
+Current Starting Date: 2016-01-04
+Top terms per cluster:
+
+Cluster 0 words: mobile , pro , device , end , payment , nan ,
+
+Cluster 0 titles:
+ Is Samsung mad enough?,
+ Why is your baby crying? There’s an app for that,
+ Soon, you could swat flies with a TV screen,
+ You can still enjoy Free Internet Roaming on U Mobile,
+ Mysterious devices teased ahead of Huawei’s CES announcement,
+ U Mobile continues to give 1GB extra for all Prepaid UMI users,
+ Paying too much attention to your phone could cost you your life,
+ OPPO to launch its all new F series smartphone this month,
+ Acer introduces World’s First USB Type-C Monitors,
+ Is Samsung working on a tablet to compete with the iPad Pro?,
+ DJI teams up with Ford and the United Nations to save lives with drones,
+ Parrot’s new drone doesn’t fly like a bird, it flies like a plane,
+ Now anyone can design their own Samsung Gear S2 Watchface,
+ This wearable lets you control the BB-8 like a Jedi,
+ Facebook has been messing with you on purpose,
+ You can add “MagSafe” to your MacBook and USB Type-C Laptops,
+ Logitech Proteus Core gaming mouse gets a nice upgrade,
+ Xiaomi rolls out MIUI 7.1 update to all global Mi devices,
+ HTC and Under Armour team up to make you healthier with the UA HealthBox,
+ ASUS Zenfone Zoom to be launched in Malaysia next week,
+ Huawei’s Mate 8 goes global and it’s coming to Malaysia very soon,
+ You will have to pay for your printed TM bill come July 2016. It’s time to go green,
+ Samsung Gear S2 Classic now in Rose Gold and Platinum colours,
+ The Samsung Galaxy TabPro S is official. This could take on the Surface Pro 4,
+ Samsung will make the Gear S2 work with your iPhone,
+ LeTV Le Max Pro: The First smartphone with Snapdragon 820 processor and Sense ID,
+ This is what the OPPO F1 smartphone looks like,
+ 5 Things you need to know about Netflix in Malaysia,
+ Metal-clad Xiaomi Redmi 3 to be launched next week,
+ SoyaCincau’s Smartwatch Buyer’s Guide,
+ Razer releases the Nabu Watch. Looks like a G-Shock, runs like a Fitbit,
+ This wireless charger lets you charge your phone in mid-air,
+ HTC & Valve introduces the Vive Pre VR Headset; a good excuse for the delay,
+ This is a 16-lens DSLR killer that can fit in your pocket,
+ Maybank and Visa lets you make payments from your wrist,
+ A dozen Xperia Z5 Compacts shooting 4K in unison is nothing short of amazing,
+ Nope, this isn’t the end of Moto smartphones,
+ Maxis 100Mbps Home Fibre – Now you can really #NetflixAndChill,
+ Could this be confirmation that Samsung is launching four S7 variants?,
+
+
+Cluster 1 words: watch , year , apple , apple , launch , drone ,
+
+Cluster 1 titles:
+ Top 5 drone developments to watch out for this year,
+ Lenovo launches the Vibe K4 Note with a VR bundle,
+ Fitbit ups the ante with its fancy-looking Blaze fitness watch,
+ Huawei blings-out its Watch for the ladies with Swarovski crystals,
+ Xiaomi’s upcoming flagship to be out after Chinese New Year,
+ Apple Watch may launch in Malaysia this February with special Chinese New Year limited edition,
+ Apple Watch now officially available in Malaysia from RM1,599. Special Chinese New Year edition on sale until February 22,
+ This is the mechanical Apple Watch you’ve been waiting for,
+
+
+Cluster 2 words: camera , action , action , security , security , camera ,
+
+Cluster 2 titles:
+ This security camera doesn’t just see, it knows what it’s looking at,
+ The ASUS Reco Smart camera is more than just a dash-cam,
+ Nikon releases its first 360-degree action camera and it shoots in 4K,
+ Say hello to the first solar-powered 4K action camera,
+
+
+Cluster 3 words: galaxy , pricing , galaxy , galaxy , feature , cover ,
+
+Cluster 3 titles:
+ Samsung Galaxy S7 will get features you wanted so badly on the S6,
+ Netflix now available in Malaysia. Premium pricing might deter mass adoption.,
+ Samsung Galaxy View Malaysian pricing revealed,
+ This cover lets you add a physical keyboard to your Galaxy S6,
+
+
+{0: 'mobile , pro , device , end , payment , nan', 1: 'watch , year , apple , apple , launch , drone', 2: 'camera , action , action , security , security , camera', 3: 'galaxy , pricing , galaxy , galaxy , feature , cover'}
+
+
+CPU times: user 25.6 ms, sys: 1.29 ms, total: 26.9 ms
+Wall time: 27.5 ms
+CPU times: user 36.6 ms, sys: 526 us, total: 37.1 ms
+Wall time: 37.9 ms
+Current Starting Date: 2016-05-03
+Top terms per cluster:
+
+Cluster 0 words: launch , trio , nan , end , ram , fingerprint ,
+
+Cluster 0 titles:
+ Google Keyboard’s new update brings awesome new features,
+ Xiaomi now has a smartwatch for the kids,
+ Track your steps with the help of a familiar Italian plumber,
+ Apple’s iPhone SE will officially go on sale in Malaysia on 13 May,
+ The OnePlus 3 to have two RAM variants, will be slightly cheaper than the OnePlus 2,
+ 5 Things you can do with the honor 5X’s fingerprint sensor,
+ The Samsung Galaxy Note 6 rumoured to have USB Type-C connector,
+ U Mobile offers the iPhone SE from RM705 with easy payment options available,
+ LG is working on a buttonless fingerprint sensor,
+ You can grab an iPhone 5s at RM1,299 while stocks last,
+ Xiaomi Mi Max and Mi Band 2 leak right before launch,
+ The HTC Desire 830 is now official, has speakers at both ends,
+ Too lazy to reset your router? then this adapter is for you,
+ GrabHitch — the carpooling innovation beta launches in Malaysia,
+ GoBear launches in Malaysia — financial comparisons made easy,
+ Malaysians are leading the world in social media and mobile,
+ A closer look at the Huawei P9 trio,
+ TaxiLater lets you schedule Uber pickup requests in advance,
+ Maxis offers the iPhone SE from RM45/month on Zerolution,
+ Follow this GoPro Hero4’s epic journey into space and back,
+ Huawei P9 series now official for South Pacific. To be available at the end of May,
+ Leaked renders for the Sony Xperia C6 Ultra emerge alongside specs,
+ Lenovo’s funky concoctions make it to our shores and they’re pretty awesome,
+ You can now order your iPhone SE on the Malaysian Online Store,
+
+
+Cluster 1 words: service , nan , service , nan , nan , plan ,
+
+Cluster 1 titles:
+ Digi introduces Internet Sharing service for existing Digi Postpaid Plans,
+ YouTube’s working on a new streaming service called YouTube Unplugged,
+
+
+Cluster 2 words: market , acer , offering , offering , market , lot ,
+
+Cluster 2 titles:
+ If you’re in the market for a portable workhorse, Acer’s got two strong choices,
+ Lenovo’s CES offerings are finally hitting the Malaysian market,
+
+
+Cluster 3 words: data , data , breach , nan , nan , nan ,
+
+Cluster 3 titles:n really #NetflixAndChill,
+ Could this be confirmation that Samsung is launching four S7 variants?,
+
+
+Cluster 1 words: watch , year , apple , apple , launch , drone ,
+
+Cluster 1 titles:
+ Top 5 drone developments to watch out for this year,
+ Lenovo launches the Vibe K4 Note with a VR bundle,
+ Fitbit ups the ante with its fancy-looking Blaze fitness watch,
+ Huawei blings-out its Watch for the ladies with Swarovski crystals,
+ Xiaomi’s upcoming flagship to be out after Chinese New Year,
+ Apple Watch may launch in Malaysia this February with special Chinese New Year limited edition,
+ Apple Watch now officially available in Malaysia from RM1,599. Special Chinese New Year edition on sale until February 22,
+ This is the mechanical Apple Watch you’ve been waiting for,
+
+
+Cluster 2 words: camera , action , action , security , security , camera ,
+
+Cluster 2 titles:
+ This security camera doesn’t just see, it knows what it’s looking at,
+ The ASUS Reco Smart camera is more than just a dash-cam,
+ Nikon releases its first 360-degree action camera and it shoots in 4K,
+ Say hello to the first solar-powered 4K action camera,
+
+
+Cluster 3 words: galaxy , pricing , galaxy , galaxy , feature , cover ,
+
+Cluster 3 titles:
+ Samsung Galaxy S7 will get features you wanted so badly on the S6,
+ Netflix now available in Malaysia. Premium pricing might deter mass adoption.,
+ Samsung Galaxy View Malaysian pricing revealed,
+ This cover lets you add a physical keyboard to your Galaxy S6,
+
+
+{0: 'mobile , pro , device , end , payment , nan', 1: 'watch , year , apple , apple , launch , drone', 2: 'camera , action , action , security , security , camera', 3: 'galaxy , pricing , galaxy , galaxy , feature , cover'}
+
+
+CPU times: user 25.6 ms, sys: 1.29 ms, total: 26.9 ms
+Wall time: 27.5 ms
+CPU times: user 36.6 ms, sys: 526 us, total: 37.1 ms
+Wall time: 37.9 ms
+Current Starting Date: 2016-05-03
+Top terms per cluster:
+
+Cluster 0 words: launch , trio , nan , end , ram , fingerprint ,
+
+Cluster 0 titles:
+ Google Keyboard’s new update brings awesome new features,
+ Xiaomi now has a smartwatch for the kids,
+ Track your steps with the help of a familiar Italian plumber,
+ Apple’s iPhone SE will officially go on sale in Malaysia on 13 May,
+ The OnePlus 3 to have two RAM variants, will be slightly cheaper than the OnePlus 2,
+ 5 Things you can do with the honor 5X’s fingerprint sensor,
+ The Samsung Galaxy Note 6 rumoured to have USB Type-C connector,
+ U Mobile offers the iPhone SE from RM705 with easy payment options available,
+ LG is working on a buttonless fingerprint sensor,
+ You can grab an iPhone 5s at RM1,299 while stocks last,
+ Xiaomi Mi Max and Mi Band 2 leak right before launch,
+ The HTC Desire 830 is now official, has speakers at both ends,
+ Too lazy to reset your router? then this adapter is for you,
+ GrabHitch — the carpooling innovation beta launches in Malaysia,
+ GoBear launches in Malaysia — financial comparisons made easy,
+ Malaysians are leading the world in social media and mobile,
+ A closer look at the Huawei P9 trio,
+ TaxiLater lets you schedule Uber pickup requests in advance,
+ Maxis offers the iPhone SE from RM45/month on Zerolution,
+ Follow this GoPro Hero4’s epic journey into space and back,
+ Huawei P9 series now official for South Pacific. To be available at the end of May,
+ Leaked renders for the Sony Xperia C6 Ultra emerge alongside specs,
+ Lenovo’s funky concoctions make it to our shores and they’re pretty awesome,
+ You can now order your iPhone SE on the Malaysian Online Store,
+
+
+Cluster 1 words: service , nan , service , nan , nan , plan ,
+
+Cluster 1 titles:
+ Digi introduces Internet Sharing service for existing Digi Postpaid Plans,
+ YouTube’s working on a new streaming service called YouTube Unplugged,
+
+
+Cluster 2 words: market , acer , offering , offering , market , lot ,
+
+Cluster 2 titles:
+ If you’re in the market for a portable workhorse, Acer’s got two strong choices,
+ Lenovo’s CES offerings are finally hitting the Malaysian market,
+
+
+Cluster 3 words: data , data , breach , nan , nan , nan ,
+
+Cluster 3 titles:
+ Compared: Best postpaid plans with unlimited calls and lots of data for you and your family,
+ Millions of Gmail, Microsoft and Yahoo email accounts compromised in data breach,
+
+
+{0: 'launch , trio , nan , end , ram , fingerprint', 1: 'service , nan , service , nan , nan , plan', 2: 'market , acer , offering , offering , market , lot', 3: 'data , data , breach , nan , nan , nan'}
+
+
+CPU times: user 20.5 ms, sys: 935 us, total: 21.5 ms
+Wall time: 22 ms
+CPU times: user 35.5 ms, sys: 430 us, total: 36 ms
+Wall time: 36.5 ms
+Current Starting Date: 2016-04-04
+Top terms per cluster:
+
+Cluster 0 words: pricing , blend , boom , order , nan , mate ,
+
+Cluster 0 titles:
+ Leica branded Huawei P9 spotted in the wild,
+ The OPPO F1 Plus is up for pre-orders now,
+ HTC 10 will have the best boom sound yet,
+ Xiaomi Redmi Note 3 review: Best smartphone on a budget?,
+ Huawei Mate 8 review: Bigger is better,
+ Xiaomi’s new Mi Pad is more than meets the eye,
+ iPhone SE and iPad Pro 9.7 official Malaysian pricing revealed,
+ Your WhatsApp conversations are now encrypted end to end,
+ Vivo’s V3Max is a metal-bodied smartphone that packs a punch,
+ Huawei P9 is official — twin Leica lenses eyeing to be the world’s best,
+ More info on Malaysia’s newest 4G operator,
+ These stunning images were taken with a smartphone. Can you guess which smartphone?,
+ Aries rolls out Infinity 1Gbps Broadband,
+ Now Malaysians can get YouTube Gaming right on their mobiles,
+ How far can you go with RM1?,
+ This cube from GoPro lets you shoot 360° spherical videos,
+ Maxis CEO Morten Lundal will be making a statement later today. What do you want to hear him say?,
+ Will it Blend? Here’s the iPhone SE edition,
+
+
+Cluster 1 words: day , data , offer , nan , day , offer ,
+
+Cluster 1 titles:
+ Maxis responds to accusation of giving special offers to those that port out,
+ U Mobile now offers unlimited data roaming from as low as RM10/day,
+ OPPO’s F1 Plus has landed in Malaysia — 16MP selfies all day, every day,
+ Maxis CEO announces upgraded MaxisONE Plans with more data,
+
+
+Cluster 2 words: offering , nan , nan , world , nan , nan ,
+
+Cluster 2 titles:
+ TM promises an exciting mobile offering is coming,
+ 11street is offering the iPhone SE from RM1,899,
+
+
+Cluster 3 words: plan , month , advance , advance , advance , subscription ,
+
+Cluster 3 titles:
+ TM UniFi Advance subscription now starts from RM199/month,
+ This could be the best postpaid plan in town — RM80/month for unlimited everything,
+ Compared: New upgraded MaxisOne Plan vs the rest,
+
+
+{0: 'pricing , blend , boom , order , nan , mate', 1: 'day , data , offer , nan , day , offer', 2: 'offering , nan , nan , world , nan , nan', 3: 'plan , month , advance , advance , advance , subscription'}
+
+
+CPU times: user 12.2 ms, sys: 613 us, total: 12.8 ms
+Wall time: 13.2 ms
+CPU times: user 37 ms, sys: 612 us, total: 37.6 ms
+Wall time: 38.8 ms
+Current Starting Date: 2015-12-21
+Top terms per cluster:
+
+Cluster 0 words: price , nan , device , mini , mini , marshmallow ,
+
+Cluster 0 titles:
+ Time to add some toppings to your vanilla Android experience,
+ So this is what happens when a Nexus device has a meltdown,
+ Here’s how you can get Android Marshmallow on your honor 7,
+ Soon all Chinese smartphones might look the same,
+ Malaysia’s broadband still lags behind,
+ Christmas comes early for Tune Talk employees,
+ Make your Mate S blush a little this holiday season,
+ Can you get 40GB of internet for RM100?,
+ The latest Samsung Gear VR is finally here with a lower price tag,
+ This could be the biggest leap in space travel since the moon landing,
+ It looks like John Chen isn’t done pissing BlackBerry fans off,
+ You can get the iPad Pro and iPad mini 4 from Celcom with loads of Internet,
+ What if your car could see?,
+ This smart phone lets you take selfies all day without the need of power banks,
+ Microsoft Surface Pro 4 review: Best of the breed,
+
+
+Cluster 1 words: nan , payment , payment , nan , john , john ,
+
+Cluster 1 titles:
+ Get an iPhone 6s with no upfront payment with Maxis Zerolution,
+
+
+Cluster 2 words: weekend , plan ,
+ Compared: Best postpaid plans with unlimited calls and lots of data for you and your family,
+ Millions of Gmail, Microsoft and Yahoo email accounts compromised in data breach,
+
+
+{0: 'launch , trio , nan , end , ram , fingerprint', 1: 'service , nan , service , nan , nan , plan', 2: 'market , acer , offering , offering , market , lot', 3: 'data , data , breach , nan , nan , nan'}
+
+
+CPU times: user 20.5 ms, sys: 935 us, total: 21.5 ms
+Wall time: 22 ms
+CPU times: user 35.5 ms, sys: 430 us, total: 36 ms
+Wall time: 36.5 ms
+Current Starting Date: 2016-04-04
+Top terms per cluster:
+
+Cluster 0 words: pricing , blend , boom , order , nan , mate ,
+
+Cluster 0 titles:
+ Leica branded Huawei P9 spotted in the wild,
+ The OPPO F1 Plus is up for pre-orders now,
+ HTC 10 will have the best boom sound yet,
+ Xiaomi Redmi Note 3 review: Best smartphone on a budget?,
+ Huawei Mate 8 review: Bigger is better,
+ Xiaomi’s new Mi Pad is more than meets the eye,
+ iPhone SE and iPad Pro 9.7 official Malaysian pricing revealed,
+ Your WhatsApp conversations are now encrypted end to end,
+ Vivo’s V3Max is a metal-bodied smartphone that packs a punch,
+ Huawei P9 is official — twin Leica lenses eyeing to be the world’s best,
+ More info on Malaysia’s newest 4G operator,
+ These stunning images were taken with a smartphone. Can you guess which smartphone?,
+ Aries rolls out Infinity 1Gbps Broadband,
+ Now Malaysians can get YouTube Gaming right on their mobiles,
+ How far can you go with RM1?,
+ This cube from GoPro lets you shoot 360° spherical videos,
+ Maxis CEO Morten Lundal will be making a statement later today. What do you want to hear him say?,
+ Will it Blend? Here’s the iPhone SE edition,
+
+
+Cluster 1 words: day , data , offer , nan , day , offer ,
+
+Cluster 1 titles:
+ Maxis responds to accusation of giving special offers to those that port out,
+ U Mobile now offers unlimited data roaming from as low as RM10/day,
+ OPPO’s F1 Plus has landed in Malaysia — 16MP selfies all day, every day,
+ Maxis CEO announces upgraded MaxisONE Plans with more data,
+
+
+Cluster 2 words: offering , nan , nan , world , nan , nan ,
+
+Cluster 2 titles:
+ TM promises an exciting mobile offering is coming,
+ 11street is offering the iPhone SE from RM1,899,
+
+
+Cluster 3 words: plan , month , advance , advance , advance , subscription ,
+
+Cluster 3 titles:
+ TM UniFi Advance subscription now starts from RM199/month,
+ This could be the best postpaid plan in town — RM80/month for unlimited everything,
+ Compared: New upgraded MaxisOne Plan vs the rest,
+
+
+{0: 'pricing , blend , boom , order , nan , mate', 1: 'day , data , offer , nan , day , offer', 2: 'offering , nan , nan , world , nan , nan', 3: 'plan , month , advance , advance , advance , subscription'}
+
+
+CPU times: user 12.2 ms, sys: 613 us, total: 12.8 ms
+Wall time: 13.2 ms
+CPU times: user 37 ms, sys: 612 us, total: 37.6 ms
+Wall time: 38.8 ms
+Current Starting Date: 2015-12-21
+Top terms per cluster:
+
+Cluster 0 words: price , nan , device , mini , mini , marshmallow ,
+
+Cluster 0 titles:
+ Time to add some toppings to your vanilla Android experience,
+ So this is what happens when a Nexus device has a meltdown,
+ Here’s how you can get Android Marshmallow on your honor 7,
+ Soon all Chinese smartphones might look the same,
+ Malaysia’s broadband still lags behind,
+ Christmas comes early for Tune Talk employees,
+ Make your Mate S blush a little this holiday season,
+ Can you get 40GB of internet for RM100?,
+ The latest Samsung Gear VR is finally here with a lower price tag,
+ This could be the biggest leap in space travel since the moon landing,
+ It looks like John Chen isn’t done pissing BlackBerry fans off,
+ You can get the iPad Pro and iPad mini 4 from Celcom with loads of Internet,
+ What if your car could see?,
+ This smart phone lets you take selfies all day without the need of power banks,
+ Microsoft Surface Pro 4 review: Best of the breed,
+
+
+Cluster 1 words: nan , payment , payment , nan , john , john ,
+
+Cluster 1 titles:
+ Get an iPhone 6s with no upfront payment with Maxis Zerolution,
+
+
+Cluster 2 words: weekend , plan , weekend , blackberry , honor , mate ,
+
+Cluster 2 titles:
+ Weekends will never be the same again with Celcom’s new FIRST Plans,
+
+
+Cluster 3 words: nan , weekend , nan , honor , john , john ,
+
+Cluster 3 titles:
+ Lenovo’s smartphone with dual selfie cam is finally here,
+
+
+{0: 'price , nan , device , mini , mini , marshmallow', 1: 'nan , payment , payment , nan , john , john', 2: 'weekend , plan , weekend , blackberry , honor , mate', 3: 'nan , weekend , nan , honor , john , john'}
+
+
+CPU times: user 27.9 ms, sys: 1.36 ms, total: 29.3 ms
+Wall time: 29.9 ms
+CPU times: user 36.5 ms, sys: 387 us, total: 36.9 ms
+Wall time: 37.6 ms
+Current Starting Date: 2016-01-26
+Top terms per cluster:
+
+Cluster 0 words: solution , case , honor , nan , nan , inch ,
+
+Cluster 0 titles:
+ Xiaomi Mi 5 to be launched on 24th February,
+ Acer Predator 8 Review: Made for fun,
+ The honor 5X and honor 7 Enhanced have hit Malaysian shores,
+ Microsoft’s iOS keyboard may have the most brilliant one-handed typing solution yet,
+ Can Uber replace your car?,
+ Everything the 4-inch iPhone 5se could be and more,
+ honor 5X hands-on and first impressions,
+ More free iflix, this time it’s for Digi subscribers,
+ A smartphone case that’s perfect for a whistleblower,
+ You can buy the Redmi 3 in Malaysia but it ain’t cheap,
+ Here’s proof that the Facebook app is bad for your smartphone,
+ IKEA’s new table lets you cook with your smartphone,
+ LG announces that they’ll release two flagships in 2016,
+ Zomato is going to bring you to your favourite food with Uber,
+ Uber has been tracking drivers’ on-road behaviour in an experimental program,
+ Microsoft’s new case looks good, but only on the surface,
+ Is your LG G4 stuck in a bootloop? Here’s the solution,
+ Apple’s Safari browser has gone haywire worldwide,
+ Slideshow presentation allegedly details Samsung’s Galaxy S7 specs,
+ Microsoft has just made Surfacephone.com a real thing,
+ French-based Wiko launches 3 budget-friendly smartphones in Malaysia,
+ Can your drone fly underwater?,
+ Celcom, TM and P1 will share network infrastructure for better connectivity,
+ MyTeksi is now Grab: Here are 3 new features you need to know,
+ Digi offers 7GB of internet and unlimited calls for RM75/month,
+ Xiaomi Co-founder shares Mi 5 screenshot: Confirming two specs,
+ OPPO’s F1 Plus emerges, carrying a better screen & more RAM,
+ HTC One M10 specsheet leaked: Comes with big additions and omissions,
+ Lenovo sneakily makes the Vibe X3 available in Malaysia,
+ Windows Phone has died, here’s why we think it will stay dead,
+ Apple is supposedly going to “reinvent” wireless charging in a big way,
+ U Mobile introduces Hero Plus Postpaid. Loaded with heaps of data for sharing.,
+ LG patches yet another vulnerability, this time with the G3,
+ Moto 360 2nd gen smartwatch has officially landed in Malaysia,
+
+
+Cluster 1 words: nan , nan , nan , hand , grab , grab ,
+
+Cluster 1 titles:
+ Google can now tell you when politicians are lying,
+
+
+Cluster 2 words: galaxy , galaxy , galaxy , hand , hand , nan ,
+
+Cluster 2 titles:
+ Samsung’s Galaxy A 2016 series has landed in Malaysia,
+ Samsung’s gigantic Galaxy View is now available in Malaysia at RM2,699,
+ Samsung Galaxy A 2016 hands on and first impressions,
+
+
+Cluster 3 words: device , midrange , price , price , price , midrange ,
+
+Cluster 3 titles:
+ Android Marshmallow update timeline for Samsung devices leaked,
+ OPPO is slashing the prices of two of their midrange devices,
+
+
+{0: 'solution , case , honor , nan , nan , inch', 1: 'nan , nan , nan , hand , grab , grab', 2: 'galaxy , galaxy , galaxy , hand , hand , nan', 3: 'device , midrange , price , price , price , midrange'}
+
+
+CPU times: user 53.5 ms, sys: 2.74 ms, total: 56.2 ms
+Wall time: 58 ms
+CPU times: user 52.6 ms, sys: 1.45 ms, total: 54.1 ms
+Wall time: 58.7 ms
+Current Starting Date: 2016-01-18
+Top terms per cluster:
+
+Cluster 0 words: sale , device , word , fingerprint , reason , roll ,
+
+Cluster 0 titles:
+ You might have to wait a little longer for the Apple Watch 2.0,
+ Sony’s Xperia Z5 & Z5 Compact won’t come with finge weekend , blackberry , honor , mate ,
+
+Cluster 2 titles:
+ Weekends will never be the same again with Celcom’s new FIRST Plans,
+
+
+Cluster 3 words: nan , weekend , nan , honor , john , john ,
+
+Cluster 3 titles:
+ Lenovo’s smartphone with dual selfie cam is finally here,
+
+
+{0: 'price , nan , device , mini , mini , marshmallow', 1: 'nan , payment , payment , nan , john , john', 2: 'weekend , plan , weekend , blackberry , honor , mate', 3: 'nan , weekend , nan , honor , john , john'}
+
+
+CPU times: user 27.9 ms, sys: 1.36 ms, total: 29.3 ms
+Wall time: 29.9 ms
+CPU times: user 36.5 ms, sys: 387 us, total: 36.9 ms
+Wall time: 37.6 ms
+Current Starting Date: 2016-01-26
+Top terms per cluster:
+
+Cluster 0 words: solution , case , honor , nan , nan , inch ,
+
+Cluster 0 titles:
+ Xiaomi Mi 5 to be launched on 24th February,
+ Acer Predator 8 Review: Made for fun,
+ The honor 5X and honor 7 Enhanced have hit Malaysian shores,
+ Microsoft’s iOS keyboard may have the most brilliant one-handed typing solution yet,
+ Can Uber replace your car?,
+ Everything the 4-inch iPhone 5se could be and more,
+ honor 5X hands-on and first impressions,
+ More free iflix, this time it’s for Digi subscribers,
+ A smartphone case that’s perfect for a whistleblower,
+ You can buy the Redmi 3 in Malaysia but it ain’t cheap,
+ Here’s proof that the Facebook app is bad for your smartphone,
+ IKEA’s new table lets you cook with your smartphone,
+ LG announces that they’ll release two flagships in 2016,
+ Zomato is going to bring you to your favourite food with Uber,
+ Uber has been tracking drivers’ on-road behaviour in an experimental program,
+ Microsoft’s new case looks good, but only on the surface,
+ Is your LG G4 stuck in a bootloop? Here’s the solution,
+ Apple’s Safari browser has gone haywire worldwide,
+ Slideshow presentation allegedly details Samsung’s Galaxy S7 specs,
+ Microsoft has just made Surfacephone.com a real thing,
+ French-based Wiko launches 3 budget-friendly smartphones in Malaysia,
+ Can your drone fly underwater?,
+ Celcom, TM and P1 will share network infrastructure for better connectivity,
+ MyTeksi is now Grab: Here are 3 new features you need to know,
+ Digi offers 7GB of internet and unlimited calls for RM75/month,
+ Xiaomi Co-founder shares Mi 5 screenshot: Confirming two specs,
+ OPPO’s F1 Plus emerges, carrying a better screen & more RAM,
+ HTC One M10 specsheet leaked: Comes with big additions and omissions,
+ Lenovo sneakily makes the Vibe X3 available in Malaysia,
+ Windows Phone has died, here’s why we think it will stay dead,
+ Apple is supposedly going to “reinvent” wireless charging in a big way,
+ U Mobile introduces Hero Plus Postpaid. Loaded with heaps of data for sharing.,
+ LG patches yet another vulnerability, this time with the G3,
+ Moto 360 2nd gen smartwatch has officially landed in Malaysia,
+
+
+Cluster 1 words: nan , nan , nan , hand , grab , grab ,
+
+Cluster 1 titles:
+ Google can now tell you when politicians are lying,
+
+
+Cluster 2 words: galaxy , galaxy , galaxy , hand , hand , nan ,
+
+Cluster 2 titles:
+ Samsung’s Galaxy A 2016 series has landed in Malaysia,
+ Samsung’s gigantic Galaxy View is now available in Malaysia at RM2,699,
+ Samsung Galaxy A 2016 hands on and first impressions,
+
+
+Cluster 3 words: device , midrange , price , price , price , midrange ,
+
+Cluster 3 titles:
+ Android Marshmallow update timeline for Samsung devices leaked,
+ OPPO is slashing the prices of two of their midrange devices,
+
+
+{0: 'solution , case , honor , nan , nan , inch', 1: 'nan , nan , nan , hand , grab , grab', 2: 'galaxy , galaxy , galaxy , hand , hand , nan', 3: 'device , midrange , price , price , price , midrange'}
+
+
+CPU times: user 53.5 ms, sys: 2.74 ms, total: 56.2 ms
+Wall time: 58 ms
+CPU times: user 52.6 ms, sys: 1.45 ms, total: 54.1 ms
+Wall time: 58.7 ms
+Current Starting Date: 2016-01-18
+Top terms per cluster:
+
+Cluster 0 words: sale , device , word , fingerprint , reason , roll ,
+
+Cluster 0 titles:
+ You might have to wait a little longer for the Apple Watch 2.0,
+ Sony’s Xperia Z5 & Z5 Compact won’t come with fingerprint sensors in the US: We think we know why,
+ The Lumia 650 could be the last Lumia device of 2016, but that may not be such a bad thing,
+ ASUS ZenWatch 2 to go on sale in Malaysia for less than RM900,
+ Microsoft’s Word Flow keyboard is coming to your iPhone,
+ UberX now up to 50% cheaper in Malaysia,
+ Mystery Huawei device allegedly posts blistering Geekbench score,
+ Upcoming Samsung fitness tracker looks like a fitter and leaner Gear S2,
+ The honor 5X and honor 7 Enhanced are coming to Malaysia next week,
+ Here’s confirmation that the LG G5 will be completely redesigned,
+ Samsung ninja-fixes the Galaxy Note5’s S Pen design flaw,
+ Google rolls out feature to install apps directly from search results,
+ NGO reports that Apple, Microsoft, Samsung, et al. are using cobalt mined by child labourers in Africa,
+ Huawei looking into making laptops?,
+ Sony, LG and Samsung to duke it out at MWC 2016,
+ The annual worst passwords list is out. Is yours on the list?,
+ Donald Trump wants to change how Apple manufactures its devices,
+ Here’s why we think the “Indonesian Iron Man” is fake,
+ A BIG Linux hole puts 66% of Android users at the mercy of hackers,
+ 5 reasons you should ditch the Facebook app,
+ Sony’s Portable Ultra Short Throw Projector is the epitome of beauty and madness,
+ HP Pavilion 23 All-in-One desktop review: Conveniently packaged,
+ Did you damage your device? Soon it’ll bleed to let you know,
+ International recalls await Microsoft’s Surface Pro AC chargers following fire-hazards,
+ Maxis now adds support for direct billing on the Google Play Store,
+ Samsung taken to court over its lackadaisical approach in updating smartphones,
+ MCMC Act will be amended to crack down on government haters,
+ The OPPO F1 hits Malaysian shores,
+ OPPO F1 hands-on and first impressions,
+ Windows 10 Mobile update for older Lumias gets delayed again,
+ We’ve broken the AppLock -Fingerprint- “encryption” and it wasn’t even that difficult,
+ Google is about to make Chrome perform a lot faster thanks to small bread,
+ Big discounts with Xiaomi Malaysia’s Chinese New Year sale,
+ OnePlus wants to deliver your smartphone in 60 minutes or it’s free,
+ Will the iPhone 6c look exactly like the iPhone 6/6s?,
+ Popular crowdfunding site Kickstarter finally has an Android app,
+ Razer’s Nabu “smartwatch” discreetly goes on sale in Malaysia,
+ Double the prosperity with more data with Yes CNY Promo,
+ Why Drive? Get around the Klang Valley from as low as RM2,
+ You can now have Exploding Kittens on your iPhone,
+ Maxis is giving out RM1 million worth of apps on the Google Play Store,
+ Using an older-gen Surface Pro? Here’s how to get your power cord replaced,
+ Malaysia’s Fastest Mobile Network now gives you more throttled internet,
+ Google says that HUGE Android security issue isn’t all that serious,
+ Huawei seems to have trademarked the word “MateBook”. What could it be?,
+
+
+Cluster 1 words: model , galaxy , galaxy , duo , duo , model ,
+
+Cluster 1 titles:
+ Samsung’s Galaxy S7 duo gets listed by Indonesia’s FCC. Malaysia likely to get same models,
+ WhatsApp changes business model. Now free for all,
+ Huawei P9 to come in four models — one of which has a dual-camera set up,
+
+
+Cluster 2 words: galaxy , pink , pink , line , galaxy , line ,
+
+Cluster 2 titles:
+ Maxis is offering the Galaxy Note5 in pink, just in time for CNY,
+ Pink Samsung Galaxy Note5 now in Malaysia,
+ Samsung Galaxy A 2016 line to be unveiled in Malaysia next week,
+ AnTuTu outs Samsung’s Galaxy S7 specsheet,
+ Houston, we have confirmation — Galaxy S7 and S7 edge screen sizes revealed,
+
+
+Cluster 3 words: phone , benchmark , benchmark , people , phone , house ,
+
+Cluster 3 titles:
+ Sometimes it’s all about the feel: What’s the best phone you’ve held?,
+ Why are “Find my phone” apps wrongly directing people to this house in Atlanta?,
+ Benchmarks of two ASUS phones leaked, possibly the ZenFone 3,
+
+
+{0: 'sale , device , word , fingerprint , reason , roll', 1: 'model , galaxy , galaxy , duo , duo , model', 2: 'galaxy , pink , pink , line , galaxy rprint sensors in the US: We think we know why,
+ The Lumia 650 could be the last Lumia device of 2016, but that may not be such a bad thing,
+ ASUS ZenWatch 2 to go on sale in Malaysia for less than RM900,
+ Microsoft’s Word Flow keyboard is coming to your iPhone,
+ UberX now up to 50% cheaper in Malaysia,
+ Mystery Huawei device allegedly posts blistering Geekbench score,
+ Upcoming Samsung fitness tracker looks like a fitter and leaner Gear S2,
+ The honor 5X and honor 7 Enhanced are coming to Malaysia next week,
+ Here’s confirmation that the LG G5 will be completely redesigned,
+ Samsung ninja-fixes the Galaxy Note5’s S Pen design flaw,
+ Google rolls out feature to install apps directly from search results,
+ NGO reports that Apple, Microsoft, Samsung, et al. are using cobalt mined by child labourers in Africa,
+ Huawei looking into making laptops?,
+ Sony, LG and Samsung to duke it out at MWC 2016,
+ The annual worst passwords list is out. Is yours on the list?,
+ Donald Trump wants to change how Apple manufactures its devices,
+ Here’s why we think the “Indonesian Iron Man” is fake,
+ A BIG Linux hole puts 66% of Android users at the mercy of hackers,
+ 5 reasons you should ditch the Facebook app,
+ Sony’s Portable Ultra Short Throw Projector is the epitome of beauty and madness,
+ HP Pavilion 23 All-in-One desktop review: Conveniently packaged,
+ Did you damage your device? Soon it’ll bleed to let you know,
+ International recalls await Microsoft’s Surface Pro AC chargers following fire-hazards,
+ Maxis now adds support for direct billing on the Google Play Store,
+ Samsung taken to court over its lackadaisical approach in updating smartphones,
+ MCMC Act will be amended to crack down on government haters,
+ The OPPO F1 hits Malaysian shores,
+ OPPO F1 hands-on and first impressions,
+ Windows 10 Mobile update for older Lumias gets delayed again,
+ We’ve broken the AppLock -Fingerprint- “encryption” and it wasn’t even that difficult,
+ Google is about to make Chrome perform a lot faster thanks to small bread,
+ Big discounts with Xiaomi Malaysia’s Chinese New Year sale,
+ OnePlus wants to deliver your smartphone in 60 minutes or it’s free,
+ Will the iPhone 6c look exactly like the iPhone 6/6s?,
+ Popular crowdfunding site Kickstarter finally has an Android app,
+ Razer’s Nabu “smartwatch” discreetly goes on sale in Malaysia,
+ Double the prosperity with more data with Yes CNY Promo,
+ Why Drive? Get around the Klang Valley from as low as RM2,
+ You can now have Exploding Kittens on your iPhone,
+ Maxis is giving out RM1 million worth of apps on the Google Play Store,
+ Using an older-gen Surface Pro? Here’s how to get your power cord replaced,
+ Malaysia’s Fastest Mobile Network now gives you more throttled internet,
+ Google says that HUGE Android security issue isn’t all that serious,
+ Huawei seems to have trademarked the word “MateBook”. What could it be?,
+
+
+Cluster 1 words: model , galaxy , galaxy , duo , duo , model ,
+
+Cluster 1 titles:
+ Samsung’s Galaxy S7 duo gets listed by Indonesia’s FCC. Malaysia likely to get same models,
+ WhatsApp changes business model. Now free for all,
+ Huawei P9 to come in four models — one of which has a dual-camera set up,
+
+
+Cluster 2 words: galaxy , pink , pink , line , galaxy , line ,
+
+Cluster 2 titles:
+ Maxis is offering the Galaxy Note5 in pink, just in time for CNY,
+ Pink Samsung Galaxy Note5 now in Malaysia,
+ Samsung Galaxy A 2016 line to be unveiled in Malaysia next week,
+ AnTuTu outs Samsung’s Galaxy S7 specsheet,
+ Houston, we have confirmation — Galaxy S7 and S7 edge screen sizes revealed,
+
+
+Cluster 3 words: phone , benchmark , benchmark , people , phone , house ,
+
+Cluster 3 titles:
+ Sometimes it’s all about the feel: What’s the best phone you’ve held?,
+ Why are “Find my phone” apps wrongly directing people to this house in Atlanta?,
+ Benchmarks of two ASUS phones leaked, possibly the ZenFone 3,
+
+
+{0: 'sale , device , word , fingerprint , reason , roll', 1: 'model , galaxy , galaxy , duo , duo , model', 2: 'galaxy , pink , pink , line , galaxy , line', 3: 'phone , benchmark , benchmark , people , phone , house'}
+
+
+CPU times: user 28.6 ms, sys: 1.5 ms, total: 30.1 ms
+Wall time: 31.2 ms
+CPU times: user 43.3 ms, sys: 1 ms, total: 44.3 ms
+Wall time: 46.9 ms
+Current Starting Date: 2015-11-30
+Top terms per cluster:
+
+Cluster 0 words: launch , nan , pricing , rover , ice , zoom ,
+
+Cluster 0 titles:
+ TEDxYouth@KL 2015 is back. Get your tickets now at RM20 off.,
+ Your next 15 minute car ride might get you a fully sponsored MBA,
+ Acer officially launches its new Liquid Z smartphones in Malaysia,
+ Nexus 6P to launch in Malaysia on the 8th of December,
+ USB Type-C gets upgraded; now capable of 40Gbps transfer speeds,
+ U Mobile gives you free additional 1GB data for this month only,
+ Hotlink launches its new 4G LTE plan, Hotlink FAST,
+ Banks in Singapore reports malware attacking its customers through WhatsApp,
+ Drive a Land Rover remotely with your smartphone,
+ ASUS Zenfone 2 Laser Review: Good scope, bad shot,
+ Speedtest reveals Malaysia’s fastest Broadband ISP and Mobile Networks,
+ Would you get the PRIV if it is slightly more expensive than the Note5?,
+ Don’t worry, this Christmas, OnePlus has got you covered,
+ Microsoft is throwing a Lumia 950 launch party and here’s how you can get an invite,
+ DirectD has begun selling the Xiaomi Mi Pad 2,
+ The 3x optical zoom ASUS ZenFone Zoom is now on sale in Taiwan,
+ Samsungs get pucked up on ice,
+ Samsung Galaxy A line unveiled, premium for the masses v2.0,
+ Co-founder of Android might be creating his own smartphone,
+ Xiaomi Redmi Note 2 available with new Celcom FIRST Plans,
+ TM gives UniFi users free iflix subscription,
+ Nexus 6P appears on Lazada with Free Google Chromecast,
+ Is this the Malaysian pricing for the Lumia 950 / 950 XL?,
+ Soon you will be able to play games without even installing them,
+ Guess which brand is number 1 for wearables?,
+
+
+Cluster 1 words: blackberry , blackberry , rm , day , gold , gold ,
+
+Cluster 1 titles:
+ Add some 24K gold to your BlackBerry Priv for RM 1,491,
+ Malaysians will get the BlackBerry PRIV on the 8th of December,
+ BlackBerry PRIV: Can an Android smartphone with a physical keyboard save the day?,
+
+
+Cluster 2 words: order , nan , order , order , war , war ,
+
+Cluster 2 titles:
+ Vivo releases metal duos with huge RAM: The X6 and X6 Plus,
+ TM Unifi opens pre-order for the Limited Edition Star Wars Battlefront PlayStation 4 Bundle,
+ Honor Malaysia wants to reward you ahead of the holiday season,
+ Pre-orders for Microsoft Lumia 950 have started with free Display Dock bundle,
+
+
+Cluster 3 words: pro , headphone , headphone , headphone , experience , experience ,
+
+Cluster 3 titles:
+ Experience Xiaomi’s new In-Ear Headphones Pro in Malaysia,
+ You can buy Xiaomi’s latest In-Ear Headphones Pro this week,
+
+
+{0: 'launch , nan , pricing , rover , ice , zoom', 1: 'blackberry , blackberry , rm , day , gold , gold', 2: 'order , nan , order , order , war , war', 3: 'pro , headphone , headphone , headphone , experience , experience'}
+
+
+CPU times: user 22.7 ms, sys: 1.13 ms, total: 23.8 ms
+Wall time: 24.4 ms
+CPU times: user 37.7 ms, sys: 572 us, total: 38.3 ms
+Wall time: 39.2 ms
+Current Starting Date: 2016-03-07
+Top terms per cluster:
+
+Cluster 0 words: mate , apple , repair , honor , bank , clearer ,
+
+Cluster 0 titles:
+ The next One is going to be called the HTC 10,
+ Xiaomi now has a 10,000mAh USB Type-C Power bank,
+ Man orders unlocked iPhone 6s online gets a shocking surprise instead,
+ honor 5X: What makes this the best smartphone under RM1,000,
+ OPPO F1 review: Average, but that’s all there is to it,
+ The Huawei Watch for the ladies are coming in April,
+ Drive Less and Earn More with Grab,
+ Huawei Mate 8 is now official in Malaysia,
+ Now anyone can create Google ads in 15 minutes with AdWords Express,
+ OPPO R9 is coming to Malaysia in April,
+ Watch how today’s teens react to Windows 95,
+ Huawei MediaPad M2 10.0: An impressive multimedia powerhouse,
+ LEAGOO Alfa 2 delivers brighter selfies on a budget,
+ Here’s what you’ll get with Sony Xperia’s Marshmallow update,
+ The Samsung Galaxy S7 , line', 3: 'phone , benchmark , benchmark , people , phone , house'}
+
+
+CPU times: user 28.6 ms, sys: 1.5 ms, total: 30.1 ms
+Wall time: 31.2 ms
+CPU times: user 43.3 ms, sys: 1 ms, total: 44.3 ms
+Wall time: 46.9 ms
+Current Starting Date: 2015-11-30
+Top terms per cluster:
+
+Cluster 0 words: launch , nan , pricing , rover , ice , zoom ,
+
+Cluster 0 titles:
+ TEDxYouth@KL 2015 is back. Get your tickets now at RM20 off.,
+ Your next 15 minute car ride might get you a fully sponsored MBA,
+ Acer officially launches its new Liquid Z smartphones in Malaysia,
+ Nexus 6P to launch in Malaysia on the 8th of December,
+ USB Type-C gets upgraded; now capable of 40Gbps transfer speeds,
+ U Mobile gives you free additional 1GB data for this month only,
+ Hotlink launches its new 4G LTE plan, Hotlink FAST,
+ Banks in Singapore reports malware attacking its customers through WhatsApp,
+ Drive a Land Rover remotely with your smartphone,
+ ASUS Zenfone 2 Laser Review: Good scope, bad shot,
+ Speedtest reveals Malaysia’s fastest Broadband ISP and Mobile Networks,
+ Would you get the PRIV if it is slightly more expensive than the Note5?,
+ Don’t worry, this Christmas, OnePlus has got you covered,
+ Microsoft is throwing a Lumia 950 launch party and here’s how you can get an invite,
+ DirectD has begun selling the Xiaomi Mi Pad 2,
+ The 3x optical zoom ASUS ZenFone Zoom is now on sale in Taiwan,
+ Samsungs get pucked up on ice,
+ Samsung Galaxy A line unveiled, premium for the masses v2.0,
+ Co-founder of Android might be creating his own smartphone,
+ Xiaomi Redmi Note 2 available with new Celcom FIRST Plans,
+ TM gives UniFi users free iflix subscription,
+ Nexus 6P appears on Lazada with Free Google Chromecast,
+ Is this the Malaysian pricing for the Lumia 950 / 950 XL?,
+ Soon you will be able to play games without even installing them,
+ Guess which brand is number 1 for wearables?,
+
+
+Cluster 1 words: blackberry , blackberry , rm , day , gold , gold ,
+
+Cluster 1 titles:
+ Add some 24K gold to your BlackBerry Priv for RM 1,491,
+ Malaysians will get the BlackBerry PRIV on the 8th of December,
+ BlackBerry PRIV: Can an Android smartphone with a physical keyboard save the day?,
+
+
+Cluster 2 words: order , nan , order , order , war , war ,
+
+Cluster 2 titles:
+ Vivo releases metal duos with huge RAM: The X6 and X6 Plus,
+ TM Unifi opens pre-order for the Limited Edition Star Wars Battlefront PlayStation 4 Bundle,
+ Honor Malaysia wants to reward you ahead of the holiday season,
+ Pre-orders for Microsoft Lumia 950 have started with free Display Dock bundle,
+
+
+Cluster 3 words: pro , headphone , headphone , headphone , experience , experience ,
+
+Cluster 3 titles:
+ Experience Xiaomi’s new In-Ear Headphones Pro in Malaysia,
+ You can buy Xiaomi’s latest In-Ear Headphones Pro this week,
+
+
+{0: 'launch , nan , pricing , rover , ice , zoom', 1: 'blackberry , blackberry , rm , day , gold , gold', 2: 'order , nan , order , order , war , war', 3: 'pro , headphone , headphone , headphone , experience , experience'}
+
+
+CPU times: user 22.7 ms, sys: 1.13 ms, total: 23.8 ms
+Wall time: 24.4 ms
+CPU times: user 37.7 ms, sys: 572 us, total: 38.3 ms
+Wall time: 39.2 ms
+Current Starting Date: 2016-03-07
+Top terms per cluster:
+
+Cluster 0 words: mate , apple , repair , honor , bank , clearer ,
+
+Cluster 0 titles:
+ The next One is going to be called the HTC 10,
+ Xiaomi now has a 10,000mAh USB Type-C Power bank,
+ Man orders unlocked iPhone 6s online gets a shocking surprise instead,
+ honor 5X: What makes this the best smartphone under RM1,000,
+ OPPO F1 review: Average, but that’s all there is to it,
+ The Huawei Watch for the ladies are coming in April,
+ Drive Less and Earn More with Grab,
+ Huawei Mate 8 is now official in Malaysia,
+ Now anyone can create Google ads in 15 minutes with AdWords Express,
+ OPPO R9 is coming to Malaysia in April,
+ Watch how today’s teens react to Windows 95,
+ Huawei MediaPad M2 10.0: An impressive multimedia powerhouse,
+ LEAGOO Alfa 2 delivers brighter selfies on a budget,
+ Here’s what you’ll get with Sony Xperia’s Marshmallow update,
+ The Samsung Galaxy S7 is harder to repair than the S6,
+ Apple’s iPhone SE looks almost identical to the iPhone 5S,
+ The latest Waze has arrived on Android with improved battery life,
+ Now there’s a MaxisONE plan that offers 5GB data and unlimited calls for RM68/month,
+ Here’s a clearer view of the HTC 10,
+
+
+Cluster 1 words: mi , launch , wait , wait , mi , mi ,
+
+Cluster 1 titles:
+ The Xiaomi Mi 4S is now available in Malaysia,
+ Huawei P9 to launch on 6 April,
+ Xiaomi Mi 5 passes SIRIM. Malaysian launch soon?,
+ Can’t wait? You can now buy the Xiaomi Mi 5 in Malaysia,
+
+
+Cluster 2 words: edge , galaxy , galaxy , edge , order , galaxy ,
+
+Cluster 2 titles:
+ Samsung Malaysia to start another round of Galaxy S7 edge pre-order,
+ Maxis opens Samsung Galaxy S7 edge pre-order with Zerolution,
+ SenQ opens up Galaxy S7 edge pre-order with additional goodies,
+ Book a Galaxy S7 edge from Celcom and you might get it for free,
+ Free Gear VR when you buy the Samsung Galaxy S7 edge at their roadshows,
+ Will it Blend? Samsung Galaxy S7 edge gets the Blentec treatment for real,
+ Does Samsung have the best camera on a smartphone? We compare the Galaxy S7 edge against the rest,
+ Celcom’s Galaxy S7 edge bundle plan revealed. Available with NewPhone,
+ Unboxing the “perfect” smartphone — the Samsung Galaxy S7 edge,
+ Digi offers the Samsung Galaxy S7 edge from RM1,449,
+
+
+Cluster 3 words: nan , preview , nan , window , nan , create ,
+
+Cluster 3 titles:
+ Android N Developer Preview is out now,
+
+
+{0: 'mate , apple , repair , honor , bank , clearer', 1: 'mi , launch , wait , wait , mi , mi', 2: 'edge , galaxy , galaxy , edge , order , galaxy', 3: 'nan , preview , nan , window , nan , create'}
+
+
+CPU times: user 23.9 ms, sys: 1.04 ms, total: 25 ms
+Wall time: 25.4 ms
+CPU times: user 35.3 ms, sys: 287 us, total: 35.6 ms
+Wall time: 36 ms
+Current Starting Date: 2016-03-21
+Top terms per cluster:
+
+Cluster 0 words: galaxy , edge , minute , problem , offering , nan ,
+
+Cluster 0 titles:
+ Samsung Galaxy J7 (2016) press renders emerge,
+ Battle of the Sixes: The Nexus 6P versus the Apple iPhone 6s Plus versus the Samsung Galaxy S6 edge+,
+ Here’s how you can use two SIMs and a microSD card on your Galaxy S7 edge,
+ HTC’s power of 10 is looking better by the minute,
+ Compared: Samsung Galaxy S7 edge telco plans in Malaysia,
+ Apple Watch has prices starting from RM1,299 and comes with new bands,
+ Apple wants you to ditch your dinosaur PC for an iPad Pro 9.7,
+ 3 reasons why the iPhone SE is a big deal,
+ Fitbit Blaze and Alta have hit local shores,
+ The iPhone SE is Apple’s most brilliant dumb idea yet,
+ Now you can report your telco problems to MCMC on WhatsApp,
+ iPhone SE is potentially faster than the iPhone 6s,
+ TIME does 500Mbps Fibre Broadband at RM299/month,
+ Pack your bags, Google Flights has landed!,
+ HP Pavilion x2 review: A capable supplementary device,
+ The HTC 10 will be revealed April 12,
+ TP-Link are bringing their smartphones to Malaysia next week,
+ You’ll hear a different type of boom sound on the HTC 10,
+ Traveling to Malaysia? speakOUT Tourist Prepaid comes with 100GB of data,
+ SoyaCincau’s best smartphones under RM1,000,
+ HTC 10 apparently destroys everything else on Antutu,
+ A new airport taxi ride service is in town, starts at RM18,
+ Get smartphones up to 70% off at the first ever Blue Cube Day,
+ OnePlus 3 to be announced soon?,
+ U Mobile starts registration of interest for the iPhone SE,
+ Celcom and Digi are offering the iPhone SE soon,
+ Yes offers the Samsung Galaxy S7 edge at RM799,
+
+
+Cluster 1 words: nan , nan , nan , nan , nan , nan ,
+
+Cluster 1 titles:
+ Fulfill your lifelong dream of living in a gigantic purple shoe with Google Maps,
+
+
+Cluster 2 words: nan , nan , network , week , nan , dream ,
+
+Cluster 2 titles:
+ The iPhone SE is coming soon on Maxis,
+ Maxis is the leading mobile network in Malaysia according to OpenSignal’s report,
+
+
+Cluster 3 words: phone , trade , camera , camera , inch , inch ,
+
+Cluster 3 titles:
+ Huawei president spotted with a dual-camera phone that looks like the Huawei P9,
+ Trade in your old phones for a new honis harder to repair than the S6,
+ Apple’s iPhone SE looks almost identical to the iPhone 5S,
+ The latest Waze has arrived on Android with improved battery life,
+ Now there’s a MaxisONE plan that offers 5GB data and unlimited calls for RM68/month,
+ Here’s a clearer view of the HTC 10,
+
+
+Cluster 1 words: mi , launch , wait , wait , mi , mi ,
+
+Cluster 1 titles:
+ The Xiaomi Mi 4S is now available in Malaysia,
+ Huawei P9 to launch on 6 April,
+ Xiaomi Mi 5 passes SIRIM. Malaysian launch soon?,
+ Can’t wait? You can now buy the Xiaomi Mi 5 in Malaysia,
+
+
+Cluster 2 words: edge , galaxy , galaxy , edge , order , galaxy ,
+
+Cluster 2 titles:
+ Samsung Malaysia to start another round of Galaxy S7 edge pre-order,
+ Maxis opens Samsung Galaxy S7 edge pre-order with Zerolution,
+ SenQ opens up Galaxy S7 edge pre-order with additional goodies,
+ Book a Galaxy S7 edge from Celcom and you might get it for free,
+ Free Gear VR when you buy the Samsung Galaxy S7 edge at their roadshows,
+ Will it Blend? Samsung Galaxy S7 edge gets the Blentec treatment for real,
+ Does Samsung have the best camera on a smartphone? We compare the Galaxy S7 edge against the rest,
+ Celcom’s Galaxy S7 edge bundle plan revealed. Available with NewPhone,
+ Unboxing the “perfect” smartphone — the Samsung Galaxy S7 edge,
+ Digi offers the Samsung Galaxy S7 edge from RM1,449,
+
+
+Cluster 3 words: nan , preview , nan , window , nan , create ,
+
+Cluster 3 titles:
+ Android N Developer Preview is out now,
+
+
+{0: 'mate , apple , repair , honor , bank , clearer', 1: 'mi , launch , wait , wait , mi , mi', 2: 'edge , galaxy , galaxy , edge , order , galaxy', 3: 'nan , preview , nan , window , nan , create'}
+
+
+CPU times: user 23.9 ms, sys: 1.04 ms, total: 25 ms
+Wall time: 25.4 ms
+CPU times: user 35.3 ms, sys: 287 us, total: 35.6 ms
+Wall time: 36 ms
+Current Starting Date: 2016-03-21
+Top terms per cluster:
+
+Cluster 0 words: galaxy , edge , minute , problem , offering , nan ,
+
+Cluster 0 titles:
+ Samsung Galaxy J7 (2016) press renders emerge,
+ Battle of the Sixes: The Nexus 6P versus the Apple iPhone 6s Plus versus the Samsung Galaxy S6 edge+,
+ Here’s how you can use two SIMs and a microSD card on your Galaxy S7 edge,
+ HTC’s power of 10 is looking better by the minute,
+ Compared: Samsung Galaxy S7 edge telco plans in Malaysia,
+ Apple Watch has prices starting from RM1,299 and comes with new bands,
+ Apple wants you to ditch your dinosaur PC for an iPad Pro 9.7,
+ 3 reasons why the iPhone SE is a big deal,
+ Fitbit Blaze and Alta have hit local shores,
+ The iPhone SE is Apple’s most brilliant dumb idea yet,
+ Now you can report your telco problems to MCMC on WhatsApp,
+ iPhone SE is potentially faster than the iPhone 6s,
+ TIME does 500Mbps Fibre Broadband at RM299/month,
+ Pack your bags, Google Flights has landed!,
+ HP Pavilion x2 review: A capable supplementary device,
+ The HTC 10 will be revealed April 12,
+ TP-Link are bringing their smartphones to Malaysia next week,
+ You’ll hear a different type of boom sound on the HTC 10,
+ Traveling to Malaysia? speakOUT Tourist Prepaid comes with 100GB of data,
+ SoyaCincau’s best smartphones under RM1,000,
+ HTC 10 apparently destroys everything else on Antutu,
+ A new airport taxi ride service is in town, starts at RM18,
+ Get smartphones up to 70% off at the first ever Blue Cube Day,
+ OnePlus 3 to be announced soon?,
+ U Mobile starts registration of interest for the iPhone SE,
+ Celcom and Digi are offering the iPhone SE soon,
+ Yes offers the Samsung Galaxy S7 edge at RM799,
+
+
+Cluster 1 words: nan , nan , nan , nan , nan , nan ,
+
+Cluster 1 titles:
+ Fulfill your lifelong dream of living in a gigantic purple shoe with Google Maps,
+
+
+Cluster 2 words: nan , nan , network , week , nan , dream ,
+
+Cluster 2 titles:
+ The iPhone SE is coming soon on Maxis,
+ Maxis is the leading mobile network in Malaysia according to OpenSignal’s report,
+
+
+Cluster 3 words: phone , trade , camera , camera , inch , inch ,
+
+Cluster 3 titles:
+ Huawei president spotted with a dual-camera phone that looks like the Huawei P9,
+ Trade in your old phones for a new honor 5X with honor’s new trade in program,
+ The Apple iPhone SE is the most powerful 4-inch phone ever,
+
+
+{0: 'galaxy , edge , minute , problem , offering , nan', 1: 'nan , nan , nan , nan , nan , nan', 2: 'nan , nan , network , week , nan , dream', 3: 'phone , trade , camera , camera , inch , inch'}
+
+
+CPU times: user 21.3 ms, sys: 686 us, total: 22 ms
+Wall time: 22.1 ms
+CPU times: user 32.7 ms, sys: 100 us, total: 32.8 ms
+Wall time: 32.9 ms
+Current Starting Date: 2016-02-29
+Top terms per cluster:
+
+Cluster 0 words: experience , document , marshmallow , support , nan , reality ,
+
+Cluster 0 titles:
+ Samsung Galaxy Tab A and Tab E tablets for 2016 leaked,
+ Netflix has dropped the VPN ban hammer but it may have just backfired,
+ WhatsApp is cutting support down to three operating systems,
+ Here’s your chance to be the first to try the Redmi Note 3 Pro: You might even get one for free,
+ Here’s the list of ASUS smartphones getting Android Marshmallow,
+ OPPO R9 teased with March 17 launch,
+ TM customers suffer slow connectivity to international sites,
+ McDonald’s is giving you a VR experience with their Happy Meal,
+ Digi revamps its Postpaid offering with more data and internet rollover,
+ Take a trip to Paradise Falls with this remote controlled balloon house,
+ Google Maps for iPhone gets 3D Touch and lets you add stops,
+ P9 to be the first Huawei device with Leica lenses?,
+ TM slowdown caused by submarine cable fault. To be fixed by 31st March,
+ WhatsApp now lets you share documents,
+ Xiaomi announces the Redmi Note 3 for international markets,
+ Dubai will be buzzing next week as it hosts the first-ever World Drone Prix,
+ Acer adds a touch of gold with the Liquid Z630s,
+ Got a problem with your iDevice? Just tweet to Apple,
+ Lenovo wants to provide the ultimate VR experience on a budget,
+ Macs aren’t good enough for Oculus’ virtual reality system,
+ OPPO’s R9 smartphones pass certification — definitely not flagships,
+
+
+Cluster 1 words: time , cut , time , nan , nan , price ,
+
+Cluster 1 titles:
+ Pebble Time and Time Round receives a price cut,
+ Running out of space on your iPhone? Time to update your WhatsApp,
+
+
+Cluster 2 words: galaxy , edge , galaxy , order , galaxy , box ,
+
+Cluster 2 titles:
+ Samsung Galaxy S7 uses 8GB out of the box but it lets you move apps to microSD,
+ Samsung Galaxy S7 edge up for pre-order in Malaysia,
+ Pre-order the Galaxy S7 edge from Maxis and get a free Gear S2 smartwatch,
+ You can get a discounted Gear S2 with the Samsung Galaxy Note5,
+ Samsung will warn you when trying to charge a wet Galaxy S7,
+ There is no liquid in the Samsung Galaxy S7 edge’s “liquid-cooling” system,
+
+
+Cluster 3 words: nan , phone , nan , drone , edge , edge ,
+
+Cluster 3 titles:
+ OPPO teases a new smartphone, but it’s not the one you’re expecting,
+ HTC teases the next One will make your phone even better,
+
+
+{0: 'experience , document , marshmallow , support , nan , reality', 1: 'time , cut , time , nan , nan , price', 2: 'galaxy , edge , galaxy , order , galaxy , box', 3: 'nan , phone , nan , drone , edge , edge'}
+
+
+CPU times: user 34.5 ms, sys: 1.16 ms, total: 35.6 ms
+Wall time: 35.8 ms
+CPU times: user 33.8 ms, sys: 97 us, total: 33.9 ms
+Wall time: 34 ms
+Current Starting Date: 2016-04-11
+Top terms per cluster:
+
+Cluster 0 words: pro , thing , apple , nan , join , mobile ,
+
+Cluster 0 titles:
+ This ridiculous 18-rotor chopper just got its first manned test flight,
+ Meizu teases fast charging for the Meizu Pro 6,
+ 11street offers 10% off on Xpax reloads for a whole year,
+ TuneTalk Madness Top Up promo gives up to 4GB of data free when you top up,
+ New iPhone 7 rumours point to skinnier body, dual cam setup and bigger battery,
+ ezyCourier makes its Malaysian debut, wants you to post things from your couch,
+ Next Apple Watch expected to be 40% thinner, to debut in WWDC,
+ Alibaba acquires controlling stake in Lazada,
+ Maxis upgrades SurfMore 50 with more data,
+ 5 things you need to know about the HTC 10,
+ Microsoft’s signature Surface Type Cover is apparently pure luxury,
+ Can HTC’s new flagship smartphone or 5X with honor’s new trade in program,
+ The Apple iPhone SE is the most powerful 4-inch phone ever,
+
+
+{0: 'galaxy , edge , minute , problem , offering , nan', 1: 'nan , nan , nan , nan , nan , nan', 2: 'nan , nan , network , week , nan , dream', 3: 'phone , trade , camera , camera , inch , inch'}
+
+
+CPU times: user 21.3 ms, sys: 686 us, total: 22 ms
+Wall time: 22.1 ms
+CPU times: user 32.7 ms, sys: 100 us, total: 32.8 ms
+Wall time: 32.9 ms
+Current Starting Date: 2016-02-29
+Top terms per cluster:
+
+Cluster 0 words: experience , document , marshmallow , support , nan , reality ,
+
+Cluster 0 titles:
+ Samsung Galaxy Tab A and Tab E tablets for 2016 leaked,
+ Netflix has dropped the VPN ban hammer but it may have just backfired,
+ WhatsApp is cutting support down to three operating systems,
+ Here’s your chance to be the first to try the Redmi Note 3 Pro: You might even get one for free,
+ Here’s the list of ASUS smartphones getting Android Marshmallow,
+ OPPO R9 teased with March 17 launch,
+ TM customers suffer slow connectivity to international sites,
+ McDonald’s is giving you a VR experience with their Happy Meal,
+ Digi revamps its Postpaid offering with more data and internet rollover,
+ Take a trip to Paradise Falls with this remote controlled balloon house,
+ Google Maps for iPhone gets 3D Touch and lets you add stops,
+ P9 to be the first Huawei device with Leica lenses?,
+ TM slowdown caused by submarine cable fault. To be fixed by 31st March,
+ WhatsApp now lets you share documents,
+ Xiaomi announces the Redmi Note 3 for international markets,
+ Dubai will be buzzing next week as it hosts the first-ever World Drone Prix,
+ Acer adds a touch of gold with the Liquid Z630s,
+ Got a problem with your iDevice? Just tweet to Apple,
+ Lenovo wants to provide the ultimate VR experience on a budget,
+ Macs aren’t good enough for Oculus’ virtual reality system,
+ OPPO’s R9 smartphones pass certification — definitely not flagships,
+
+
+Cluster 1 words: time , cut , time , nan , nan , price ,
+
+Cluster 1 titles:
+ Pebble Time and Time Round receives a price cut,
+ Running out of space on your iPhone? Time to update your WhatsApp,
+
+
+Cluster 2 words: galaxy , edge , galaxy , order , galaxy , box ,
+
+Cluster 2 titles:
+ Samsung Galaxy S7 uses 8GB out of the box but it lets you move apps to microSD,
+ Samsung Galaxy S7 edge up for pre-order in Malaysia,
+ Pre-order the Galaxy S7 edge from Maxis and get a free Gear S2 smartwatch,
+ You can get a discounted Gear S2 with the Samsung Galaxy Note5,
+ Samsung will warn you when trying to charge a wet Galaxy S7,
+ There is no liquid in the Samsung Galaxy S7 edge’s “liquid-cooling” system,
+
+
+Cluster 3 words: nan , phone , nan , drone , edge , edge ,
+
+Cluster 3 titles:
+ OPPO teases a new smartphone, but it’s not the one you’re expecting,
+ HTC teases the next One will make your phone even better,
+
+
+{0: 'experience , document , marshmallow , support , nan , reality', 1: 'time , cut , time , nan , nan , price', 2: 'galaxy , edge , galaxy , order , galaxy , box', 3: 'nan , phone , nan , drone , edge , edge'}
+
+
+CPU times: user 34.5 ms, sys: 1.16 ms, total: 35.6 ms
+Wall time: 35.8 ms
+CPU times: user 33.8 ms, sys: 97 us, total: 33.9 ms
+Wall time: 34 ms
+Current Starting Date: 2016-04-11
+Top terms per cluster:
+
+Cluster 0 words: pro , thing , apple , nan , join , mobile ,
+
+Cluster 0 titles:
+ This ridiculous 18-rotor chopper just got its first manned test flight,
+ Meizu teases fast charging for the Meizu Pro 6,
+ 11street offers 10% off on Xpax reloads for a whole year,
+ TuneTalk Madness Top Up promo gives up to 4GB of data free when you top up,
+ New iPhone 7 rumours point to skinnier body, dual cam setup and bigger battery,
+ ezyCourier makes its Malaysian debut, wants you to post things from your couch,
+ Next Apple Watch expected to be 40% thinner, to debut in WWDC,
+ Alibaba acquires controlling stake in Lazada,
+ Maxis upgrades SurfMore 50 with more data,
+ 5 things you need to know about the HTC 10,
+ Microsoft’s signature Surface Type Cover is apparently pure luxury,
+ Can HTC’s new flagship smartphone score a perfect 10?,
+ STOM Spectrum i100 and PC Stick launched, wants you to compute on the go,
+ Lazada starts rolling out same-day delivery in the Klang Valley,
+ Facebook’s new 360 VR rig sports 14 cameras, looks like a flying saucer,
+ The Meizu Pro 6 is finally here and it’s smaller than expected,
+ Apple iPad Pro 9.7 now on sale in Malaysia,
+ DJI’s Osmo and Phantom drones officially land in Malaysia,
+ P1 is now webe and they are reimagining the mobile space,
+ 2nd gen LG Rolly Keyboard has more keys, can pair to more devices,
+ Acer’s limited edition Hello Kitty Acer Revo One will pink up your desktop,
+ Vine’s new update lets you binge watch videos seamlessly,
+ The HTC 10 Lifestyle is a watered down variant of the HTC 10,
+ Someone managed to load Flappy Bird on an e-Cig,
+ Digi lets you stream video content worry-free from RM1/hour,
+ The Android N Dev Preview 2 is here, sports performance enhancing features,
+ Apple might be revamping the App Store and OSX,
+ Huawei joins the VR race with an oddly familiar headset,
+ Maxis adds 2 new services to their video-on-demand library,
+ The Huawei P9 Max might have a 6.9 inch display,
+ U Mobile’s Hero Postpaid P70 gets 15GB until the end of 2016,
+
+
+Cluster 1 words: plan , postpaid , postpaid , data , platinum , month ,
+
+Cluster 1 titles:
+ The postpaid plan that gives you more internet than anyone else has been extended due to popular demand,
+ Celcom’s FIRST Platinum — 18GB of data for RM150/month?,
+ Fly away with Celcom and their new WONDEROAM international roaming plans,
+ U Mobile lets you bring your data plan with you for free when travelling overseas,
+ Postpaid Plans Compared: Celcom FIRST Platinum and Digi Postpaid 80 versus the rest,
+ Digi’s new Postpaid 80 plan gives 10GB of data for RM80/month,
+ Celcom unveils its FIRST Platinum postpaid plan with 18GB of data,
+
+
+Cluster 2 words: leak , leak , phone , leak , time , promo ,
+
+Cluster 2 titles:
+ The HTC 10 leaks again, this time in black,
+ HTC 10 official promo video leaks ahead of event,
+ Sony Xperia C6 leaks show an absolutely massive phone,
+ Enormous Meizu Pro 6 leak leaves nothing to the imagination,
+
+
+Cluster 3 words: edge , galaxy , galaxy , camera , nan , nan ,
+
+Cluster 3 titles:
+ Samsung Galaxy S7/S7 edge update brings improved palm rejection,
+ Impossible Project’s I-1 is what Batman’s Polaroid camera would look like,
+ Samsung Galaxy Note 6 might be sporting an SD823 chip and a much bigger camera,
+ HTC 10’s new UltraPixel camera scores as high as the Galaxy S7 edge on DxOMark,
+ Here’s why the Galaxy S7 edge is best owned with FIRST,
+
+
+{0: 'pro , thing , apple , nan , join , mobile', 1: 'plan , postpaid , postpaid , data , platinum , month', 2: 'leak , leak , phone , leak , time , promo', 3: 'edge , galaxy , galaxy , camera , nan , nan'}
+
+
+CPU times: user 23.6 ms, sys: 830 us, total: 24.4 ms
+Wall time: 24.6 ms
+CPU times: user 33.4 ms, sys: 196 us, total: 33.6 ms
+Wall time: 33.8 ms
+Current Starting Date: 2016-05-16
+Top terms per cluster:
+
+Cluster 0 words: galaxy , trip , nan , nan , today , axon ,
+
+Cluster 0 titles:
+ Sony to nix other Xperia series, focuses on the X instead,
+ Acer’s answer to the Surface Pro 4 lands in Malaysia,
+ Winnergear MicFlip reversible MicroUSB cable review: The cable you never knew you needed,
+ Motorola Moto G4 press render leaks just before launch,
+ Xiaomi has a brand new Yi Action Camera, wants you to shoot in 4K,
+ Grab RM200 off your Samsung Galaxy A5/A7 (2016) if you are a Galaxy Life user,
+ Samsung’s foldable Galaxy X said to launch next year,
+ New leaked images of the OnePlus 3 hint at a full metal unibody,
+ The Sony Xperia XA Ultra is official and it has a pair of crazy huge cameras,
+ Travel Recommends in New York: It’s hard to recommend,
+ Uber lets you know when your loved ones are taking a trip,
+ Huawei MediaPad M2 10.0 is now available on VMall.my,
+ ASUS ZenFone 3 is launching on 30 May,
+ Maxis Business Fibre does 100Mbps with zero downtime,
+ Xiaomi’s all-metal Smart Suitcase is awesome and we want one,
+ The Moto G4 Play is the entry level member of the newscore a perfect 10?,
+ STOM Spectrum i100 and PC Stick launched, wants you to compute on the go,
+ Lazada starts rolling out same-day delivery in the Klang Valley,
+ Facebook’s new 360 VR rig sports 14 cameras, looks like a flying saucer,
+ The Meizu Pro 6 is finally here and it’s smaller than expected,
+ Apple iPad Pro 9.7 now on sale in Malaysia,
+ DJI’s Osmo and Phantom drones officially land in Malaysia,
+ P1 is now webe and they are reimagining the mobile space,
+ 2nd gen LG Rolly Keyboard has more keys, can pair to more devices,
+ Acer’s limited edition Hello Kitty Acer Revo One will pink up your desktop,
+ Vine’s new update lets you binge watch videos seamlessly,
+ The HTC 10 Lifestyle is a watered down variant of the HTC 10,
+ Someone managed to load Flappy Bird on an e-Cig,
+ Digi lets you stream video content worry-free from RM1/hour,
+ The Android N Dev Preview 2 is here, sports performance enhancing features,
+ Apple might be revamping the App Store and OSX,
+ Huawei joins the VR race with an oddly familiar headset,
+ Maxis adds 2 new services to their video-on-demand library,
+ The Huawei P9 Max might have a 6.9 inch display,
+ U Mobile’s Hero Postpaid P70 gets 15GB until the end of 2016,
+
+
+Cluster 1 words: plan , postpaid , postpaid , data , platinum , month ,
+
+Cluster 1 titles:
+ The postpaid plan that gives you more internet than anyone else has been extended due to popular demand,
+ Celcom’s FIRST Platinum — 18GB of data for RM150/month?,
+ Fly away with Celcom and their new WONDEROAM international roaming plans,
+ U Mobile lets you bring your data plan with you for free when travelling overseas,
+ Postpaid Plans Compared: Celcom FIRST Platinum and Digi Postpaid 80 versus the rest,
+ Digi’s new Postpaid 80 plan gives 10GB of data for RM80/month,
+ Celcom unveils its FIRST Platinum postpaid plan with 18GB of data,
+
+
+Cluster 2 words: leak , leak , phone , leak , time , promo ,
+
+Cluster 2 titles:
+ The HTC 10 leaks again, this time in black,
+ HTC 10 official promo video leaks ahead of event,
+ Sony Xperia C6 leaks show an absolutely massive phone,
+ Enormous Meizu Pro 6 leak leaves nothing to the imagination,
+
+
+Cluster 3 words: edge , galaxy , galaxy , camera , nan , nan ,
+
+Cluster 3 titles:
+ Samsung Galaxy S7/S7 edge update brings improved palm rejection,
+ Impossible Project’s I-1 is what Batman’s Polaroid camera would look like,
+ Samsung Galaxy Note 6 might be sporting an SD823 chip and a much bigger camera,
+ HTC 10’s new UltraPixel camera scores as high as the Galaxy S7 edge on DxOMark,
+ Here’s why the Galaxy S7 edge is best owned with FIRST,
+
+
+{0: 'pro , thing , apple , nan , join , mobile', 1: 'plan , postpaid , postpaid , data , platinum , month', 2: 'leak , leak , phone , leak , time , promo', 3: 'edge , galaxy , galaxy , camera , nan , nan'}
+
+
+CPU times: user 23.6 ms, sys: 830 us, total: 24.4 ms
+Wall time: 24.6 ms
+CPU times: user 33.4 ms, sys: 196 us, total: 33.6 ms
+Wall time: 33.8 ms
+Current Starting Date: 2016-05-16
+Top terms per cluster:
+
+Cluster 0 words: galaxy , trip , nan , nan , today , axon ,
+
+Cluster 0 titles:
+ Sony to nix other Xperia series, focuses on the X instead,
+ Acer’s answer to the Surface Pro 4 lands in Malaysia,
+ Winnergear MicFlip reversible MicroUSB cable review: The cable you never knew you needed,
+ Motorola Moto G4 press render leaks just before launch,
+ Xiaomi has a brand new Yi Action Camera, wants you to shoot in 4K,
+ Grab RM200 off your Samsung Galaxy A5/A7 (2016) if you are a Galaxy Life user,
+ Samsung’s foldable Galaxy X said to launch next year,
+ New leaked images of the OnePlus 3 hint at a full metal unibody,
+ The Sony Xperia XA Ultra is official and it has a pair of crazy huge cameras,
+ Travel Recommends in New York: It’s hard to recommend,
+ Uber lets you know when your loved ones are taking a trip,
+ Huawei MediaPad M2 10.0 is now available on VMall.my,
+ ASUS ZenFone 3 is launching on 30 May,
+ Maxis Business Fibre does 100Mbps with zero downtime,
+ Xiaomi’s all-metal Smart Suitcase is awesome and we want one,
+ The Moto G4 Play is the entry level member of the new Moto G series,
+ These shoes could ensure you never get lost again,
+ Google drops more details on Android N at Google I/O,
+ Celcom FIRST Postpaid offers double internet quota for this weekend,
+ Android Wear 2.0 — standalone apps, improved fitness and more!,
+ Google’s Daydream wants to improve mobile VR more than ever before,
+ BOXiT is an alternative way to pick up your parcels,
+ Google unveils its most personal assistant yet — Google Home,
+ Google wants to drive valuable users for app developers, not just downloads,
+ Samsung Galaxy C5 is looking like a premium mid-range smartphone,
+ Apple iPhone 7 renders emerge, is missing its audio jack,
+ Huawei reveals the official Malaysian price of the Huawei P9 and P9 Lite,
+ ZTE Axon 7 officially teased with theatre sound and VR,
+ Xiaomi teases upcoming drone, might shoot in 4K and have gesture control,
+ SoyaCincau is going live today!,
+
+
+Cluster 1 words: store , flash , week , flash , store , flash ,
+
+Cluster 1 titles:
+ The Huawei P9 is headed to stores at the end of May,
+ The Flash Plus 2 is now official, will hit Malaysian stores next week,
+
+
+Cluster 2 words: phone , phone , nan , downtime , drop , drop ,
+
+Cluster 2 titles:
+ The Moto G4 phones are here and they’re under the Lenovo Moto banner,
+ U Mobile will let you make phone calls even when you have no signal bars,
+
+
+Cluster 3 words: market , mi , box , mi , mi , box ,
+
+Cluster 3 titles:
+ Xiaomi’s Mi Box will finally hit international markets,
+
+
+{0: 'galaxy , trip , nan , nan , today , axon', 1: 'store , flash , week , flash , store , flash', 2: 'phone , phone , nan , downtime , drop , drop', 3: 'market , mi , box , mi , mi , box'}
+
+
+CPU times: user 28.2 ms, sys: 1.25 ms, total: 29.5 ms
+Wall time: 30 ms
+CPU times: user 37.4 ms, sys: 430 us, total: 37.8 ms
+Wall time: 38.4 ms
+Current Starting Date: 2016-05-09
+Top terms per cluster:
+
+Cluster 0 words: leak , nan , nan , nan , feature , sport ,
+
+Cluster 0 titles:
+ honor V8 leaks in live images, looks pretty slick,
+ Windows 10 free upgrade to end July 29th, grab it while you can,
+ VRidge lets you play Oculus and Vive games on your Google Cardboard,
+ HTC One A9 review: My torrid love affair with a smartphone,
+ Motorola Moto X4 renders emerge, may launch August 24,
+ Proton: 10 Top Technological Milestones,
+ Moto 360 Sport review: Run Forrest, run,
+ Uber is rolling out in Kota Kinabalu soon,
+ Xiaomi’s MIUI 8 is finally here and it looks pretty colourful,
+ The Apple iPhone 7 rumoured to have the same dimensions as the iPhone 6s,
+ honor makes the V8 phablet official with top of the line specs,
+ Samsung Galaxy Tab A 10.1 (2016) leaks with specs,
+ Here’s why Captain America chooses a vivo smartphone,
+ The ZTE Blade V7 series is here, brings LTE on a budget,
+ Huawei Mate 8 battery stress test,
+ Digi now lets you buy the iPhone SE online,
+ Our readers are pretty awesome!,
+ Compared: Huawei P9 camera vs iPhone 6s Plus, Lumia 950 and Galaxy S7 edge,
+ Exploring the world of immersion with the Lenovo Vibe X3,
+ Google Maps “Driving Mode” is rolling out worldwide,
+ ZTE Blade V7 series hands-on: Is this truly premium for the masses?,
+ Google is developing their own Android powered VR device,
+ GBoard will let iOS users search and shoot emojis straight from their keyboards,
+ Google adds some awesome new features to the Translate app,
+ Everyone needs to calm the f*** down about Maybank being offline this weekend,
+ AfterShokz’s bone conducting sports headphones have finally hit Malaysia,
+ iPhone SE goes on sale in Malaysia today. Here’s where to get one,
+
+
+Cluster 1 words: year , year , mobile , mobile , year , mobile ,
+
+Cluster 1 titles:
+ Want to try Webe? They are giving away 1-year free mobile data plans,
+ The Asus Zenfone 3 to launch by mid year,
+
+
+Cluster 2 words: offer , month , offer , offer , plan , life ,
+
+Cluster 2 titles:
+ Digi mimics Hotlink by offering free 8GB/month data for life,
+ Celcom offers the iPhone SE with FIRST Postpaid plans,
+ Digi offers the iPhone SE from RM70/month,
+
+
+Cluster 3 words: launch , launch , window , launch , launch , storage ,
+
+Cluster 3 titl Moto G series,
+ These shoes could ensure you never get lost again,
+ Google drops more details on Android N at Google I/O,
+ Celcom FIRST Postpaid offers double internet quota for this weekend,
+ Android Wear 2.0 — standalone apps, improved fitness and more!,
+ Google’s Daydream wants to improve mobile VR more than ever before,
+ BOXiT is an alternative way to pick up your parcels,
+ Google unveils its most personal assistant yet — Google Home,
+ Google wants to drive valuable users for app developers, not just downloads,
+ Samsung Galaxy C5 is looking like a premium mid-range smartphone,
+ Apple iPhone 7 renders emerge, is missing its audio jack,
+ Huawei reveals the official Malaysian price of the Huawei P9 and P9 Lite,
+ ZTE Axon 7 officially teased with theatre sound and VR,
+ Xiaomi teases upcoming drone, might shoot in 4K and have gesture control,
+ SoyaCincau is going live today!,
+
+
+Cluster 1 words: store , flash , week , flash , store , flash ,
+
+Cluster 1 titles:
+ The Huawei P9 is headed to stores at the end of May,
+ The Flash Plus 2 is now official, will hit Malaysian stores next week,
+
+
+Cluster 2 words: phone , phone , nan , downtime , drop , drop ,
+
+Cluster 2 titles:
+ The Moto G4 phones are here and they’re under the Lenovo Moto banner,
+ U Mobile will let you make phone calls even when you have no signal bars,
+
+
+Cluster 3 words: market , mi , box , mi , mi , box ,
+
+Cluster 3 titles:
+ Xiaomi’s Mi Box will finally hit international markets,
+
+
+{0: 'galaxy , trip , nan , nan , today , axon', 1: 'store , flash , week , flash , store , flash', 2: 'phone , phone , nan , downtime , drop , drop', 3: 'market , mi , box , mi , mi , box'}
+
+
+CPU times: user 28.2 ms, sys: 1.25 ms, total: 29.5 ms
+Wall time: 30 ms
+CPU times: user 37.4 ms, sys: 430 us, total: 37.8 ms
+Wall time: 38.4 ms
+Current Starting Date: 2016-05-09
+Top terms per cluster:
+
+Cluster 0 words: leak , nan , nan , nan , feature , sport ,
+
+Cluster 0 titles:
+ honor V8 leaks in live images, looks pretty slick,
+ Windows 10 free upgrade to end July 29th, grab it while you can,
+ VRidge lets you play Oculus and Vive games on your Google Cardboard,
+ HTC One A9 review: My torrid love affair with a smartphone,
+ Motorola Moto X4 renders emerge, may launch August 24,
+ Proton: 10 Top Technological Milestones,
+ Moto 360 Sport review: Run Forrest, run,
+ Uber is rolling out in Kota Kinabalu soon,
+ Xiaomi’s MIUI 8 is finally here and it looks pretty colourful,
+ The Apple iPhone 7 rumoured to have the same dimensions as the iPhone 6s,
+ honor makes the V8 phablet official with top of the line specs,
+ Samsung Galaxy Tab A 10.1 (2016) leaks with specs,
+ Here’s why Captain America chooses a vivo smartphone,
+ The ZTE Blade V7 series is here, brings LTE on a budget,
+ Huawei Mate 8 battery stress test,
+ Digi now lets you buy the iPhone SE online,
+ Our readers are pretty awesome!,
+ Compared: Huawei P9 camera vs iPhone 6s Plus, Lumia 950 and Galaxy S7 edge,
+ Exploring the world of immersion with the Lenovo Vibe X3,
+ Google Maps “Driving Mode” is rolling out worldwide,
+ ZTE Blade V7 series hands-on: Is this truly premium for the masses?,
+ Google is developing their own Android powered VR device,
+ GBoard will let iOS users search and shoot emojis straight from their keyboards,
+ Google adds some awesome new features to the Translate app,
+ Everyone needs to calm the f*** down about Maybank being offline this weekend,
+ AfterShokz’s bone conducting sports headphones have finally hit Malaysia,
+ iPhone SE goes on sale in Malaysia today. Here’s where to get one,
+
+
+Cluster 1 words: year , year , mobile , mobile , year , mobile ,
+
+Cluster 1 titles:
+ Want to try Webe? They are giving away 1-year free mobile data plans,
+ The Asus Zenfone 3 to launch by mid year,
+
+
+Cluster 2 words: offer , month , offer , offer , plan , life ,
+
+Cluster 2 titles:
+ Digi mimics Hotlink by offering free 8GB/month data for life,
+ Celcom offers the iPhone SE with FIRST Postpaid plans,
+ Digi offers the iPhone SE from RM70/month,
+
+
+Cluster 3 words: launch , launch , window , launch , launch , storage ,
+
+Cluster 3 titles:
+ SanDisk launches five new storage devices locally, including a USB Type-C flashdrive,
+ Xiaomi launches their massive 6.44″ Mi Max phablet. Prices start from under RM1,000,
+ WhatsApp launches desktop app for Windows and Mac,
+
+
+{0: 'leak , nan , nan , nan , feature , sport', 1: 'year , year , mobile , mobile , year , mobile', 2: 'offer , month , offer , offer , plan , life', 3: 'launch , launch , window , launch , launch , storage'}
+
+
+CPU times: user 18.1 ms, sys: 695 us, total: 18.8 ms
+Wall time: 19.1 ms
+CPU times: user 39.2 ms, sys: 709 us, total: 39.9 ms
+Wall time: 40.7 ms
+Current Starting Date: 2015-12-14
+Top terms per cluster:
+
+Cluster 0 words: thing , feature , nan , plan , nan , feature ,
+
+Cluster 0 titles:
+ A customer was forced to pay RM10,000 for RM800 worth of phones,
+ Pebble adds new features to its entire smartwatch lineup,
+ Malaysians Googled weird things in 2015,
+ Xpax Internet Plan costs more but it now packs better value,
+
+
+Cluster 1 words: nan , worth , nan , nan , nan , galaxy ,
+
+Cluster 1 titles:
+ Digi offers the Microsoft Lumia 950 for free,
+ Celcom offers the Samsung Gear S2 at RM400 off,
+
+
+Cluster 2 words: nan , surface , nan , nan , nan , nan ,
+
+Cluster 2 titles:
+ Acer launches its Predator 8 Gaming Tablet in Malaysia,
+ A compact 4.6″ OnePlus 2 “mini” is in the works,
+ Microsoft Lumia 950/950 XL now official in Malaysia,
+ Report reaffirms Samsung Galaxy S7’s new features,
+ HTC’s One X9 has one interesting camera “visor”,
+ Microsoft says “sorry” to Surface Pro 4 and Surface Book users,
+ Google Maps offline navigation now on iOS,
+ Man orders Nexus 6P, gets 6P(airs) of something else,
+ Microsoft Lumia 950/950 XL: Are these really made for productivity?,
+ Now, you can be a Jedi Knight too,
+ SoyaCincau’s Ultimate Gadget Gift Guide 2015,
+ Watch out ladies, Huawei’s got something special for you,
+ XOX Mobile enters the fray with a profit-sharing postpaid plan,
+ Google’s CEO, Sundar Pichai suggests users and his mom will help name Android N,
+ Digi lets you stay connected in the skies at RM32/day,
+ Microsoft’s Surface Book & Surface Pro 4 receives a much needed fix,
+ Why did Maxis CEO Morten Lundal tell all his employees to come to work dressed like they’re going to the beach?,
+
+
+Cluster 3 words: galaxy , lot , galaxy , worth , nan , nan ,
+
+Cluster 3 titles:
+ The Samsung Galaxy A series gets a whole lot bigger with the A9,
+ The Ginormous Samsung Galaxy View could be here soon,
+
+
+{0: 'thing , feature , nan , plan , nan , feature', 1: 'nan , worth , nan , nan , nan , galaxy', 2: 'nan , surface , nan , nan , nan , nan', 3: 'galaxy , lot , galaxy , worth , nan , nan'}
+
+
+CPU times: user 30.1 ms, sys: 996 us, total: 31.1 ms
+Wall time: 31.2 ms
+CPU times: user 34.3 ms, sys: 114 us, total: 34.4 ms
+Wall time: 34.6 ms
+Current Starting Date: 2016-01-11
+Top terms per cluster:
+
+Cluster 0 words: lg , crash , sleep , nan , nan , nan ,
+
+Cluster 0 titles:
+ Xiaomi officially reveals the all-metal Redmi 3,
+ Fan-made Windows 10 Mobile concept blows the original out of the water,
+ Get RM30 of petrol with RM30 Xpax prepaid top up,
+ Anyone can crash your WhatsApp with the power of emojis,
+ This floor mat alarm clock will never fail to get you out of bed,
+ Huff and puff with Jupiter: the first and only vape phone,
+ The iPhone is now 9 years old, and it has proven naysayers wrong,
+ The next iPhone won’t have a headphone jack and here’s why that sucks,
+ Samsung’s modular TV is something that belongs in your space-loft,
+ Sony took their time to find the perfect shade of pink for the Xperia Z5,
+ Using iPad or iPhone during bedtime? iOS 9.3 will help you sleep better,
+ Now you can have a phone that you can’t afford to match that Bentley you don’t own,
+ Xiaomi’s Mi 5 could come in both metal and glass variants,
+ OPPO’s new F1 smartphone officially revealed in Vietnam,
+ Uber gets you around KLCC area for RM5 flat,
+ Own more than one Apple Watch? The new watchOS update is just for you,
+ 5 reasons why the Redmi 3 is a compelling smartphone under RM600,
+ Take your pursuit of happiness seriouslyes:
+ SanDisk launches five new storage devices locally, including a USB Type-C flashdrive,
+ Xiaomi launches their massive 6.44″ Mi Max phablet. Prices start from under RM1,000,
+ WhatsApp launches desktop app for Windows and Mac,
+
+
+{0: 'leak , nan , nan , nan , feature , sport', 1: 'year , year , mobile , mobile , year , mobile', 2: 'offer , month , offer , offer , plan , life', 3: 'launch , launch , window , launch , launch , storage'}
+
+
+CPU times: user 18.1 ms, sys: 695 us, total: 18.8 ms
+Wall time: 19.1 ms
+CPU times: user 39.2 ms, sys: 709 us, total: 39.9 ms
+Wall time: 40.7 ms
+Current Starting Date: 2015-12-14
+Top terms per cluster:
+
+Cluster 0 words: thing , feature , nan , plan , nan , feature ,
+
+Cluster 0 titles:
+ A customer was forced to pay RM10,000 for RM800 worth of phones,
+ Pebble adds new features to its entire smartwatch lineup,
+ Malaysians Googled weird things in 2015,
+ Xpax Internet Plan costs more but it now packs better value,
+
+
+Cluster 1 words: nan , worth , nan , nan , nan , galaxy ,
+
+Cluster 1 titles:
+ Digi offers the Microsoft Lumia 950 for free,
+ Celcom offers the Samsung Gear S2 at RM400 off,
+
+
+Cluster 2 words: nan , surface , nan , nan , nan , nan ,
+
+Cluster 2 titles:
+ Acer launches its Predator 8 Gaming Tablet in Malaysia,
+ A compact 4.6″ OnePlus 2 “mini” is in the works,
+ Microsoft Lumia 950/950 XL now official in Malaysia,
+ Report reaffirms Samsung Galaxy S7’s new features,
+ HTC’s One X9 has one interesting camera “visor”,
+ Microsoft says “sorry” to Surface Pro 4 and Surface Book users,
+ Google Maps offline navigation now on iOS,
+ Man orders Nexus 6P, gets 6P(airs) of something else,
+ Microsoft Lumia 950/950 XL: Are these really made for productivity?,
+ Now, you can be a Jedi Knight too,
+ SoyaCincau’s Ultimate Gadget Gift Guide 2015,
+ Watch out ladies, Huawei’s got something special for you,
+ XOX Mobile enters the fray with a profit-sharing postpaid plan,
+ Google’s CEO, Sundar Pichai suggests users and his mom will help name Android N,
+ Digi lets you stay connected in the skies at RM32/day,
+ Microsoft’s Surface Book & Surface Pro 4 receives a much needed fix,
+ Why did Maxis CEO Morten Lundal tell all his employees to come to work dressed like they’re going to the beach?,
+
+
+Cluster 3 words: galaxy , lot , galaxy , worth , nan , nan ,
+
+Cluster 3 titles:
+ The Samsung Galaxy A series gets a whole lot bigger with the A9,
+ The Ginormous Samsung Galaxy View could be here soon,
+
+
+{0: 'thing , feature , nan , plan , nan , feature', 1: 'nan , worth , nan , nan , nan , galaxy', 2: 'nan , surface , nan , nan , nan , nan', 3: 'galaxy , lot , galaxy , worth , nan , nan'}
+
+
+CPU times: user 30.1 ms, sys: 996 us, total: 31.1 ms
+Wall time: 31.2 ms
+CPU times: user 34.3 ms, sys: 114 us, total: 34.4 ms
+Wall time: 34.6 ms
+Current Starting Date: 2016-01-11
+Top terms per cluster:
+
+Cluster 0 words: lg , crash , sleep , nan , nan , nan ,
+
+Cluster 0 titles:
+ Xiaomi officially reveals the all-metal Redmi 3,
+ Fan-made Windows 10 Mobile concept blows the original out of the water,
+ Get RM30 of petrol with RM30 Xpax prepaid top up,
+ Anyone can crash your WhatsApp with the power of emojis,
+ This floor mat alarm clock will never fail to get you out of bed,
+ Huff and puff with Jupiter: the first and only vape phone,
+ The iPhone is now 9 years old, and it has proven naysayers wrong,
+ The next iPhone won’t have a headphone jack and here’s why that sucks,
+ Samsung’s modular TV is something that belongs in your space-loft,
+ Sony took their time to find the perfect shade of pink for the Xperia Z5,
+ Using iPad or iPhone during bedtime? iOS 9.3 will help you sleep better,
+ Now you can have a phone that you can’t afford to match that Bentley you don’t own,
+ Xiaomi’s Mi 5 could come in both metal and glass variants,
+ OPPO’s new F1 smartphone officially revealed in Vietnam,
+ Uber gets you around KLCC area for RM5 flat,
+ Own more than one Apple Watch? The new watchOS update is just for you,
+ 5 reasons why the Redmi 3 is a compelling smartphone under RM600,
+ Take your pursuit of happiness seriously with Feel: The smart mood-ring for your wrist,
+ Google’s 2016 I/O will take them back to their roots,
+ ASUS ZenWatch 2 is coming to Malaysia very soon,
+ Soon Google Maps can guess where you’re going and tell you how to get there faster,
+ Lenovo exec lays out Moto(rola)’s 2016 plans,
+ LG is revealing something ahead of MWC 2016. Is this the LG G5?,
+ HTC One M8 receives Android Marshmallow OTA,
+ LG G5 to have a removable battery on a full unibody design?,
+ Lenovo just launched a new budget smartphone and trust us, it’s no lemon,
+ Three’s a crowd for Samsung as the Galaxy A3, A5 and A7 drops by SIRIM,
+ Xiaomi announces a higher spec Redmi Note 3,
+ The ASUS ZenFone Max with a 5,000mAh battery is finally here,
+ 6 things that every Nexus 6P user should know,
+ Logitech’s CREATE Keyboard Case for the iPad Pro is now in Malaysia,
+ Sony Xperia Z5 Dual Review: A decent flagship but it’s time for a reboot,
+ How Xiaomi could rebound after missing 2015 smartphone sales targets,
+ Netflix is sick and tired of your VPN and Proxies,
+ Microsoft’s low cost Lumia 550 smartphone now available outright,
+ iOS 9.3 Public Beta is out now. Here’s how to get it,
+ So apparently the iPhone 6s Plus destroys everyone on AnTuTu,
+
+
+Cluster 1 words: zoom , zoom , hand , zoom , nan , hand ,
+
+Cluster 1 titles:
+ ASUS ZenFone Zoom has finally arrived in Malaysia,
+ ASUS ZenFone Zoom hands-on and first impressions,
+ ASUS ZenFone Zoom camera comparison: Does optical zoom really make a difference?,
+
+
+Cluster 2 words: image , device , image , home , image , image ,
+
+Cluster 2 titles:
+ Leaked images of the Xiaomi Mi 5 reveal a possible physical home button,
+ Leaked Xperia C6 images show a pink bezel-less device,
+ Upgrade your Windows 8 device or be exposed to security risks,
+
+
+Cluster 3 words: band , week , honor , sale , band , band ,
+
+Cluster 3 titles:
+ The honor band is coming to Malaysia,
+ The honor band z1 goes on sale next week for under RM300,
+
+
+{0: 'lg , crash , sleep , nan , nan , nan', 1: 'zoom , zoom , hand , zoom , nan , hand', 2: 'image , device , image , home , image , image', 3: 'band , week , honor , sale , band , band'}
+
+
+CPU times: user 31.2 ms, sys: 983 us, total: 32.2 ms
+Wall time: 32.3 ms
+CPU times: user 33.7 ms, sys: 86 us, total: 33.8 ms
+Wall time: 33.9 ms
+Current Starting Date: 2016-02-01
+Top terms per cluster:
+
+Cluster 0 words: platinum , month , apple , speed , nan , nan ,
+
+Cluster 0 titles:
+ Redmi Note 3 passes Malaysian SIRIM certification,
+ Samsung shows off the Gear S2 Classic 18K Rose Gold and Platinum editions in Malaysia,
+ Samsung Pay is coming to Southeast Asia this year,
+ Would you use Samsung’s baked-in browser if it had an ad block plugin?,
+ UberX now available in Ipoh for this month only,
+ TM doubles its upload speed on UniFi Advance,
+ Want to upgrade your Pebble Time (Steel)? This case adds heart rate monitoring and wireless charging,
+ The iPad Pro outsold Microsoft’s entire Surface lineup in Q4 of 2015,
+ Digi Prepaid gives you up to 1.5GB free high speed internet when you reload,
+ Alphabet aka Google’s parent group has just surpassed Apple to be the most valuable company,
+ Celcom is one upping Digi and U Mobile with their most competitive postpaid plan yet,
+ Google’s Titan drones will enable 5G internet from the sky,
+ Buy a phone and change it anytime you want with Celcom’s NewPhone,
+ Xpax FattNet internet plan gives you 8GB data at RM88/month,
+ Microsoft acquires SwiftKey,
+ Now this is a smart mirror you can’t buy that’s worth buying,
+ Microsoft Lumia 950 XL review: A beautiful mess,
+ Pebble’s smartwatches get a bunch of improvements with a new update,
+ Apple gets sued again, over a technicality,
+ Google Chrome now tells you when you’re clicking fake ads & links,
+ VAIO made a really sexy smartphone…that runs Windows,
+ Fitbit launches an affordable yet sexy fitness tracker, the Alta,
+ Could this be the Xiaomi Mi 5’s glass back?,
+ Marshmallow for Android Wear is finally here: Brings gestures, audio and messaging support,
+ 18K Rose Gold and Platinum Gear S2 Classic now on sale in Malaysi with Feel: The smart mood-ring for your wrist,
+ Google’s 2016 I/O will take them back to their roots,
+ ASUS ZenWatch 2 is coming to Malaysia very soon,
+ Soon Google Maps can guess where you’re going and tell you how to get there faster,
+ Lenovo exec lays out Moto(rola)’s 2016 plans,
+ LG is revealing something ahead of MWC 2016. Is this the LG G5?,
+ HTC One M8 receives Android Marshmallow OTA,
+ LG G5 to have a removable battery on a full unibody design?,
+ Lenovo just launched a new budget smartphone and trust us, it’s no lemon,
+ Three’s a crowd for Samsung as the Galaxy A3, A5 and A7 drops by SIRIM,
+ Xiaomi announces a higher spec Redmi Note 3,
+ The ASUS ZenFone Max with a 5,000mAh battery is finally here,
+ 6 things that every Nexus 6P user should know,
+ Logitech’s CREATE Keyboard Case for the iPad Pro is now in Malaysia,
+ Sony Xperia Z5 Dual Review: A decent flagship but it’s time for a reboot,
+ How Xiaomi could rebound after missing 2015 smartphone sales targets,
+ Netflix is sick and tired of your VPN and Proxies,
+ Microsoft’s low cost Lumia 550 smartphone now available outright,
+ iOS 9.3 Public Beta is out now. Here’s how to get it,
+ So apparently the iPhone 6s Plus destroys everyone on AnTuTu,
+
+
+Cluster 1 words: zoom , zoom , hand , zoom , nan , hand ,
+
+Cluster 1 titles:
+ ASUS ZenFone Zoom has finally arrived in Malaysia,
+ ASUS ZenFone Zoom hands-on and first impressions,
+ ASUS ZenFone Zoom camera comparison: Does optical zoom really make a difference?,
+
+
+Cluster 2 words: image , device , image , home , image , image ,
+
+Cluster 2 titles:
+ Leaked images of the Xiaomi Mi 5 reveal a possible physical home button,
+ Leaked Xperia C6 images show a pink bezel-less device,
+ Upgrade your Windows 8 device or be exposed to security risks,
+
+
+Cluster 3 words: band , week , honor , sale , band , band ,
+
+Cluster 3 titles:
+ The honor band is coming to Malaysia,
+ The honor band z1 goes on sale next week for under RM300,
+
+
+{0: 'lg , crash , sleep , nan , nan , nan', 1: 'zoom , zoom , hand , zoom , nan , hand', 2: 'image , device , image , home , image , image', 3: 'band , week , honor , sale , band , band'}
+
+
+CPU times: user 31.2 ms, sys: 983 us, total: 32.2 ms
+Wall time: 32.3 ms
+CPU times: user 33.7 ms, sys: 86 us, total: 33.8 ms
+Wall time: 33.9 ms
+Current Starting Date: 2016-02-01
+Top terms per cluster:
+
+Cluster 0 words: platinum , month , apple , speed , nan , nan ,
+
+Cluster 0 titles:
+ Redmi Note 3 passes Malaysian SIRIM certification,
+ Samsung shows off the Gear S2 Classic 18K Rose Gold and Platinum editions in Malaysia,
+ Samsung Pay is coming to Southeast Asia this year,
+ Would you use Samsung’s baked-in browser if it had an ad block plugin?,
+ UberX now available in Ipoh for this month only,
+ TM doubles its upload speed on UniFi Advance,
+ Want to upgrade your Pebble Time (Steel)? This case adds heart rate monitoring and wireless charging,
+ The iPad Pro outsold Microsoft’s entire Surface lineup in Q4 of 2015,
+ Digi Prepaid gives you up to 1.5GB free high speed internet when you reload,
+ Alphabet aka Google’s parent group has just surpassed Apple to be the most valuable company,
+ Celcom is one upping Digi and U Mobile with their most competitive postpaid plan yet,
+ Google’s Titan drones will enable 5G internet from the sky,
+ Buy a phone and change it anytime you want with Celcom’s NewPhone,
+ Xpax FattNet internet plan gives you 8GB data at RM88/month,
+ Microsoft acquires SwiftKey,
+ Now this is a smart mirror you can’t buy that’s worth buying,
+ Microsoft Lumia 950 XL review: A beautiful mess,
+ Pebble’s smartwatches get a bunch of improvements with a new update,
+ Apple gets sued again, over a technicality,
+ Google Chrome now tells you when you’re clicking fake ads & links,
+ VAIO made a really sexy smartphone…that runs Windows,
+ Fitbit launches an affordable yet sexy fitness tracker, the Alta,
+ Could this be the Xiaomi Mi 5’s glass back?,
+ Marshmallow for Android Wear is finally here: Brings gestures, audio and messaging support,
+ 18K Rose Gold and Platinum Gear S2 Classic now on sale in Malaysia,
+ LG G4 gets a Marshmallow update in Malaysia,
+ Which telco in Malaysia offers the best value for calls, SMS and data all in?,
+ “Apple” is trying to scam its users, don’t fall for it,
+ Google doesn’t want you becoming an ISIS extremist. Kind of?,
+ Summoning a Tesla Model S using your Apple Watch is the coolest thing ever,
+
+
+Cluster 1 words: processor , processor , war , war , nan , processor ,
+
+Cluster 1 titles:
+ Rumours claim that Xiaomi, HTC and Lenovo will abandon MediaTek’s problematic Helio X20 processors,
+ Processor Wars Episode II: MediaTek strikes back,
+
+
+Cluster 2 words: nan , nan , nan , book , nan , nan ,
+
+Cluster 2 titles:
+ Maxis presented their financial report in the most unexpected way ever,
+ Maxis announces 2015 financial results with lots of positives in the books,
+
+
+Cluster 3 words: galaxy , flagship , nan , galaxy , galaxy , day ,
+
+Cluster 3 titles:
+ Samsung Galaxy Unpacked 2016 set — one day before MWC2016,
+ Samsung Galaxy S6 and S6 edge starts receiving Marshmallow update,
+ Samsung Galaxy TabPro S hands-on and first impressions,
+ Samsung’s answer to the 2-in-1 convertible, the Galaxy TabPro S is here in Malaysia,
+ Samsung’s Galaxy S7 purported to have a ridiculous battery life,
+ Samsung’s Galaxy S7 flagships have almost nothing left to show after press renders leak,
+ Samsung Galaxy S7 still has a camera bump but it should be negligible,
+ The clash of (rumoured) flagships: LG G5 vs Samsung Galaxy S7,
+
+
+{0: 'platinum , month , apple , speed , nan , nan', 1: 'processor , processor , war , war , nan , processor', 2: 'nan , nan , nan , book , nan , nan', 3: 'galaxy , flagship , nan , galaxy , galaxy , day'}
+
+
+CPU times: user 28.8 ms, sys: 1.8 ms, total: 30.6 ms
+Wall time: 32.2 ms
+CPU times: user 32.5 ms, sys: 95 us, total: 32.6 ms
+Wall time: 32.7 ms
+Current Starting Date: 2015-12-28
+Top terms per cluster:
+
+Cluster 0 words: thing , apple , budget , lg , roll , finger ,
+
+Cluster 0 titles:
+ Free iflix now finally available for TM UniFi customers,
+ HTC’s One X9 is definitely no flagship, but maybe that’s not such a bad thing,
+ Is this Xiaomi’s new budget smartphone?,
+ The four-way 4K video battle,
+ This could be the Samsung tablet worth waiting for,
+ Google Cardboard just saved someone’s life,
+ This might be the best alternative to KLIA Express,
+ All the VR fun at a quarter of the price,
+ Samsung rolls out an important update for the Gear S2,
+ Apple gets sued for rolling out iOS 9,
+ Samsung lets your fingers do the talking,
+ Microsoft wants iPhone users to take better selfies,
+ Uber has done over a billion trips worldwide. Will it replace your car?,
+ Mobile data in Malaysia is more affordable than you think,
+ LG doubles up on its upcoming flagship with a touch of Magic,
+ Will the next iPhone be waterproof?,
+ OnePlus 2 Mini passes TENAA vetting; looks like a OnePlus X?,
+ This could be the next big thing for 2016,
+
+
+Cluster 1 words: edge , galaxy , screen , edge , galaxy , galaxy ,
+
+Cluster 1 titles:
+ You can do more on the Galaxy S6 edge screen with Marshmallow update,
+ The Galaxy S7 edge is not just an S7 with a curved screen,
+
+
+Cluster 2 words: phone , money , nan , phone , phone , phone ,
+
+Cluster 2 titles:
+ This phone might restore your faith in Windows 10 Mobile,
+ This online store will recycle your old phone and give you money for it,
+ Which company is making a foldable phone with a flexible display and built-in hologram projector?,
+
+
+Cluster 3 words: prepaid , bonus , prepaid , worth , nan , nan ,
+
+Cluster 3 titles:
+ Get extra prepaid bonuses if you reload before 2016,
+ Here’s all you need to know about Prepaid and GST for 2016,
+
+
+{0: 'thing , apple , budget , lg , roll , finger', 1: 'edge , galaxy , screen , edge , galaxy , galaxy', 2: 'phone , money , nan , phone , phone , phone', 3: 'prepaid , bonus , prepaid , worth , nan , nan'}
+
+
+CPU times: user 29 ms, sys: 1.01 ms, total: 30 ms
+Wall time: 30.3 ms
+CPU times: user 38.1 ms, sys: 733 us, total: 38.8 ms
+Wall time: 39.9 ms
+Current Starting Date: 2016-04-18
+Top terms per cluster:
+
+Cluster 0 words: plan , data , mi , render a,
+ LG G4 gets a Marshmallow update in Malaysia,
+ Which telco in Malaysia offers the best value for calls, SMS and data all in?,
+ “Apple” is trying to scam its users, don’t fall for it,
+ Google doesn’t want you becoming an ISIS extremist. Kind of?,
+ Summoning a Tesla Model S using your Apple Watch is the coolest thing ever,
+
+
+Cluster 1 words: processor , processor , war , war , nan , processor ,
+
+Cluster 1 titles:
+ Rumours claim that Xiaomi, HTC and Lenovo will abandon MediaTek’s problematic Helio X20 processors,
+ Processor Wars Episode II: MediaTek strikes back,
+
+
+Cluster 2 words: nan , nan , nan , book , nan , nan ,
+
+Cluster 2 titles:
+ Maxis presented their financial report in the most unexpected way ever,
+ Maxis announces 2015 financial results with lots of positives in the books,
+
+
+Cluster 3 words: galaxy , flagship , nan , galaxy , galaxy , day ,
+
+Cluster 3 titles:
+ Samsung Galaxy Unpacked 2016 set — one day before MWC2016,
+ Samsung Galaxy S6 and S6 edge starts receiving Marshmallow update,
+ Samsung Galaxy TabPro S hands-on and first impressions,
+ Samsung’s answer to the 2-in-1 convertible, the Galaxy TabPro S is here in Malaysia,
+ Samsung’s Galaxy S7 purported to have a ridiculous battery life,
+ Samsung’s Galaxy S7 flagships have almost nothing left to show after press renders leak,
+ Samsung Galaxy S7 still has a camera bump but it should be negligible,
+ The clash of (rumoured) flagships: LG G5 vs Samsung Galaxy S7,
+
+
+{0: 'platinum , month , apple , speed , nan , nan', 1: 'processor , processor , war , war , nan , processor', 2: 'nan , nan , nan , book , nan , nan', 3: 'galaxy , flagship , nan , galaxy , galaxy , day'}
+
+
+CPU times: user 28.8 ms, sys: 1.8 ms, total: 30.6 ms
+Wall time: 32.2 ms
+CPU times: user 32.5 ms, sys: 95 us, total: 32.6 ms
+Wall time: 32.7 ms
+Current Starting Date: 2015-12-28
+Top terms per cluster:
+
+Cluster 0 words: thing , apple , budget , lg , roll , finger ,
+
+Cluster 0 titles:
+ Free iflix now finally available for TM UniFi customers,
+ HTC’s One X9 is definitely no flagship, but maybe that’s not such a bad thing,
+ Is this Xiaomi’s new budget smartphone?,
+ The four-way 4K video battle,
+ This could be the Samsung tablet worth waiting for,
+ Google Cardboard just saved someone’s life,
+ This might be the best alternative to KLIA Express,
+ All the VR fun at a quarter of the price,
+ Samsung rolls out an important update for the Gear S2,
+ Apple gets sued for rolling out iOS 9,
+ Samsung lets your fingers do the talking,
+ Microsoft wants iPhone users to take better selfies,
+ Uber has done over a billion trips worldwide. Will it replace your car?,
+ Mobile data in Malaysia is more affordable than you think,
+ LG doubles up on its upcoming flagship with a touch of Magic,
+ Will the next iPhone be waterproof?,
+ OnePlus 2 Mini passes TENAA vetting; looks like a OnePlus X?,
+ This could be the next big thing for 2016,
+
+
+Cluster 1 words: edge , galaxy , screen , edge , galaxy , galaxy ,
+
+Cluster 1 titles:
+ You can do more on the Galaxy S6 edge screen with Marshmallow update,
+ The Galaxy S7 edge is not just an S7 with a curved screen,
+
+
+Cluster 2 words: phone , money , nan , phone , phone , phone ,
+
+Cluster 2 titles:
+ This phone might restore your faith in Windows 10 Mobile,
+ This online store will recycle your old phone and give you money for it,
+ Which company is making a foldable phone with a flexible display and built-in hologram projector?,
+
+
+Cluster 3 words: prepaid , bonus , prepaid , worth , nan , nan ,
+
+Cluster 3 titles:
+ Get extra prepaid bonuses if you reload before 2016,
+ Here’s all you need to know about Prepaid and GST for 2016,
+
+
+{0: 'thing , apple , budget , lg , roll , finger', 1: 'edge , galaxy , screen , edge , galaxy , galaxy', 2: 'phone , money , nan , phone , phone , phone', 3: 'prepaid , bonus , prepaid , worth , nan , nan'}
+
+
+CPU times: user 29 ms, sys: 1.01 ms, total: 30 ms
+Wall time: 30.3 ms
+CPU times: user 38.1 ms, sys: 733 us, total: 38.8 ms
+Wall time: 39.9 ms
+Current Starting Date: 2016-04-18
+Top terms per cluster:
+
+Cluster 0 words: plan , data , mi , render , cash , display ,
+
+Cluster 0 titles:
+ Digi has a new RM38 postpaid plan for students,
+ Uber is now accepting cash in Kuala Lumpur,
+ Intel’s Apollo Lake processors will let you have slimmer PCs that pack a bigger punch,
+ Ultra-thin LEDS will let you have a display on your skin,
+ red ONE launches new Data8 postpaid plan for only RM8/month,
+ Tune Talk: Bisa Pak is the plan for Indonesians living in Malaysia,
+ Still using QuickTime? Uninstall it now!,
+ 4th Gen Moto G images leak, has a fingerprint scanner,
+ Apple Pay comes to Singapore,
+ U Mobile lets you use Waze with no data charges,
+ Webe’s invite-only plan revealed, covers most major towns and cities in Malaysia,
+ Stand a chance to win a car when you sign up for Celcom FIRST,
+ New render shows off the Moto G4 in white,
+ Sony Xperia X Premium is the first phone to sport a HDR display,
+ Microsoft’s Surface Pro 4 Type Cover with Fingerprint ID is now available locally,
+ Get up to RM1,750 off when you trade-in your phone for a Huawei Mate 8,
+ Being a cheapskate could cost you your life,
+ Here are webe’s speedtest results,
+ Opera now has built in VPN, perfect for Netflix,
+ This Pictar camera grip will turn your iPhone into a DSLR,
+ Cahaya Malaysia submarine cable is finally repaired,
+ MaxisONE plan apparently is getting another huge data upgrade,
+ webe CEO debunks common 4G telco myths,
+ The Honor V8 is launching this May,
+ Celcom reiterates their FIRST Platinum postpaid offer,
+ Is Leica’s branding on the Huawei P9 just a marketing ploy?,
+ Rumoured Sony Xperia M Ultra to sport 23MP/16MP cams and 6 inch screen,
+ These two students have created a power bank that produces its own juice,
+ Maxis maintains steady revenue in the face of price war,
+ Upgraded MaxisONE now packs more data to go around,
+ Xiaomi’s Mi Max is coming soon,
+
+
+Cluster 1 words: edge , galaxy , pick , pick , launch , galaxy ,
+
+Cluster 1 titles:
+ Samsung Galaxy C5 might launch in May with metal body,
+ You can pick up the LG G5 in Malaysia and it’s cheaper than the S7 edge,
+ Samsung joins the pink bandwagon with a Pink Gold Galaxy S7 and S7 edge,
+
+
+Cluster 2 words: android , nan , nan , zest , gold , image ,
+
+Cluster 2 titles:
+ Android N to have a dedicated VR Mode?,
+ Exploding Kittens finally hits Android,
+
+
+Cluster 3 words: acer , acer , liquid , machine , acer , acer ,
+
+Cluster 3 titles:
+ Acer debuts three new work machines sporting 6th Gen Intel Core processors,
+ Acer releases two new Predator devices, both ready to tackle VR,
+ Acer’s Liquid Leap Fit has constant heart rate monitoring, reminds you to take your meds,
+ The Acer Liquid Zest Plus is a mid-ranger with a seriously huge battery,
+
+
+{0: 'plan , data , mi , render , cash , display', 1: 'edge , galaxy , pick , pick , launch , galaxy', 2: 'android , nan , nan , zest , gold , image', 3: 'acer , acer , liquid , machine , acer , acer'}
+
+
+CPU times: user 29.8 ms, sys: 1.31 ms, total: 31.1 ms
+Wall time: 31.7 ms
+CPU times: user 36 ms, sys: 411 us, total: 36.4 ms
+Wall time: 36.9 ms
+Current Starting Date: 2016-04-25
+Top terms per cluster:
+
+Cluster 0 words: launch , launch , week , mi , mi , max ,
+
+Cluster 0 titles:
+ The Xiaomi Mi Max launches May 10,
+ Huawei P9 South Pacific launch is happening next week,
+
+
+Cluster 1 words: honor , honor , nan , format , hit , hit ,
+
+Cluster 1 titles:
+ Honor V8 spotted on TENAA, has three variants,
+ The Honor 5C is now official, is similar to the P9 Lite but much more affordable,
+
+
+Cluster 2 words: drop , camera , home , band , display , nexus ,
+
+Cluster 2 titles:
+ Bay of Bengal cable system has gone live, provides alternate route to Europe,
+ Huawei’s next smartphone will have a QHD display,
+ MTV Bugging Out brings tech powered pranks to TV,
+ Xiaomi CEO shows off next gen Mi Band,
+ Digi now has the most number of subscribers in Malaysia,
+ iPhone 7 might be waterproof and have a touch sensitive home button,
+ Facebook’s developing a stand-alone camera app,
+ Hotlink FAST prepaid now comes with 8GB free data for life,
+ Charge your smartphone with a potted plant,
+ Apple reports their first revenue decline since 2, cash , display ,
+
+Cluster 0 titles:
+ Digi has a new RM38 postpaid plan for students,
+ Uber is now accepting cash in Kuala Lumpur,
+ Intel’s Apollo Lake processors will let you have slimmer PCs that pack a bigger punch,
+ Ultra-thin LEDS will let you have a display on your skin,
+ red ONE launches new Data8 postpaid plan for only RM8/month,
+ Tune Talk: Bisa Pak is the plan for Indonesians living in Malaysia,
+ Still using QuickTime? Uninstall it now!,
+ 4th Gen Moto G images leak, has a fingerprint scanner,
+ Apple Pay comes to Singapore,
+ U Mobile lets you use Waze with no data charges,
+ Webe’s invite-only plan revealed, covers most major towns and cities in Malaysia,
+ Stand a chance to win a car when you sign up for Celcom FIRST,
+ New render shows off the Moto G4 in white,
+ Sony Xperia X Premium is the first phone to sport a HDR display,
+ Microsoft’s Surface Pro 4 Type Cover with Fingerprint ID is now available locally,
+ Get up to RM1,750 off when you trade-in your phone for a Huawei Mate 8,
+ Being a cheapskate could cost you your life,
+ Here are webe’s speedtest results,
+ Opera now has built in VPN, perfect for Netflix,
+ This Pictar camera grip will turn your iPhone into a DSLR,
+ Cahaya Malaysia submarine cable is finally repaired,
+ MaxisONE plan apparently is getting another huge data upgrade,
+ webe CEO debunks common 4G telco myths,
+ The Honor V8 is launching this May,
+ Celcom reiterates their FIRST Platinum postpaid offer,
+ Is Leica’s branding on the Huawei P9 just a marketing ploy?,
+ Rumoured Sony Xperia M Ultra to sport 23MP/16MP cams and 6 inch screen,
+ These two students have created a power bank that produces its own juice,
+ Maxis maintains steady revenue in the face of price war,
+ Upgraded MaxisONE now packs more data to go around,
+ Xiaomi’s Mi Max is coming soon,
+
+
+Cluster 1 words: edge , galaxy , pick , pick , launch , galaxy ,
+
+Cluster 1 titles:
+ Samsung Galaxy C5 might launch in May with metal body,
+ You can pick up the LG G5 in Malaysia and it’s cheaper than the S7 edge,
+ Samsung joins the pink bandwagon with a Pink Gold Galaxy S7 and S7 edge,
+
+
+Cluster 2 words: android , nan , nan , zest , gold , image ,
+
+Cluster 2 titles:
+ Android N to have a dedicated VR Mode?,
+ Exploding Kittens finally hits Android,
+
+
+Cluster 3 words: acer , acer , liquid , machine , acer , acer ,
+
+Cluster 3 titles:
+ Acer debuts three new work machines sporting 6th Gen Intel Core processors,
+ Acer releases two new Predator devices, both ready to tackle VR,
+ Acer’s Liquid Leap Fit has constant heart rate monitoring, reminds you to take your meds,
+ The Acer Liquid Zest Plus is a mid-ranger with a seriously huge battery,
+
+
+{0: 'plan , data , mi , render , cash , display', 1: 'edge , galaxy , pick , pick , launch , galaxy', 2: 'android , nan , nan , zest , gold , image', 3: 'acer , acer , liquid , machine , acer , acer'}
+
+
+CPU times: user 29.8 ms, sys: 1.31 ms, total: 31.1 ms
+Wall time: 31.7 ms
+CPU times: user 36 ms, sys: 411 us, total: 36.4 ms
+Wall time: 36.9 ms
+Current Starting Date: 2016-04-25
+Top terms per cluster:
+
+Cluster 0 words: launch , launch , week , mi , mi , max ,
+
+Cluster 0 titles:
+ The Xiaomi Mi Max launches May 10,
+ Huawei P9 South Pacific launch is happening next week,
+
+
+Cluster 1 words: honor , honor , nan , format , hit , hit ,
+
+Cluster 1 titles:
+ Honor V8 spotted on TENAA, has three variants,
+ The Honor 5C is now official, is similar to the P9 Lite but much more affordable,
+
+
+Cluster 2 words: drop , camera , home , band , display , nexus ,
+
+Cluster 2 titles:
+ Bay of Bengal cable system has gone live, provides alternate route to Europe,
+ Huawei’s next smartphone will have a QHD display,
+ MTV Bugging Out brings tech powered pranks to TV,
+ Xiaomi CEO shows off next gen Mi Band,
+ Digi now has the most number of subscribers in Malaysia,
+ iPhone 7 might be waterproof and have a touch sensitive home button,
+ Facebook’s developing a stand-alone camera app,
+ Hotlink FAST prepaid now comes with 8GB free data for life,
+ Charge your smartphone with a potted plant,
+ Apple reports their first revenue decline since 2003. Are they running out of steam?,
+ This Hover Camera drone follows you, won’t chew up your fingers,
+ New YouTube ad format will bring unskippable “Bumper ads”,
+ The Moto X (2016) spotted on benchmark, sports Snapdragon 820 SoC and 4GB RAM,
+ LEAGOO’s Shark 1 phablet packs 6,300 mAh of battery goodness for under RM1,000,
+ The Oppo Find 9 might drop this June,
+ It looks like Windows 10 Mobile is here to stay,
+ ASUS ROG GX700 — The world’s first water-cooled laptop has hit our shores,
+ Lazada is now home to Samsung Malaysia’s first official online store,
+ Digi Prepaid now offers up to 50% more quota with unlimited off-peak usage,
+ U Mobile Video-Onz offers free unlimited video streaming 24/7,
+ Acer’s new Predators keeps things simple and focuses on what “gamers want”,
+ Xpax New M4GIC SIM now offers unlimited calls and more data per reload,
+ The MediaTek Helio X30 scores fantastically on Antutu, will sport 10 CPU cores,
+ 8 things the Huawei Mate 8 can do that the S7 edge can’t,
+ Samsung still leads in smartphones while OPPO and vivo are catching up fast,
+ Samsung drops release date for Gear 360,
+ The Huawei Mate 9 might have a 20MP dual-rear camera and Kirin 960 SoC under the hood,
+ Mysterious new Nexus 6P shows up on Geekbench,
+ Research says that e-cigarettes will help smokers quit tobacco for good,
+ Motorola’s likely launching the Moto G4 and Moto G4 Plus this May,
+
+
+Cluster 3 words: galaxy , pick , pick , pick , galaxy , edge ,
+
+Cluster 3 titles:
+ Here’s why you should pick up the Galaxy S7 over the S7 edge,
+ Samsung Galaxy S7 has finally arrived in Malaysia,
+ Samsung Galaxy Note5 gets Marshmallow in Malaysia,
+
+
+{0: 'launch , launch , week , mi , mi , max', 1: 'honor , honor , nan , format , hit , hit', 2: 'drop , camera , home , band , display , nexus', 3: 'galaxy , pick , pick , pick , galaxy , edge'}
+
+
+CPU times: user 28 ms, sys: 1.27 ms, total: 29.3 ms
+Wall time: 29.8 ms
+CPU times: user 38.9 ms, sys: 500 us, total: 39.4 ms
+Wall time: 40.3 ms
+Current Starting Date: 2016-02-15
+Top terms per cluster:
+
+Cluster 0 words: nan , worth , nan , nan , mi , hand ,
+
+Cluster 0 titles:
+ This is a hands-free kit for your hands,
+ Celcom and Xpax are giving away free makan and minum worth millions of ringgit,
+ Pick up Logitech’s new spill-resistant wireless keyboard and mouse combo for under RM100,
+ Hugo Barra shows off a couple of photos taken with the Xiaomi Mi 5,
+ honor 5X vs Xiaomi Redmi Note 3: Which to get?,
+ Apple begins USB Type-C cable recall on MacBooks with Malaysia also on the list,
+ Love writing on actual paper? This is the only cloud-based notebook that’s reusable via microwave,
+ Samsung has basically confirmed that the Galaxy S7 will be waterproof,
+ Get Moto 360 at half price during its official Malaysian launch this Thursday,
+ This is apparently what the LG G5 will look like and we’re not impressed,
+ Instagram to bump up its security by introducing two-step login authentication,
+ It looks like Huawei is rounding out the P9,
+ How does Samsung generate hype for their upcoming device? With a painting llama of course!,
+ Sony’s new IMX318 image sensor shows us what it’s capable of,
+ All you need to know about the Xiaomi Mi 5, including another spec sheet leak,
+ Google Translate now covers 99% of the online population’s languages,
+ The HTC One A9 has been officially launched in Malaysia. Here are 3 reasons you might want one,
+ Moto 360 2nd generation officially lands in Malaysia,
+ Huawei’s flagship phablet, the Mate 8 will arrive in Malaysia on the 8th of March,
+ HTC One A9: Saving a ship with a teacup,
+ If this is the One M10, HTC has officially lost the plot,
+ Facebook Messenger will soon blast you with ads,
+ Maxis now offers Zerolution for all iPhone 6s and iPhone 6s Plus models,
+ Hype up the Year of the Monkey with these 8 red devices,
+ Here’s everything you need to know about Huawei’s first Windows 10 tablet,
+ The LG G5 is now a real thing with modular parts playing a big part,
+
+
+Cluster 1 words: galaxy , galaxy , edge , wait , don , don ,
+
+Cluster 1 titles:
+ Here’s what t003. Are they running out of steam?,
+ This Hover Camera drone follows you, won’t chew up your fingers,
+ New YouTube ad format will bring unskippable “Bumper ads”,
+ The Moto X (2016) spotted on benchmark, sports Snapdragon 820 SoC and 4GB RAM,
+ LEAGOO’s Shark 1 phablet packs 6,300 mAh of battery goodness for under RM1,000,
+ The Oppo Find 9 might drop this June,
+ It looks like Windows 10 Mobile is here to stay,
+ ASUS ROG GX700 — The world’s first water-cooled laptop has hit our shores,
+ Lazada is now home to Samsung Malaysia’s first official online store,
+ Digi Prepaid now offers up to 50% more quota with unlimited off-peak usage,
+ U Mobile Video-Onz offers free unlimited video streaming 24/7,
+ Acer’s new Predators keeps things simple and focuses on what “gamers want”,
+ Xpax New M4GIC SIM now offers unlimited calls and more data per reload,
+ The MediaTek Helio X30 scores fantastically on Antutu, will sport 10 CPU cores,
+ 8 things the Huawei Mate 8 can do that the S7 edge can’t,
+ Samsung still leads in smartphones while OPPO and vivo are catching up fast,
+ Samsung drops release date for Gear 360,
+ The Huawei Mate 9 might have a 20MP dual-rear camera and Kirin 960 SoC under the hood,
+ Mysterious new Nexus 6P shows up on Geekbench,
+ Research says that e-cigarettes will help smokers quit tobacco for good,
+ Motorola’s likely launching the Moto G4 and Moto G4 Plus this May,
+
+
+Cluster 3 words: galaxy , pick , pick , pick , galaxy , edge ,
+
+Cluster 3 titles:
+ Here’s why you should pick up the Galaxy S7 over the S7 edge,
+ Samsung Galaxy S7 has finally arrived in Malaysia,
+ Samsung Galaxy Note5 gets Marshmallow in Malaysia,
+
+
+{0: 'launch , launch , week , mi , mi , max', 1: 'honor , honor , nan , format , hit , hit', 2: 'drop , camera , home , band , display , nexus', 3: 'galaxy , pick , pick , pick , galaxy , edge'}
+
+
+CPU times: user 28 ms, sys: 1.27 ms, total: 29.3 ms
+Wall time: 29.8 ms
+CPU times: user 38.9 ms, sys: 500 us, total: 39.4 ms
+Wall time: 40.3 ms
+Current Starting Date: 2016-02-15
+Top terms per cluster:
+
+Cluster 0 words: nan , worth , nan , nan , mi , hand ,
+
+Cluster 0 titles:
+ This is a hands-free kit for your hands,
+ Celcom and Xpax are giving away free makan and minum worth millions of ringgit,
+ Pick up Logitech’s new spill-resistant wireless keyboard and mouse combo for under RM100,
+ Hugo Barra shows off a couple of photos taken with the Xiaomi Mi 5,
+ honor 5X vs Xiaomi Redmi Note 3: Which to get?,
+ Apple begins USB Type-C cable recall on MacBooks with Malaysia also on the list,
+ Love writing on actual paper? This is the only cloud-based notebook that’s reusable via microwave,
+ Samsung has basically confirmed that the Galaxy S7 will be waterproof,
+ Get Moto 360 at half price during its official Malaysian launch this Thursday,
+ This is apparently what the LG G5 will look like and we’re not impressed,
+ Instagram to bump up its security by introducing two-step login authentication,
+ It looks like Huawei is rounding out the P9,
+ How does Samsung generate hype for their upcoming device? With a painting llama of course!,
+ Sony’s new IMX318 image sensor shows us what it’s capable of,
+ All you need to know about the Xiaomi Mi 5, including another spec sheet leak,
+ Google Translate now covers 99% of the online population’s languages,
+ The HTC One A9 has been officially launched in Malaysia. Here are 3 reasons you might want one,
+ Moto 360 2nd generation officially lands in Malaysia,
+ Huawei’s flagship phablet, the Mate 8 will arrive in Malaysia on the 8th of March,
+ HTC One A9: Saving a ship with a teacup,
+ If this is the One M10, HTC has officially lost the plot,
+ Facebook Messenger will soon blast you with ads,
+ Maxis now offers Zerolution for all iPhone 6s and iPhone 6s Plus models,
+ Hype up the Year of the Monkey with these 8 red devices,
+ Here’s everything you need to know about Huawei’s first Windows 10 tablet,
+ The LG G5 is now a real thing with modular parts playing a big part,
+
+
+Cluster 1 words: galaxy , galaxy , edge , wait , don , don ,
+
+Cluster 1 titles:
+ Here’s what t
